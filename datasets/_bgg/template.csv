@@ -1,0 +1,2 @@
+name,card_type,deck,edition,text,prerequisites,aliases,metric_set,deal_pct,played_pct,win_pct,dealt_count,drafted_count,played_count,won_count,banned_count,adp,pwr,pwr_no_log,sample_size,notes
+Example BGG Card,occupation,E,old,"Sample text from BGG export","None","Alias A;Alias B",bgg_import,,,,300,250,120,40,3,5.8,0.9,0.3,300,"Replace this file with your BGG-exported CSV"

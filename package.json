@@ -1,0 +1,41 @@
+{
+  "name": "agri-stat-displayer",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "preview": "vite preview",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "data:fetch:agricolacards": "tsx scripts/fetch_agricolacards.ts",
+    "data:ingest:norge": "tsx scripts/ingest_agricola_norge.ts",
+    "data:ingest:playagricola": "tsx scripts/ingest_play_agricola.ts",
+    "data:import:csv": "tsx scripts/import_csv_dataset.ts",
+    "data:import:bgg": "tsx scripts/import_bgg.ts",
+    "data:validate": "tsx scripts/validate_datasets.ts",
+    "data:refresh": "npm run data:fetch:agricolacards && npm run data:ingest:norge && npm run data:validate"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.4.8",
+    "@testing-library/react": "^16.0.1",
+    "@types/node": "^22.10.1",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.2",
+    "cheerio": "^1.0.0",
+    "csv-parse": "^5.5.6",
+    "jsdom": "^25.0.1",
+    "tsx": "^4.19.2",
+    "typescript": "~5.6.2",
+    "vite": "^5.4.10",
+    "vite-plugin-pwa": "^0.20.5",
+    "vitest": "^2.1.4"
+  }
+}

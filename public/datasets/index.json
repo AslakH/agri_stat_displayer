@@ -1,0 +1,53 @@
+{
+  "datasets": [
+    {
+      "id": "agricola_norge_full_4p_play_agricola",
+      "file": "/datasets/agricola_norge_full_4p_play_agricola.json",
+      "manifest": {
+        "id": "agricola_norge_full_4p_play_agricola",
+        "label": "Agricola Norge Full 4P (Play-Agricola Source)",
+        "version": "2026-02-24",
+        "sourceName": "Agricola Norge",
+        "sourceUrl": "https://agricola.no/play-agricola-4player-card-statistics/",
+        "edition": "mixed",
+        "comparabilityGroup": "norge_4p_play_agricola_counts",
+        "generatedAt": "2026-02-24T19:12:51.774Z",
+        "licenseNote": "Derived from publicly visible table values. Re-check source and local terms.",
+        "hasFullCardText": false,
+        "hasStats": true,
+        "importStatus": {
+          "sourceMode": "local_file",
+          "sourceRows": 1014,
+          "importedCards": 1014,
+          "matchedCards": 562,
+          "unmatchedCards": 452,
+          "fallbackUsed": false
+        }
+      }
+    },
+    {
+      "id": "agricolacards_get_cards_local",
+      "file": "/datasets/agricolacards_get_cards_local.json",
+      "manifest": {
+        "id": "agricolacards_get_cards_local",
+        "label": "AgricolaCards Snapshot (get-cards)",
+        "version": "2026-02-24",
+        "sourceName": "AgricolaCards",
+        "sourceUrl": "https://www.agricolacards.com/get-cards",
+        "edition": "mixed",
+        "comparabilityGroup": "metadata_reference",
+        "generatedAt": "2026-02-24T19:12:48.487Z",
+        "licenseNote": "Check source terms before redistribution.",
+        "hasFullCardText": true,
+        "hasStats": false,
+        "importStatus": {
+          "sourceMode": "network",
+          "sourceRows": 1702,
+          "importedCards": 1674,
+          "fallbackUsed": false,
+          "note": "Included fields: expansion, card title, cost, player count, text, type. Invalid rows skipped: 28."
+        }
+      }
+    }
+  ]
+}

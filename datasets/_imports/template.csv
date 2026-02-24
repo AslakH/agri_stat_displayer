@@ -1,0 +1,2 @@
+name,card_type,deck,edition,text,prerequisites,aliases,metric_set,deal_pct,played_pct,win_pct,dealt_count,drafted_count,played_count,won_count,banned_count,adp,pwr,pwr_no_log,sample_size,notes
+Example Occupation,occupation,E,old,"Gain 1 wood whenever you take wood.","None","Example Alias 1;Example Alias 2",custom_sheet,10.0,40.0,24.0,300,240,120,35,4,6.0,0.2,0.1,150,"Template row"

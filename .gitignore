@@ -1,0 +1,12 @@
+node_modules
+dist
+.DS_Store
+coverage
+*.log
+*.tsbuildinfo
+
+# generated data artifacts
+data/raw/*.json
+data/raw/*.html
+data/raw/**/*.html
+reports/*.json

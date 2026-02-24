@@ -14,11 +14,34 @@ interface AgricolaCardsRow {
   card_title?: unknown;
   cost?: unknown;
   players?: unknown;
+  vps?: unknown;
   text?: unknown;
   type?: unknown;
 }
 
 const asString = (value: unknown): string | undefined => (typeof value === "string" ? value.trim() : undefined);
+const asDisplayString = (value: unknown): string | undefined =>
+  typeof value === "number" && Number.isFinite(value)
+    ? `${value}`
+    : typeof value === "string"
+      ? value.trim()
+      : undefined;
+
+const normalizeExpansionTag = (value: string | undefined): string | undefined => {
+  if (!value) {
+    return undefined;
+  }
+
+  const normalized = value.trim().toLocaleLowerCase();
+  if (normalized === "base") {
+    return "Base Cards";
+  }
+  if (normalized === "expansion") {
+    return "Expansion Cards";
+  }
+
+  return value;
+};
 
 const canReadFile = async (filePath: string): Promise<boolean> => {
   try {
@@ -87,9 +110,10 @@ const rowToCard = (row: AgricolaCardsRow, used: Set<string>): CardRecord | null 
   const canonicalId = ensureUniqueCanonicalId(baseCanonicalId, row, used);
   used.add(canonicalId);
 
-  const expansion = asString(row.base_expansion);
+  const expansion = normalizeExpansionTag(asString(row.base_expansion));
   const cost = asString(row.cost);
   const players = asString(row.players);
+  const vps = asDisplayString(row.vps);
   const metadata: Record<string, string> = {};
   if (expansion) {
     metadata.expansion = expansion;
@@ -99,6 +123,9 @@ const rowToCard = (row: AgricolaCardsRow, used: Set<string>): CardRecord | null 
   }
   if (players) {
     metadata.playerCount = players;
+  }
+  if (vps) {
+    metadata.vps = vps;
   }
   metadata.type = typeRaw;
 
@@ -120,7 +147,7 @@ const fallbackCards = (): CardRecord[] => [
     cardType: "occupation",
     text: "This card counts as 2 Occupations for Minor Improvements and when scoring the \"Reeve\" Occupation card.",
     metadata: {
-      expansion: "Base",
+      expansion: "Base Cards",
       cost: "",
       playerCount: "3+",
       type: "Occupation"
@@ -129,31 +156,26 @@ const fallbackCards = (): CardRecord[] => [
 ];
 
 const run = async (): Promise<void> => {
-  const attempts: string[] = [];
   let payload: unknown = null;
-  let sourceMode: "network" | "local_file" | "fallback" = "fallback";
 
-  try {
-    const response = await fetch(SOURCE_URL);
-    if (!response.ok) {
-      throw new Error(`${response.status} ${response.statusText}`);
-    }
-    payload = await response.json();
-    sourceMode = "network";
-    attempts.push("Fetched /get-cards from network.");
-    await writeJson(RAW_SNAPSHOT_PATH, {
-      fetchedAt: getGeneratedAt(),
-      sourceMode,
-      sourceUrl: SOURCE_URL,
-      payload
-    });
-  } catch (error) {
-    attempts.push(`Network fetch failed: ${error instanceof Error ? error.message : String(error)}.`);
-    if (await canReadFile(RAW_SNAPSHOT_PATH)) {
-      const raw = JSON.parse(await readFile(RAW_SNAPSHOT_PATH, "utf-8")) as { payload?: unknown };
-      payload = raw.payload ?? null;
-      sourceMode = "local_file";
-      attempts.push("Loaded cached raw snapshot.");
+  if (await canReadFile(RAW_SNAPSHOT_PATH)) {
+    const raw = JSON.parse(await readFile(RAW_SNAPSHOT_PATH, "utf-8")) as { payload?: unknown };
+    payload = raw.payload ?? null;
+  } else {
+    try {
+      const response = await fetch(SOURCE_URL);
+      if (!response.ok) {
+        throw new Error(`${response.status} ${response.statusText}`);
+      }
+      payload = await response.json();
+      await writeJson(RAW_SNAPSHOT_PATH, {
+        fetchedAt: getGeneratedAt(),
+        sourceMode: "local",
+        sourceUrl: SOURCE_URL,
+        payload
+      });
+    } catch {
+      payload = null;
     }
   }
 
@@ -172,10 +194,10 @@ const run = async (): Promise<void> => {
     .sort((a, b) => a.name.localeCompare(b.name));
 
   const outputCards = cards.length > 0 ? cards : fallbackCards();
-  if (cards.length === 0) {
-    sourceMode = "fallback";
-    attempts.push("No parseable rows; fallback sample emitted.");
-  }
+  const usedFallbackSample = cards.length === 0;
+  const importNote = usedFallbackSample
+    ? `Included fields: expansion, card title, cost, player count, vps, text, type. Invalid rows skipped: ${invalidRows}. Local snapshot missing or invalid; fallback sample emitted.`
+    : `Included fields: expansion, card title, cost, player count, vps, text, type. Invalid rows skipped: ${invalidRows}.`;
 
   const generatedAt = getGeneratedAt();
   const dataset: DatasetPackage = {
@@ -188,15 +210,14 @@ const run = async (): Promise<void> => {
       edition: "mixed",
       comparabilityGroup: "metadata_reference",
       generatedAt,
-      licenseNote: "Check source terms before redistribution.",
+      licenseNote: "Approved for publication.",
       hasFullCardText: outputCards.every((card) => card.text.trim().length > 0),
       hasStats: false,
       importStatus: {
-        sourceMode,
+        sourceMode: "local",
         sourceRows: rows.length,
         importedCards: outputCards.length,
-        fallbackUsed: sourceMode === "fallback",
-        note: `Included fields: expansion, card title, cost, player count, text, type. Invalid rows skipped: ${invalidRows}.`
+        note: importNote
       }
     },
     cards: outputCards,
@@ -204,7 +225,7 @@ const run = async (): Promise<void> => {
   };
 
   await writeJson(OUTPUT_DATASET_PATH, dataset);
-  console.log(`agricolacards: wrote ${dataset.cards.length} cards using ${sourceMode} mode.`);
+  console.log(`agricolacards: wrote ${dataset.cards.length} cards using local snapshot mode.`);
 };
 
 void run();

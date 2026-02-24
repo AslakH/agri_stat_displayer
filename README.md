@@ -1,15 +1,20 @@
 # agri_stat_displayer
 
-Phone-first PWA for quick Agricola card lookup with switchable datasets.
+General Agricola card lookup PWA with card text and dataset-specific statistics.
 
-## Features
+## What it does
 
-1. Installable web app (PWA) for mobile use during play.
-2. Fast card search by name, alias, and card text.
-3. Dataset-aware filters (only show available type/deck/edition values).
-4. Dataset switcher with comparability warnings when moving across metric groups.
-5. Import status panel per dataset (matched/unmatched/source mode).
-6. Card detail hides unavailable fields instead of flooding the UI with placeholders.
+1. Mobile-friendly lookup with installable PWA support.
+2. Search cards by name and card text.
+3. Filter by available card type and edition in the active dataset.
+4. Switch between datasets and view source/snapshot metadata.
+5. Show per-card stats in both list and detail views (including PWR where available).
+6. Show import status for each dataset at the bottom of the page.
+
+## Built-in datasets
+
+1. `agricolacards_get_cards_local` (card metadata snapshot)
+2. `agricola_norge_full_4p_play_agricola` (Agricola Norge stats snapshot)
 
 ## Quick start
 
@@ -18,14 +23,14 @@ npm install
 npm run dev
 ```
 
-## iPhone usage
+Other common commands:
 
-1. Open the deployed app URL in Safari.
-2. Tap Share.
-3. Tap `Add to Home Screen`.
-4. Launch from home screen for standalone app mode.
+```bash
+npm run test:run
+npm run build
+```
 
-## Data workflow
+## Data refresh workflow
 
 ```bash
 npm run data:refresh
@@ -37,6 +42,21 @@ This runs:
 2. `scripts/ingest_agricola_norge.ts`
 3. `scripts/validate_datasets.ts`
 
-See `docs/datasets.md` for source details and import format.
+Optional manual imports:
+
+```bash
+npm run data:import:csv
+npm run data:import:bgg
+```
+
+See `docs/datasets.md` for source details, templates, and output files.
+
+## Project layout (cleaned)
+
+1. `src/` app UI and data loading/search logic
+2. `scripts/` dataset fetch/ingest/import/validation scripts
+3. `public/datasets/` generated dataset JSON files used by the app
+4. `datasets/_imports` and `datasets/_bgg` manual import templates/input
+5. `docs/datasets.md` data source and refresh documentation
 
 If your GitHub repository name is not `agri_stat_displayer`, update `VITE_BASE_PATH` in `.github/workflows/deploy.yml`.

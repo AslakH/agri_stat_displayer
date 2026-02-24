@@ -28,9 +28,6 @@ export const ImportStatusPanel = ({ manifest }: ImportStatusPanelProps) => {
   if (typeof status.unmatchedCards === "number") {
     rows.push({ label: "Unmatched", value: formatNumber(status.unmatchedCards) });
   }
-  if (typeof status.fallbackUsed === "boolean") {
-    rows.push({ label: "Fallback", value: status.fallbackUsed ? "Yes" : "No" });
-  }
 
   if (rows.length === 0 && !status.note) {
     return null;

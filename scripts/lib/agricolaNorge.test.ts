@@ -16,8 +16,7 @@ describe("agricola norge parser", () => {
         playedCount: 7,
         wonCount: 8,
         adp: 9,
-        pwr: 10,
-        pwrNoLog: 11
+        pwr: 10
       }
     );
 

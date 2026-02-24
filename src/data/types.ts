@@ -7,7 +7,6 @@ export interface ImportStatus {
   importedCards?: number;
   matchedCards?: number;
   unmatchedCards?: number;
-  fallbackUsed?: boolean;
   note?: string;
 }
 

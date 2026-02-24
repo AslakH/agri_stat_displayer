@@ -9,7 +9,6 @@ export interface ImportStatus {
   importedCards?: number;
   matchedCards?: number;
   unmatchedCards?: number;
-  fallbackUsed?: boolean;
   note?: string;
 }
 
@@ -86,7 +85,6 @@ export const ManifestSchema = z.object({
       importedCards: z.number().int().nonnegative().optional(),
       matchedCards: z.number().int().nonnegative().optional(),
       unmatchedCards: z.number().int().nonnegative().optional(),
-      fallbackUsed: z.boolean().optional(),
       note: z.string().optional()
     })
     .optional()

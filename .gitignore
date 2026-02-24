@@ -4,9 +4,16 @@ dist
 coverage
 *.log
 *.tsbuildinfo
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+.vscode/
+.idea/
 
 # generated data artifacts
-data/raw/*.json
-data/raw/*.html
-data/raw/**/*.html
+data/raw/*
+!data/raw/.gitkeep
 reports/*.json

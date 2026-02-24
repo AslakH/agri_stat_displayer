@@ -57,7 +57,6 @@ interface HeaderIndexes {
   bannedCount?: number;
   adp?: number;
   pwr?: number;
-  pwrNoLog?: number;
   sampleSize?: number;
 }
 
@@ -83,7 +82,6 @@ const resolveHeaderIndexes = (headers: string[]): HeaderIndexes => {
     bannedCount: indexOf((header) => header === "banned"),
     adp: indexOf((header) => header === "adp"),
     pwr: indexOf((header) => header === "pwr"),
-    pwrNoLog: indexOf((header) => header === "pwr_no_log"),
     sampleSize: indexOf((header) => header.includes("sample"))
   };
 };
@@ -168,7 +166,6 @@ export const parseNorgeRowFromCells = (cells: string[], indexes: HeaderIndexes):
       bannedCount,
       adp: indexes.adp !== undefined ? parseNumber(cells[indexes.adp] ?? "") : undefined,
       pwr: indexes.pwr !== undefined ? parseNumber(cells[indexes.pwr] ?? "") : undefined,
-      pwrNoLog: indexes.pwrNoLog !== undefined ? parseNumber(cells[indexes.pwrNoLog] ?? "") : undefined,
       sampleSize:
         indexes.sampleSize !== undefined
           ? parseInteger(cells[indexes.sampleSize] ?? "")

@@ -9,7 +9,6 @@ const ImportStatusSchema = z.object({
   importedCards: z.number().int().nonnegative().optional(),
   matchedCards: z.number().int().nonnegative().optional(),
   unmatchedCards: z.number().int().nonnegative().optional(),
-  fallbackUsed: z.boolean().optional(),
   note: z.string().optional()
 });
 

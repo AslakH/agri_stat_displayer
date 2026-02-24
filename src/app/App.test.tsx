@@ -1,4 +1,4 @@
-import { cleanup, fireEvent, render, screen, waitFor } from "@testing-library/react";
+import { cleanup, fireEvent, render, screen } from "@testing-library/react";
 import { afterEach, beforeEach, describe, expect, test, vi } from "vitest";
 import { App } from "./App";
 
@@ -130,15 +130,15 @@ describe("App", () => {
     expect((await screen.findAllByText("Plow Driver")).length).toBeGreaterThan(0);
   });
 
-  test("shows comparability warning when switching dataset groups", async () => {
+  test("shows static comparability warning", async () => {
     render(<App />);
 
     await screen.findAllByText("Plow Driver");
+    expect(screen.getByText(/Values vary by dataset source/i)).toBeTruthy();
+
     const datasetSelect = screen.getByLabelText("Dataset");
     fireEvent.change(datasetSelect, { target: { value: "b" } });
 
-    await waitFor(() => {
-      expect(screen.getByText(/Comparability warning/i)).toBeTruthy();
-    });
+    expect(screen.getByText(/Values vary by dataset source/i)).toBeTruthy();
   });
 });

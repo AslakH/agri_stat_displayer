@@ -34,9 +34,7 @@ const metricRows = (stat: StatRecord | null): DetailMetric[] => {
     typeof stat.draftedCount === "number" ? { label: "Drafted", value: formatNumber(stat.draftedCount) } : null,
     typeof stat.bannedCount === "number" ? { label: "Banned", value: formatNumber(stat.bannedCount) } : null,
     typeof stat.adp === "number" ? { label: "ADP", value: formatNumber(stat.adp) } : null,
-    typeof stat.pwr === "number" ? { label: "PWR", value: formatNumber(stat.pwr) } : null,
-    typeof stat.pwrNoLog === "number" ? { label: "PWR (no log)", value: formatNumber(stat.pwrNoLog) } : null,
-    typeof stat.sampleSize === "number" ? { label: "Sample", value: formatNumber(stat.sampleSize) } : null
+    typeof stat.pwr === "number" ? { label: "PWR", value: formatNumber(stat.pwr) } : null
   ];
 
   return rows.filter((row): row is DetailMetric => Boolean(row));
@@ -60,18 +58,29 @@ export const CardDetailPanel = ({ card, stat, datasetManifest }: CardDetailPanel
   const hasText = card.text.trim().length > 0;
   const hasPrerequisites = Boolean(card.prerequisites && !/^not available\.?$/i.test(card.prerequisites.trim()));
   const details = metricRows(stat);
+  const pwrValue = typeof stat?.pwr === "number" ? formatNumber(stat.pwr) : null;
+  const sampleValue = typeof stat?.sampleSize === "number" ? formatNumber(stat.sampleSize) : null;
   const metaRows = [
-    typeof card.metadata?.expansion === "string" ? { label: "Expansion", value: card.metadata.expansion } : null,
+    typeof card.metadata?.expansion === "string" ? { label: "Card Pool", value: card.metadata.expansion } : null,
     typeof card.metadata?.playerCount === "string" ? { label: "Player Count", value: card.metadata.playerCount } : null,
+    typeof card.metadata?.vps === "string" ? { label: "Victory Points", value: card.metadata.vps } : null,
     typeof card.metadata?.cost === "string" ? { label: "Cost", value: card.metadata.cost } : null
   ].filter((row): row is DetailMetric => Boolean(row));
 
   return (
     <aside className="detail-panel">
-      <h2>{card.name}</h2>
+      <div className="detail-title-row">
+        <h2>{card.name}</h2>
+        {pwrValue ? (
+          <span className="detail-pwr" aria-label={`Power rating ${pwrValue}`}>
+            PWR {pwrValue}
+          </span>
+        ) : null}
+      </div>
       {metaBits.length > 0 ? <p className="detail-subtitle">{metaBits.join(" | ")}</p> : null}
       <div className="source-chip-wrap">
         <span className="source-chip">{datasetManifest.sourceName}</span>
+        {sampleValue ? <span className="sample-chip">Samples (n = {sampleValue})</span> : null}
         <a href={datasetManifest.sourceUrl} target="_blank" rel="noreferrer">
           Source
         </a>

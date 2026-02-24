@@ -51,7 +51,7 @@ const run = async (): Promise<void> => {
         edition: "mixed",
         comparabilityGroup: id,
         generatedAt,
-        licenseNote: "User-provided dataset. Verify source rights before sharing.",
+        licenseNote: "Manual CSV import.",
         hasFullCardText: cards.every((card) => card.text.trim().length > 0),
         hasStats: stats.length > 0
       },

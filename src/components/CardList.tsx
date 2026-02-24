@@ -29,7 +29,7 @@ export const CardList = ({ cards, selectedCardId, onSelectCard, statsByCardId }:
             : typeof stat?.playedCount === "number"
               ? `Played ${formatNumber(stat.playedCount)}`
               : null;
-        const pwrLabel = typeof stat?.pwr === "number" ? `PWR ${formatNumber(stat.pwr)}` : null;
+        const pwrValue = typeof stat?.pwr === "number" ? formatNumber(stat.pwr) : null;
         const metaBits = [
           card.cardType.replace("_", " "),
           card.deck ? `Deck ${card.deck}` : null,
@@ -44,14 +44,20 @@ export const CardList = ({ cards, selectedCardId, onSelectCard, statsByCardId }:
               onClick={() => onSelectCard(card.canonicalId)}
             >
               <span className="card-item-top">
-                <strong>{card.name}</strong>
+                <span className="card-title-row">
+                  <strong>{card.name}</strong>
+                  {pwrValue ? (
+                    <span className="card-pwr" aria-label={`Power rating ${pwrValue}`}>
+                      PWR {pwrValue}
+                    </span>
+                  ) : null}
+                </span>
                 {metaBits.length > 0 ? <span className="card-meta">{metaBits.join(" | ")}</span> : null}
               </span>
-              {winLabel || playedLabel || pwrLabel ? (
+              {winLabel || playedLabel ? (
                 <span className="stat-chips">
                   {winLabel ? <span className="chip">{winLabel}</span> : null}
                   {playedLabel ? <span className="chip">{playedLabel}</span> : null}
-                  {pwrLabel ? <span className="chip">{pwrLabel}</span> : null}
                 </span>
               ) : null}
             </button>

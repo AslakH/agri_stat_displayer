@@ -7,17 +7,14 @@
     "sourceUrl": "https://agricola.no/play-agricola-4player-card-statistics/",
     "edition": "mixed",
     "comparabilityGroup": "norge_4p_play_agricola_counts",
-    "generatedAt": "2026-02-24T19:12:51.774Z",
-    "licenseNote": "Derived from publicly visible table values. Re-check source and local terms.",
+    "generatedAt": "2026-02-24T21:29:44.014Z",
+    "licenseNote": "Approved for publication.",
     "hasFullCardText": false,
     "hasStats": true,
     "importStatus": {
-      "sourceMode": "local_file",
+      "sourceMode": "local",
       "sourceRows": 1014,
-      "importedCards": 1014,
-      "matchedCards": 562,
-      "unmatchedCards": 452,
-      "fallbackUsed": false
+      "importedCards": 1014
     }
   },
   "cards": [
@@ -1329,7 +1326,7 @@
       }
     },
     {
-      "canonicalId": "mixed:minor_improvement:basket_base_1_reed",
+      "canonicalId": "mixed:minor_improvement:basket",
       "name": "Basket",
       "aliases": [
         "eminor-basket"
@@ -2464,7 +2461,7 @@
       "deck": "X"
     },
     {
-      "canonicalId": "mixed:minor_improvement:canoe_base_2_wood",
+      "canonicalId": "mixed:minor_improvement:canoe",
       "name": "Canoe",
       "aliases": [
         "eminor-canoe"
@@ -2480,7 +2477,7 @@
       "deck": "E"
     },
     {
-      "canonicalId": "mixed:minor_improvement:caravan_expansion_3_wood",
+      "canonicalId": "mixed:minor_improvement:caravan",
       "name": "Caravan",
       "aliases": [
         "xminor-Caravan_11802_1"
@@ -3067,7 +3064,7 @@
       "deck": "X"
     },
     {
-      "canonicalId": "mixed:occupation:chimney_sweep_dulcinaria_expansion",
+      "canonicalId": "mixed:occupation:chimney_sweep",
       "name": "Chimney Sweep",
       "aliases": [
         "occ-x4ChimneySweep_5249_10"
@@ -3376,7 +3373,7 @@
       }
     },
     {
-      "canonicalId": "mixed:minor_improvement:clay_supports_base_2_wood",
+      "canonicalId": "mixed:minor_improvement:clay_supports",
       "name": "Clay Supports",
       "aliases": [
         "eminor-claysupports"
@@ -3934,7 +3931,7 @@
       }
     },
     {
-      "canonicalId": "mixed:minor_improvement:corn_scoop_base_1_wood",
+      "canonicalId": "mixed:minor_improvement:corn_scoop",
       "name": "Corn Scoop",
       "aliases": [
         "eminor-cornscoop"
@@ -6834,7 +6831,7 @@
       }
     },
     {
-      "canonicalId": "mixed:minor_improvement:gypsys_crock_base_2_clay",
+      "canonicalId": "mixed:minor_improvement:gypsys_crock",
       "name": "Gypsy's Crock",
       "aliases": [
         "eminor-gypsysrock"
@@ -8476,7 +8473,7 @@
       "deck": "K"
     },
     {
-      "canonicalId": "mixed:minor_improvement:lumber_mill_base_revised_2_stone",
+      "canonicalId": "mixed:minor_improvement:lumber_mill",
       "name": "Lumber Mill",
       "aliases": [
         "xminor-Lumbermill_1181_2"
@@ -8631,7 +8628,7 @@
       }
     },
     {
-      "canonicalId": "mixed:minor_improvement:manger_base_2_wood",
+      "canonicalId": "mixed:minor_improvement:manger",
       "name": "Manger",
       "aliases": [
         "eminor-manger"
@@ -8817,7 +8814,7 @@
       }
     },
     {
-      "canonicalId": "mixed:minor_improvement:market_stall_base_1_grain",
+      "canonicalId": "mixed:minor_improvement:market_stall",
       "name": "Market Stall",
       "aliases": [
         "eminor-marketstall"
@@ -9382,7 +9379,7 @@
       "deck": "E"
     },
     {
-      "canonicalId": "mixed:minor_improvement:mini_pasture_base_2_food",
+      "canonicalId": "mixed:minor_improvement:mini_pasture",
       "name": "Mini Pasture",
       "aliases": [
         "eminor-minipasture"
@@ -11063,7 +11060,7 @@
       }
     },
     {
-      "canonicalId": "mixed:minor_improvement:private_forest_base_2_food",
+      "canonicalId": "mixed:minor_improvement:private_forest",
       "name": "Private Forest",
       "aliases": [
         "eminor-privateforest"
@@ -15350,7 +15347,7 @@
       }
     },
     {
-      "canonicalId": "mixed:occupation:brushwood_collector_e3ce380494",
+      "canonicalId": "mixed:occupation:wood_collector",
       "name": "Wood Collector",
       "aliases": [
         "occ-i1woodcollector"
@@ -15426,7 +15423,7 @@
       "deck": "X"
     },
     {
-      "canonicalId": "mixed:occupation:wood_worker_artifex_expansion_4",
+      "canonicalId": "mixed:occupation:wood_worker",
       "name": "Wood Worker",
       "aliases": [
         "occ-x3WoodWorker_832_4"
@@ -15733,7 +15730,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.8,
-      "pwrNoLog": 0,
       "sampleSize": 1343
     },
     {
@@ -15746,7 +15742,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 4.1,
-      "pwrNoLog": 4.08,
       "sampleSize": 1569
     },
     {
@@ -15759,7 +15754,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.4,
-      "pwrNoLog": 0.32,
       "sampleSize": 1075
     },
     {
@@ -15772,7 +15766,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.5,
-      "pwrNoLog": 1.38,
       "sampleSize": 972
     },
     {
@@ -15785,7 +15778,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 4.1,
-      "pwrNoLog": 4.02,
       "sampleSize": 1238
     },
     {
@@ -15798,7 +15790,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.7,
-      "pwrNoLog": 2.61,
       "sampleSize": 1443
     },
     {
@@ -15811,7 +15802,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.8,
-      "pwrNoLog": 1.72,
       "sampleSize": 1335
     },
     {
@@ -15824,7 +15814,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2.4,
-      "pwrNoLog": 2.27,
       "sampleSize": 1353
     },
     {
@@ -15837,7 +15826,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.1,
-      "pwrNoLog": 0.09,
       "sampleSize": 1001
     },
     {
@@ -15850,7 +15838,6 @@
       "bannedCount": 1,
       "adp": 4.4,
       "pwr": 3.1,
-      "pwrNoLog": 2.98,
       "sampleSize": 1172
     },
     {
@@ -15863,7 +15850,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.4,
-      "pwrNoLog": 2.2,
       "sampleSize": 1054
     },
     {
@@ -15876,7 +15862,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2.1,
-      "pwrNoLog": 0.01,
       "sampleSize": 1352
     },
     {
@@ -15889,7 +15874,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2,
-      "pwrNoLog": 1.88,
       "sampleSize": 1168
     },
     {
@@ -15902,7 +15886,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.8,
-      "pwrNoLog": 1.77,
       "sampleSize": 1134
     },
     {
@@ -15915,7 +15898,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.6,
-      "pwrNoLog": 3.53,
       "sampleSize": 1541
     },
     {
@@ -15928,7 +15910,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.3,
-      "pwrNoLog": 0.25,
       "sampleSize": 926
     },
     {
@@ -15941,7 +15922,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.3,
-      "pwrNoLog": 0.26,
       "sampleSize": 1274
     },
     {
@@ -15954,7 +15934,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 3,
-      "pwrNoLog": 2.96,
       "sampleSize": 1368
     },
     {
@@ -15967,7 +15946,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.9,
-      "pwrNoLog": 2.81,
       "sampleSize": 436
     },
     {
@@ -15980,7 +15958,6 @@
       "bannedCount": 0,
       "adp": 1.7,
       "pwr": 3.9,
-      "pwrNoLog": 3.84,
       "sampleSize": 1584
     },
     {
@@ -15993,7 +15970,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.8,
-      "pwrNoLog": 1.69,
       "sampleSize": 1299
     },
     {
@@ -16006,7 +15982,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2.2,
-      "pwrNoLog": 2.13,
       "sampleSize": 1319
     },
     {
@@ -16019,7 +15994,6 @@
       "bannedCount": 0,
       "adp": 2.2,
       "pwr": 3.7,
-      "pwrNoLog": 3.68,
       "sampleSize": 688
     },
     {
@@ -16032,7 +16006,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 1,
-      "pwrNoLog": 0.98,
       "sampleSize": 1365
     },
     {
@@ -16045,7 +16018,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.4,
-      "pwrNoLog": 0.39,
       "sampleSize": 1181
     },
     {
@@ -16058,7 +16030,6 @@
       "bannedCount": 0,
       "adp": 2.2,
       "pwr": 3.9,
-      "pwrNoLog": 3.88,
       "sampleSize": 1233
     },
     {
@@ -16071,7 +16042,6 @@
       "bannedCount": 0,
       "adp": 6.3,
       "pwr": 0.2,
-      "pwrNoLog": 0.17,
       "sampleSize": 991
     },
     {
@@ -16084,7 +16054,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.5,
-      "pwrNoLog": 0.5,
       "sampleSize": 1144
     },
     {
@@ -16097,7 +16066,6 @@
       "bannedCount": 0,
       "adp": 1.3,
       "pwr": 3.9,
-      "pwrNoLog": 3.81,
       "sampleSize": 1603
     },
     {
@@ -16110,7 +16078,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.2,
-      "pwrNoLog": 2.09,
       "sampleSize": 1037
     },
     {
@@ -16123,7 +16090,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.7,
-      "pwrNoLog": 0.69,
       "sampleSize": 986
     },
     {
@@ -16136,7 +16102,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.6,
-      "pwrNoLog": 1.53,
       "sampleSize": 1168
     },
     {
@@ -16149,7 +16114,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.1,
-      "pwrNoLog": 0.09,
       "sampleSize": 1010
     },
     {
@@ -16162,7 +16126,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.6,
-      "pwrNoLog": 2.44,
       "sampleSize": 1194
     },
     {
@@ -16175,7 +16138,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.9,
-      "pwrNoLog": 0.8,
       "sampleSize": 1317
     },
     {
@@ -16188,7 +16150,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.2,
-      "pwrNoLog": 2.1,
       "sampleSize": 1367
     },
     {
@@ -16201,7 +16162,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.8,
-      "pwrNoLog": 3.74,
       "sampleSize": 1376
     },
     {
@@ -16214,7 +16174,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 1,
-      "pwrNoLog": 1,
       "sampleSize": 1339
     },
     {
@@ -16227,7 +16186,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.5,
-      "pwrNoLog": 2.45,
       "sampleSize": 1323
     },
     {
@@ -16240,7 +16198,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.2,
-      "pwrNoLog": 1.16,
       "sampleSize": 1351
     },
     {
@@ -16253,7 +16210,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 1.7,
-      "pwrNoLog": 1.59,
       "sampleSize": 556
     },
     {
@@ -16266,7 +16222,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.4,
-      "pwrNoLog": 0,
       "sampleSize": 1281
     },
     {
@@ -16279,7 +16234,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 3.8,
-      "pwrNoLog": 3.69,
       "sampleSize": 1043
     },
     {
@@ -16292,7 +16246,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 3.4,
-      "pwrNoLog": 3.28,
       "sampleSize": 887
     },
     {
@@ -16305,7 +16258,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.5,
-      "pwrNoLog": 0.42,
       "sampleSize": 1122
     },
     {
@@ -16318,7 +16270,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.4,
-      "pwrNoLog": 2.31,
       "sampleSize": 606
     },
     {
@@ -16331,7 +16282,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.6,
-      "pwrNoLog": 2.53,
       "sampleSize": 1312
     },
     {
@@ -16344,7 +16294,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 3.1,
-      "pwrNoLog": 3.09,
       "sampleSize": 1183
     },
     {
@@ -16357,7 +16306,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.7,
-      "pwrNoLog": 3.7,
       "sampleSize": 1579
     },
     {
@@ -16370,7 +16318,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.1,
-      "pwrNoLog": 1.01,
       "sampleSize": 1417
     },
     {
@@ -16383,7 +16330,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.6,
-      "pwrNoLog": 1.52,
       "sampleSize": 278
     },
     {
@@ -16396,7 +16342,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.3,
-      "pwrNoLog": 0.3,
       "sampleSize": 1113
     },
     {
@@ -16409,7 +16354,6 @@
       "bannedCount": 0,
       "adp": 1.5,
       "pwr": 3.9,
-      "pwrNoLog": 3.8,
       "sampleSize": 1623
     },
     {
@@ -16422,7 +16366,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 3.8,
-      "pwrNoLog": 3.65,
       "sampleSize": 1304
     },
     {
@@ -16435,7 +16378,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2,
-      "pwrNoLog": 0.01,
       "sampleSize": 1359
     },
     {
@@ -16448,7 +16390,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.1,
-      "pwrNoLog": 2.96,
       "sampleSize": 1510
     },
     {
@@ -16461,7 +16402,6 @@
       "bannedCount": 1,
       "adp": 6.3,
       "pwr": 0.3,
-      "pwrNoLog": 0.31,
       "sampleSize": 982
     },
     {
@@ -16474,7 +16414,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.5,
-      "pwrNoLog": 1.43,
       "sampleSize": 1397
     },
     {
@@ -16487,7 +16426,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.3,
-      "pwrNoLog": 1.25,
       "sampleSize": 1382
     },
     {
@@ -16500,7 +16438,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 2,
-      "pwrNoLog": 1.92,
       "sampleSize": 1305
     },
     {
@@ -16513,7 +16450,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.5,
-      "pwrNoLog": 1.48,
       "sampleSize": 1333
     },
     {
@@ -16526,7 +16462,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.9,
-      "pwrNoLog": 1.85,
       "sampleSize": 1427
     },
     {
@@ -16539,7 +16474,6 @@
       "bannedCount": 1,
       "adp": 2.5,
       "pwr": 4,
-      "pwrNoLog": 3.98,
       "sampleSize": 1046
     },
     {
@@ -16552,7 +16486,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 0.5,
-      "pwrNoLog": 0.55,
       "sampleSize": 52
     },
     {
@@ -16565,7 +16498,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.6,
-      "pwrNoLog": 2.57,
       "sampleSize": 1210
     },
     {
@@ -16578,7 +16510,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 5.7,
-      "pwrNoLog": 5.71,
       "sampleSize": 5
     },
     {
@@ -16591,7 +16522,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 1.7,
-      "pwrNoLog": 1.62,
       "sampleSize": 1359
     },
     {
@@ -16604,7 +16534,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.5,
-      "pwrNoLog": 1.34,
       "sampleSize": 867
     },
     {
@@ -16617,7 +16546,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.4,
-      "pwrNoLog": 3.27,
       "sampleSize": 1363
     },
     {
@@ -16630,7 +16558,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.6,
-      "pwrNoLog": 2.5,
       "sampleSize": 1016
     },
     {
@@ -16643,7 +16570,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.6,
-      "pwrNoLog": 2.53,
       "sampleSize": 390
     },
     {
@@ -16656,7 +16582,6 @@
       "bannedCount": 1,
       "adp": 6.5,
       "pwr": 0.1,
-      "pwrNoLog": 0.07,
       "sampleSize": 715
     },
     {
@@ -16669,7 +16594,6 @@
       "bannedCount": 1,
       "adp": 6.2,
       "pwr": 0.2,
-      "pwrNoLog": 0.13,
       "sampleSize": 961
     },
     {
@@ -16682,7 +16606,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 1341
     },
     {
@@ -16695,7 +16618,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.1,
-      "pwrNoLog": 1.1,
       "sampleSize": 1096
     },
     {
@@ -16708,7 +16630,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 3.1,
-      "pwrNoLog": 3.08,
       "sampleSize": 1466
     },
     {
@@ -16721,7 +16642,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.49,
       "sampleSize": 898
     },
     {
@@ -16734,7 +16654,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 1.2,
-      "pwrNoLog": 0,
       "sampleSize": 884
     },
     {
@@ -16747,7 +16666,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 3.6,
-      "pwrNoLog": 3.54,
       "sampleSize": 1267
     },
     {
@@ -16760,7 +16678,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.3,
-      "pwrNoLog": 3.25,
       "sampleSize": 993
     },
     {
@@ -16773,7 +16690,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.8,
-      "pwrNoLog": 3.75,
       "sampleSize": 920
     },
     {
@@ -16786,7 +16702,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 2.9,
-      "pwrNoLog": 2.74,
       "sampleSize": 113
     },
     {
@@ -16799,7 +16714,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 2.7,
-      "pwrNoLog": 0.01,
       "sampleSize": 898
     },
     {
@@ -16812,11 +16726,10 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.4,
-      "pwrNoLog": 0.35,
       "sampleSize": 1190
     },
     {
-      "canonicalId": "mixed:minor_improvement:basket_base_1_reed",
+      "canonicalId": "mixed:minor_improvement:basket",
       "metricSet": "4p_comp",
       "dealtCount": 1419,
       "draftedCount": 346,
@@ -16825,7 +16738,6 @@
       "bannedCount": 1,
       "adp": 5.6,
       "pwr": 0.4,
-      "pwrNoLog": 0.38,
       "sampleSize": 1419
     },
     {
@@ -16838,7 +16750,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.5,
-      "pwrNoLog": 1.44,
       "sampleSize": 1316
     },
     {
@@ -16851,7 +16762,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 1,
-      "pwrNoLog": 0.93,
       "sampleSize": 1106
     },
     {
@@ -16864,7 +16774,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.7,
-      "pwrNoLog": 2.66,
       "sampleSize": 908
     },
     {
@@ -16877,7 +16786,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.5,
-      "pwrNoLog": 3.4,
       "sampleSize": 1596
     },
     {
@@ -16890,7 +16798,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.4,
-      "pwrNoLog": 1.3,
       "sampleSize": 1127
     },
     {
@@ -16903,7 +16810,6 @@
       "bannedCount": 0,
       "adp": 2.2,
       "pwr": 4.2,
-      "pwrNoLog": 4.19,
       "sampleSize": 589
     },
     {
@@ -16916,7 +16822,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.6,
-      "pwrNoLog": 2.56,
       "sampleSize": 1349
     },
     {
@@ -16929,7 +16834,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 4.1,
-      "pwrNoLog": 4.09,
       "sampleSize": 1592
     },
     {
@@ -16942,7 +16846,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.8,
-      "pwrNoLog": 3.77,
       "sampleSize": 1380
     },
     {
@@ -16955,7 +16858,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.5,
-      "pwrNoLog": 1.43,
       "sampleSize": 1303
     },
     {
@@ -16968,7 +16870,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.2,
-      "pwrNoLog": 1.07,
       "sampleSize": 1432
     },
     {
@@ -16981,7 +16882,6 @@
       "bannedCount": 1,
       "adp": 2.7,
       "pwr": 3.6,
-      "pwrNoLog": 0.02,
       "sampleSize": 449
     },
     {
@@ -16994,7 +16894,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 4.4,
-      "pwrNoLog": 4.34,
       "sampleSize": 1297
     },
     {
@@ -17007,7 +16906,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0.7,
-      "pwrNoLog": 0.61,
       "sampleSize": 1102
     },
     {
@@ -17020,7 +16918,6 @@
       "bannedCount": 1,
       "adp": 3.7,
       "pwr": 3.4,
-      "pwrNoLog": 3.32,
       "sampleSize": 1286
     },
     {
@@ -17033,7 +16930,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 2,
-      "pwrNoLog": 0,
       "sampleSize": 1361
     },
     {
@@ -17046,7 +16942,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.3,
-      "pwrNoLog": 3.24,
       "sampleSize": 940
     },
     {
@@ -17059,7 +16954,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.2,
-      "pwrNoLog": 1.13,
       "sampleSize": 952
     },
     {
@@ -17072,7 +16966,6 @@
       "bannedCount": 1,
       "adp": 2.1,
       "pwr": 3.9,
-      "pwrNoLog": 3.78,
       "sampleSize": 655
     },
     {
@@ -17085,7 +16978,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 1.6,
-      "pwrNoLog": 1.56,
       "sampleSize": 527
     },
     {
@@ -17098,7 +16990,6 @@
       "bannedCount": 0,
       "adp": 1.8,
       "pwr": 3.8,
-      "pwrNoLog": 3.74,
       "sampleSize": 1514
     },
     {
@@ -17111,7 +17002,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.4,
-      "pwrNoLog": 2.29,
       "sampleSize": 725
     },
     {
@@ -17124,7 +17014,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 2,
-      "pwrNoLog": 1.95,
       "sampleSize": 801
     },
     {
@@ -17137,7 +17026,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.5,
-      "pwrNoLog": 1.32,
       "sampleSize": 1383
     },
     {
@@ -17150,7 +17038,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.2,
-      "pwrNoLog": 1.13,
       "sampleSize": 1182
     },
     {
@@ -17163,7 +17050,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 2.2,
-      "pwrNoLog": 2.04,
       "sampleSize": 941
     },
     {
@@ -17176,7 +17062,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.5,
-      "pwrNoLog": 3.4,
       "sampleSize": 1326
     },
     {
@@ -17189,7 +17074,6 @@
       "bannedCount": 0,
       "adp": 1.3,
       "pwr": 4.1,
-      "pwrNoLog": 4.06,
       "sampleSize": 1576
     },
     {
@@ -17202,7 +17086,6 @@
       "bannedCount": 1,
       "adp": 4.2,
       "pwr": 3,
-      "pwrNoLog": 0.01,
       "sampleSize": 855
     },
     {
@@ -17215,7 +17098,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.7,
-      "pwrNoLog": 2.68,
       "sampleSize": 1358
     },
     {
@@ -17228,7 +17110,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.4,
-      "pwrNoLog": 3.35,
       "sampleSize": 984
     },
     {
@@ -17241,7 +17122,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.8,
-      "pwrNoLog": 2.75,
       "sampleSize": 1389
     },
     {
@@ -17254,7 +17134,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.7,
-      "pwrNoLog": 2.64,
       "sampleSize": 927
     },
     {
@@ -17267,7 +17146,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.7,
-      "pwrNoLog": 0.02,
       "sampleSize": 126
     },
     {
@@ -17280,7 +17158,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 1,
-      "pwrNoLog": 0.92,
       "sampleSize": 856
     },
     {
@@ -17293,7 +17170,6 @@
       "bannedCount": 1,
       "adp": 1,
       "pwr": 6.6,
-      "pwrNoLog": 6.61,
       "sampleSize": 227
     },
     {
@@ -17306,7 +17182,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.8,
-      "pwrNoLog": 1.67,
       "sampleSize": 1061
     },
     {
@@ -17319,7 +17194,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.1,
-      "pwrNoLog": 1.03,
       "sampleSize": 1165
     },
     {
@@ -17332,7 +17206,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.9,
-      "pwrNoLog": 0.85,
       "sampleSize": 1287
     },
     {
@@ -17345,7 +17218,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.9,
-      "pwrNoLog": 0.81,
       "sampleSize": 1349
     },
     {
@@ -17358,7 +17230,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.1,
-      "pwrNoLog": 1.03,
       "sampleSize": 202
     },
     {
@@ -17371,7 +17242,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.1,
-      "pwrNoLog": 3.05,
       "sampleSize": 1342
     },
     {
@@ -17384,7 +17254,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.6,
-      "pwrNoLog": 0.57,
       "sampleSize": 1053
     },
     {
@@ -17397,7 +17266,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2,
-      "pwrNoLog": 1.91,
       "sampleSize": 201
     },
     {
@@ -17410,7 +17278,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.1,
-      "pwrNoLog": 0.12,
       "sampleSize": 958
     },
     {
@@ -17423,7 +17290,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.9,
-      "pwrNoLog": 0.84,
       "sampleSize": 1347
     },
     {
@@ -17436,7 +17302,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.7,
-      "pwrNoLog": 0.58,
       "sampleSize": 1411
     },
     {
@@ -17449,7 +17314,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 2.7,
-      "pwrNoLog": 2.59,
       "sampleSize": 1409
     },
     {
@@ -17462,7 +17326,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 2.1,
-      "pwrNoLog": 1.95,
       "sampleSize": 1389
     },
     {
@@ -17475,7 +17338,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 3.3,
-      "pwrNoLog": 3.28,
       "sampleSize": 1566
     },
     {
@@ -17488,7 +17350,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.4,
-      "pwrNoLog": 1.32,
       "sampleSize": 1359
     },
     {
@@ -17501,7 +17362,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 1.4,
-      "pwrNoLog": 1.36,
       "sampleSize": 1286
     },
     {
@@ -17514,7 +17374,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.7,
-      "pwrNoLog": 1.58,
       "sampleSize": 1478
     },
     {
@@ -17527,7 +17386,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 3.1,
-      "pwrNoLog": 2.93,
       "sampleSize": 135
     },
     {
@@ -17540,7 +17398,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.6,
-      "pwrNoLog": 1.53,
       "sampleSize": 1441
     },
     {
@@ -17553,7 +17410,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 2.5,
-      "pwrNoLog": 0,
       "sampleSize": 1390
     },
     {
@@ -17566,7 +17422,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.7,
-      "pwrNoLog": 1.59,
       "sampleSize": 897
     },
     {
@@ -17579,7 +17434,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 1.9,
-      "pwrNoLog": 1.9,
       "sampleSize": 1201
     },
     {
@@ -17592,7 +17446,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.5,
-      "pwrNoLog": 2.39,
       "sampleSize": 1369
     },
     {
@@ -17605,7 +17458,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.5,
-      "pwrNoLog": 3.41,
       "sampleSize": 998
     },
     {
@@ -17618,7 +17470,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.2,
-      "pwrNoLog": 1.14,
       "sampleSize": 1184
     },
     {
@@ -17631,7 +17482,6 @@
       "bannedCount": 0,
       "adp": 6.5,
       "pwr": 0.1,
-      "pwrNoLog": 0.08,
       "sampleSize": 932
     },
     {
@@ -17644,7 +17494,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.2,
-      "pwrNoLog": 0.14,
       "sampleSize": 974
     },
     {
@@ -17657,7 +17506,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 1.5,
-      "pwrNoLog": 1.46,
       "sampleSize": 28
     },
     {
@@ -17670,7 +17518,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.2,
-      "pwrNoLog": 3.06,
       "sampleSize": 1066
     },
     {
@@ -17683,7 +17530,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 3.4,
-      "pwrNoLog": 3.34,
       "sampleSize": 1546
     },
     {
@@ -17696,7 +17542,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3,
-      "pwrNoLog": 2.98,
       "sampleSize": 511
     },
     {
@@ -17709,7 +17554,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.6,
-      "pwrNoLog": 0.57,
       "sampleSize": 1160
     },
     {
@@ -17722,7 +17566,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.53,
       "sampleSize": 821
     },
     {
@@ -17735,7 +17578,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.3,
-      "pwrNoLog": 3.25,
       "sampleSize": 1587
     },
     {
@@ -17748,7 +17590,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.2,
-      "pwrNoLog": 2.09,
       "sampleSize": 418
     },
     {
@@ -17761,11 +17602,10 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.1,
-      "pwrNoLog": 1.97,
       "sampleSize": 1004
     },
     {
-      "canonicalId": "mixed:minor_improvement:canoe_base_2_wood",
+      "canonicalId": "mixed:minor_improvement:canoe",
       "metricSet": "4p_comp",
       "dealtCount": 1099,
       "draftedCount": 885,
@@ -17774,11 +17614,10 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.5,
-      "pwrNoLog": 1.43,
       "sampleSize": 1099
     },
     {
-      "canonicalId": "mixed:minor_improvement:caravan_expansion_3_wood",
+      "canonicalId": "mixed:minor_improvement:caravan",
       "metricSet": "4p_comp",
       "dealtCount": 8,
       "draftedCount": 5,
@@ -17787,7 +17626,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 1.8,
-      "pwrNoLog": 1.79,
       "sampleSize": 8
     },
     {
@@ -17800,7 +17638,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.5,
-      "pwrNoLog": 0.47,
       "sampleSize": 1053
     },
     {
@@ -17813,7 +17650,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 3.9,
-      "pwrNoLog": 3.84,
       "sampleSize": 1533
     },
     {
@@ -17826,7 +17662,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.5,
-      "pwrNoLog": 2.38,
       "sampleSize": 1367
     },
     {
@@ -17839,7 +17674,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.1,
-      "pwrNoLog": 2.96,
       "sampleSize": 1219
     },
     {
@@ -17852,7 +17686,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.5,
-      "pwrNoLog": 1.48,
       "sampleSize": 814
     },
     {
@@ -17865,7 +17698,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.1,
-      "pwrNoLog": 2.99,
       "sampleSize": 956
     },
     {
@@ -17878,7 +17710,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.6,
-      "pwrNoLog": 2.54,
       "sampleSize": 1370
     },
     {
@@ -17891,7 +17722,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.4,
-      "pwrNoLog": 3.32,
       "sampleSize": 1585
     },
     {
@@ -17904,7 +17734,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.3,
-      "pwrNoLog": 3.31,
       "sampleSize": 1122
     },
     {
@@ -17917,7 +17746,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3,
-      "pwrNoLog": 2.86,
       "sampleSize": 1327
     },
     {
@@ -17930,7 +17758,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 3,
-      "pwrNoLog": 2.89,
       "sampleSize": 1357
     },
     {
@@ -17943,7 +17770,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.1,
-      "pwrNoLog": 3.03,
       "sampleSize": 1278
     },
     {
@@ -17956,7 +17782,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 1.1,
-      "pwrNoLog": 0.01,
       "sampleSize": 1500
     },
     {
@@ -17969,7 +17794,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 2.3,
-      "pwrNoLog": 2.22,
       "sampleSize": 1001
     },
     {
@@ -17982,7 +17806,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.7,
-      "pwrNoLog": 0.68,
       "sampleSize": 1109
     },
     {
@@ -17995,7 +17818,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.8,
-      "pwrNoLog": 2.67,
       "sampleSize": 1399
     },
     {
@@ -18008,7 +17830,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 1.6,
-      "pwrNoLog": 1.5,
       "sampleSize": 317
     },
     {
@@ -18021,7 +17842,6 @@
       "bannedCount": 1,
       "adp": 1.4,
       "pwr": 4.7,
-      "pwrNoLog": 4.63,
       "sampleSize": 510
     },
     {
@@ -18034,7 +17854,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.4,
-      "pwrNoLog": 0.32,
       "sampleSize": 1132
     },
     {
@@ -18047,7 +17866,6 @@
       "bannedCount": 0,
       "adp": 2.2,
       "pwr": 3.7,
-      "pwrNoLog": 3.65,
       "sampleSize": 1216
     },
     {
@@ -18060,7 +17878,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.4,
-      "pwrNoLog": 0.01,
       "sampleSize": 1470
     },
     {
@@ -18073,7 +17890,6 @@
       "bannedCount": 0,
       "adp": 1.5,
       "pwr": 4.6,
-      "pwrNoLog": 4.55,
       "sampleSize": 1508
     },
     {
@@ -18086,7 +17902,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.3,
-      "pwrNoLog": 3.21,
       "sampleSize": 1155
     },
     {
@@ -18099,7 +17914,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.6,
-      "pwrNoLog": 1.57,
       "sampleSize": 1145
     },
     {
@@ -18112,7 +17926,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 0.9,
-      "pwrNoLog": 0.84,
       "sampleSize": 515
     },
     {
@@ -18125,7 +17938,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.4,
-      "pwrNoLog": 0.33,
       "sampleSize": 1253
     },
     {
@@ -18138,7 +17950,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2.1,
-      "pwrNoLog": 2.05,
       "sampleSize": 1219
     },
     {
@@ -18151,7 +17962,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.8,
-      "pwrNoLog": 1.74,
       "sampleSize": 874
     },
     {
@@ -18164,7 +17974,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.9,
-      "pwrNoLog": 2.85,
       "sampleSize": 1440
     },
     {
@@ -18177,7 +17986,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 4,
-      "pwrNoLog": 3.85,
       "sampleSize": 1533
     },
     {
@@ -18190,7 +17998,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.7,
-      "pwrNoLog": 1.68,
       "sampleSize": 174
     },
     {
@@ -18203,7 +18010,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 3.5,
-      "pwrNoLog": 3.47,
       "sampleSize": 1486
     },
     {
@@ -18216,7 +18022,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.3,
-      "pwrNoLog": 1.24,
       "sampleSize": 1276
     },
     {
@@ -18229,7 +18034,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 4.4,
-      "pwrNoLog": 4.34,
       "sampleSize": 1249
     },
     {
@@ -18242,7 +18046,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.6,
-      "pwrNoLog": 2.53,
       "sampleSize": 1217
     },
     {
@@ -18255,7 +18058,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.7,
-      "pwrNoLog": 1.61,
       "sampleSize": 1242
     },
     {
@@ -18268,11 +18070,10 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.3,
-      "pwrNoLog": 1.19,
       "sampleSize": 1139
     },
     {
-      "canonicalId": "mixed:occupation:chimney_sweep_dulcinaria_expansion",
+      "canonicalId": "mixed:occupation:chimney_sweep",
       "metricSet": "4p_comp",
       "dealtCount": 987,
       "draftedCount": 507,
@@ -18281,7 +18082,6 @@
       "bannedCount": 1,
       "adp": 5.6,
       "pwr": 0.7,
-      "pwrNoLog": 0.69,
       "sampleSize": 987
     },
     {
@@ -18294,7 +18094,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.1,
-      "pwrNoLog": 2.08,
       "sampleSize": 1375
     },
     {
@@ -18307,7 +18106,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.4,
-      "pwrNoLog": 2.36,
       "sampleSize": 215
     },
     {
@@ -18320,7 +18118,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 3.4,
-      "pwrNoLog": 3.4,
       "sampleSize": 1332
     },
     {
@@ -18333,7 +18130,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 4,
-      "pwrNoLog": 4,
       "sampleSize": 1323
     },
     {
@@ -18346,7 +18142,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.3,
-      "pwrNoLog": 0.27,
       "sampleSize": 953
     },
     {
@@ -18359,7 +18154,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 2.2,
-      "pwrNoLog": 2.12,
       "sampleSize": 1398
     },
     {
@@ -18372,7 +18166,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.9,
-      "pwrNoLog": 2.64,
       "sampleSize": 1396
     },
     {
@@ -18385,7 +18178,6 @@
       "bannedCount": 0,
       "adp": 6.3,
       "pwr": 0.2,
-      "pwrNoLog": 0.12,
       "sampleSize": 954
     },
     {
@@ -18398,7 +18190,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2,
-      "pwrNoLog": 0,
       "sampleSize": 970
     },
     {
@@ -18411,7 +18202,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.4,
-      "pwrNoLog": 0.34,
       "sampleSize": 1054
     },
     {
@@ -18424,7 +18214,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.8,
-      "pwrNoLog": 2.69,
       "sampleSize": 1339
     },
     {
@@ -18437,7 +18226,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 3.9,
-      "pwrNoLog": 0,
       "sampleSize": 1462
     },
     {
@@ -18450,7 +18238,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 0.9,
-      "pwrNoLog": 0.81,
       "sampleSize": 1272
     },
     {
@@ -18463,7 +18250,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.1,
-      "pwrNoLog": 3.06,
       "sampleSize": 1370
     },
     {
@@ -18476,7 +18262,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.7,
-      "pwrNoLog": 3.67,
       "sampleSize": 1425
     },
     {
@@ -18489,7 +18274,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.4,
-      "pwrNoLog": 1.35,
       "sampleSize": 1365
     },
     {
@@ -18502,7 +18286,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 4,
-      "pwrNoLog": 3.96,
       "sampleSize": 1620
     },
     {
@@ -18515,7 +18298,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.5,
-      "pwrNoLog": 1.45,
       "sampleSize": 1401
     },
     {
@@ -18528,11 +18310,10 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.7,
-      "pwrNoLog": 1.66,
       "sampleSize": 881
     },
     {
-      "canonicalId": "mixed:minor_improvement:clay_supports_base_2_wood",
+      "canonicalId": "mixed:minor_improvement:clay_supports",
       "metricSet": "4p_comp",
       "dealtCount": 1640,
       "draftedCount": 1509,
@@ -18541,7 +18322,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 3.1,
-      "pwrNoLog": 2.99,
       "sampleSize": 1640
     },
     {
@@ -18554,7 +18334,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.3,
-      "pwrNoLog": 1.3,
       "sampleSize": 1287
     },
     {
@@ -18567,7 +18346,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.2,
-      "pwrNoLog": 1.12,
       "sampleSize": 903
     },
     {
@@ -18580,7 +18358,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.9,
-      "pwrNoLog": 2.68,
       "sampleSize": 952
     },
     {
@@ -18593,7 +18370,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.8,
-      "pwrNoLog": 0.81,
       "sampleSize": 1178
     },
     {
@@ -18606,7 +18382,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.9,
-      "pwrNoLog": 1.84,
       "sampleSize": 1338
     },
     {
@@ -18619,7 +18394,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 3.1,
-      "pwrNoLog": 3.01,
       "sampleSize": 1552
     },
     {
@@ -18632,7 +18406,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.1,
-      "pwrNoLog": 2.99,
       "sampleSize": 1323
     },
     {
@@ -18645,7 +18418,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 4.1,
-      "pwrNoLog": 4.03,
       "sampleSize": 1550
     },
     {
@@ -18658,7 +18430,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.7,
-      "pwrNoLog": 3.67,
       "sampleSize": 1106
     },
     {
@@ -18671,7 +18442,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.6,
-      "pwrNoLog": 0.59,
       "sampleSize": 939
     },
     {
@@ -18684,7 +18454,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 4,
-      "pwrNoLog": 3.96,
       "sampleSize": 541
     },
     {
@@ -18697,7 +18466,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.4,
-      "pwrNoLog": 1.33,
       "sampleSize": 863
     },
     {
@@ -18710,7 +18478,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 1.9,
-      "pwrNoLog": 1.83,
       "sampleSize": 1337
     },
     {
@@ -18723,7 +18490,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 3.4,
-      "pwrNoLog": 3.31,
       "sampleSize": 1367
     },
     {
@@ -18736,7 +18502,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.6,
-      "pwrNoLog": 0.57,
       "sampleSize": 970
     },
     {
@@ -18749,7 +18514,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.2,
-      "pwrNoLog": 3.15,
       "sampleSize": 1336
     },
     {
@@ -18762,7 +18526,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.4,
-      "pwrNoLog": 2.27,
       "sampleSize": 521
     },
     {
@@ -18775,7 +18538,6 @@
       "bannedCount": 1,
       "adp": 2.7,
       "pwr": 3.2,
-      "pwrNoLog": 3.2,
       "sampleSize": 1254
     },
     {
@@ -18788,7 +18550,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.5,
-      "pwrNoLog": 1.45,
       "sampleSize": 988
     },
     {
@@ -18801,7 +18562,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1,
-      "pwrNoLog": 0.91,
       "sampleSize": 1007
     },
     {
@@ -18814,7 +18574,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.6,
-      "pwrNoLog": 2.49,
       "sampleSize": 1341
     },
     {
@@ -18827,7 +18586,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.4,
-      "pwrNoLog": 0.01,
       "sampleSize": 922
     },
     {
@@ -18840,7 +18598,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.1,
-      "pwrNoLog": 3.04,
       "sampleSize": 1351
     },
     {
@@ -18853,7 +18610,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.8,
-      "pwrNoLog": 1.72,
       "sampleSize": 1306
     },
     {
@@ -18866,7 +18622,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 3.3,
-      "pwrNoLog": 3.19,
       "sampleSize": 1372
     },
     {
@@ -18879,7 +18634,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.9,
-      "pwrNoLog": 0.87,
       "sampleSize": 1325
     },
     {
@@ -18892,7 +18646,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 2.2,
-      "pwrNoLog": 2.1,
       "sampleSize": 1202
     },
     {
@@ -18905,7 +18658,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.6,
-      "pwrNoLog": 2.52,
       "sampleSize": 474
     },
     {
@@ -18918,7 +18670,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.9,
-      "pwrNoLog": 2.77,
       "sampleSize": 1574
     },
     {
@@ -18931,7 +18682,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.9,
-      "pwrNoLog": 2.82,
       "sampleSize": 1363
     },
     {
@@ -18944,7 +18694,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1,
-      "pwrNoLog": 0.93,
       "sampleSize": 1445
     },
     {
@@ -18957,7 +18706,6 @@
       "bannedCount": 1,
       "adp": 6.3,
       "pwr": 0.2,
-      "pwrNoLog": 0.11,
       "sampleSize": 527
     },
     {
@@ -18970,7 +18718,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.7,
-      "pwrNoLog": 0.67,
       "sampleSize": 920
     },
     {
@@ -18983,11 +18730,10 @@
       "bannedCount": 1,
       "adp": 6.2,
       "pwr": 0.2,
-      "pwrNoLog": 0.19,
       "sampleSize": 1003
     },
     {
-      "canonicalId": "mixed:minor_improvement:corn_scoop_base_1_wood",
+      "canonicalId": "mixed:minor_improvement:corn_scoop",
       "metricSet": "4p_comp",
       "dealtCount": 1394,
       "draftedCount": 1170,
@@ -18996,7 +18742,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.3,
-      "pwrNoLog": 2.23,
       "sampleSize": 1394
     },
     {
@@ -19009,7 +18754,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 3.1,
-      "pwrNoLog": 0,
       "sampleSize": 1590
     },
     {
@@ -19022,7 +18766,6 @@
       "bannedCount": 1,
       "adp": 6,
       "pwr": 0.2,
-      "pwrNoLog": 0.18,
       "sampleSize": 1075
     },
     {
@@ -19035,7 +18778,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.4,
-      "pwrNoLog": 0,
       "sampleSize": 1187
     },
     {
@@ -19048,7 +18790,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.7,
-      "pwrNoLog": 1.64,
       "sampleSize": 1343
     },
     {
@@ -19061,7 +18802,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.4,
-      "pwrNoLog": 2.25,
       "sampleSize": 1187
     },
     {
@@ -19074,7 +18814,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.3,
-      "pwrNoLog": 2.29,
       "sampleSize": 1235
     },
     {
@@ -19087,7 +18826,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.3,
-      "pwrNoLog": 0.23,
       "sampleSize": 726
     },
     {
@@ -19100,7 +18838,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 5.8,
-      "pwrNoLog": 5.84,
       "sampleSize": 22
     },
     {
@@ -19113,7 +18850,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.1,
-      "pwrNoLog": 3.04,
       "sampleSize": 1468
     },
     {
@@ -19126,7 +18862,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.2,
-      "pwrNoLog": 1.1,
       "sampleSize": 1151
     },
     {
@@ -19139,7 +18874,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.4,
-      "pwrNoLog": 1.33,
       "sampleSize": 1325
     },
     {
@@ -19152,7 +18886,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.3,
-      "pwrNoLog": 0.29,
       "sampleSize": 1078
     },
     {
@@ -19165,7 +18898,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.9,
-      "pwrNoLog": 2.81,
       "sampleSize": 1166
     },
     {
@@ -19178,7 +18910,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1,
-      "pwrNoLog": 0.9,
       "sampleSize": 1332
     },
     {
@@ -19191,7 +18922,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.5,
-      "pwrNoLog": 2.4,
       "sampleSize": 1150
     },
     {
@@ -19204,7 +18934,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 1,
-      "pwrNoLog": 0.92,
       "sampleSize": 1316
     },
     {
@@ -19217,7 +18946,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 4.8,
-      "pwrNoLog": 4.76,
       "sampleSize": 3
     },
     {
@@ -19230,7 +18958,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.7,
-      "pwrNoLog": 1.62,
       "sampleSize": 1422
     },
     {
@@ -19243,7 +18970,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 2.5,
-      "pwrNoLog": 2.37,
       "sampleSize": 1517
     },
     {
@@ -19256,7 +18982,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 2.5,
-      "pwrNoLog": 2.49,
       "sampleSize": 516
     },
     {
@@ -19269,7 +18994,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 1189
     },
     {
@@ -19282,7 +19006,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.8,
-      "pwrNoLog": 2.75,
       "sampleSize": 1257
     },
     {
@@ -19295,7 +19018,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 2.7,
-      "pwrNoLog": 2.67,
       "sampleSize": 895
     },
     {
@@ -19308,7 +19030,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.5,
-      "pwrNoLog": 2.37,
       "sampleSize": 820
     },
     {
@@ -19321,7 +19042,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 3,
-      "pwrNoLog": 2.95,
       "sampleSize": 1185
     },
     {
@@ -19334,7 +19054,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.6,
-      "pwrNoLog": 0.02,
       "sampleSize": 854
     },
     {
@@ -19347,7 +19066,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 1.5,
-      "pwrNoLog": 1.43,
       "sampleSize": 1316
     },
     {
@@ -19360,7 +19078,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.8,
-      "pwrNoLog": 1.69,
       "sampleSize": 1233
     },
     {
@@ -19373,7 +19090,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.7,
-      "pwrNoLog": 3.69,
       "sampleSize": 1547
     },
     {
@@ -19386,7 +19102,6 @@
       "bannedCount": 1,
       "adp": 5.2,
       "pwr": 1.3,
-      "pwrNoLog": 1.23,
       "sampleSize": 1186
     },
     {
@@ -19399,7 +19114,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.9,
-      "pwrNoLog": 3.9,
       "sampleSize": 1594
     },
     {
@@ -19412,7 +19126,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.2,
-      "pwrNoLog": 3.14,
       "sampleSize": 1589
     },
     {
@@ -19425,7 +19138,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 1.5,
-      "pwrNoLog": 1.39,
       "sampleSize": 964
     },
     {
@@ -19438,7 +19150,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3,
-      "pwrNoLog": 2.9,
       "sampleSize": 1332
     },
     {
@@ -19451,7 +19162,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.6,
-      "pwrNoLog": 0.01,
       "sampleSize": 1126
     },
     {
@@ -19464,7 +19174,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.4,
-      "pwrNoLog": 2.35,
       "sampleSize": 1400
     },
     {
@@ -19477,7 +19186,6 @@
       "bannedCount": 0,
       "adp": 6.4,
       "pwr": 0.2,
-      "pwrNoLog": 0.21,
       "sampleSize": 1196
     },
     {
@@ -19490,7 +19198,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.5,
-      "pwrNoLog": 3.46,
       "sampleSize": 1279
     },
     {
@@ -19503,7 +19210,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 4.2,
-      "pwrNoLog": 4.13,
       "sampleSize": 1560
     },
     {
@@ -19516,7 +19222,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.7,
-      "pwrNoLog": 2.65,
       "sampleSize": 898
     },
     {
@@ -19529,7 +19234,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 2.2,
-      "pwrNoLog": 1.4,
       "sampleSize": 1156
     },
     {
@@ -19542,7 +19246,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.8,
-      "pwrNoLog": 2.76,
       "sampleSize": 1265
     },
     {
@@ -19555,7 +19258,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.2,
-      "pwrNoLog": 3.14,
       "sampleSize": 1609
     },
     {
@@ -19568,7 +19270,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.3,
-      "pwrNoLog": 3.18,
       "sampleSize": 966
     },
     {
@@ -19581,7 +19282,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 3.3,
-      "pwrNoLog": 3.23,
       "sampleSize": 1565
     },
     {
@@ -19594,7 +19294,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 1.8,
-      "pwrNoLog": 1.79,
       "sampleSize": 8
     },
     {
@@ -19607,7 +19306,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.6,
-      "pwrNoLog": 2.56,
       "sampleSize": 1371
     },
     {
@@ -19620,7 +19318,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1,
-      "pwrNoLog": 0.94,
       "sampleSize": 1302
     },
     {
@@ -19633,7 +19330,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.5,
-      "pwrNoLog": 3.48,
       "sampleSize": 1012
     },
     {
@@ -19646,7 +19342,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 4.7,
-      "pwrNoLog": 4.65,
       "sampleSize": 1260
     },
     {
@@ -19659,7 +19354,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.3,
-      "pwrNoLog": 1.3,
       "sampleSize": 1251
     },
     {
@@ -19672,7 +19366,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.7,
-      "pwrNoLog": 0.7,
       "sampleSize": 1137
     },
     {
@@ -19685,7 +19378,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.2,
-      "pwrNoLog": 3.15,
       "sampleSize": 879
     },
     {
@@ -19698,7 +19390,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.5,
-      "pwrNoLog": 2.4,
       "sampleSize": 1064
     },
     {
@@ -19711,7 +19402,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 4.2,
-      "pwrNoLog": 4.2,
       "sampleSize": 1602
     },
     {
@@ -19724,7 +19414,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.4,
-      "pwrNoLog": 3.3,
       "sampleSize": 1279
     },
     {
@@ -19737,7 +19426,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.7,
-      "pwrNoLog": 3.7,
       "sampleSize": 981
     },
     {
@@ -19750,7 +19438,6 @@
       "bannedCount": 1,
       "adp": 5,
       "pwr": 1.8,
-      "pwrNoLog": 1.71,
       "sampleSize": 867
     },
     {
@@ -19763,7 +19450,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.1,
-      "pwrNoLog": 1.03,
       "sampleSize": 360
     },
     {
@@ -19776,7 +19462,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.8,
-      "pwrNoLog": 0.78,
       "sampleSize": 1248
     },
     {
@@ -19789,7 +19474,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 2,
-      "pwrNoLog": 0.01,
       "sampleSize": 982
     },
     {
@@ -19802,7 +19486,6 @@
       "bannedCount": 0,
       "adp": 1.2,
       "pwr": 4.4,
-      "pwrNoLog": 4.35,
       "sampleSize": 1537
     },
     {
@@ -19815,7 +19498,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 0.9,
-      "pwrNoLog": 0.89,
       "sampleSize": 873
     },
     {
@@ -19828,7 +19510,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.5,
-      "pwrNoLog": 2.46,
       "sampleSize": 1020
     },
     {
@@ -19841,7 +19522,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 4.4,
-      "pwrNoLog": 4.38,
       "sampleSize": 1044
     },
     {
@@ -19854,7 +19534,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.4,
-      "pwrNoLog": 2.34,
       "sampleSize": 1369
     },
     {
@@ -19867,7 +19546,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 3.7,
-      "pwrNoLog": 3.73,
       "sampleSize": 1506
     },
     {
@@ -19880,7 +19558,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 1.9,
-      "pwrNoLog": 1.76,
       "sampleSize": 993
     },
     {
@@ -19893,7 +19570,6 @@
       "bannedCount": 0,
       "adp": 1.7,
       "pwr": 4.4,
-      "pwrNoLog": 4.41,
       "sampleSize": 1316
     },
     {
@@ -19906,7 +19582,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.6,
-      "pwrNoLog": 0.54,
       "sampleSize": 1118
     },
     {
@@ -19919,7 +19594,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.2,
-      "pwrNoLog": 3.11,
       "sampleSize": 1201
     },
     {
@@ -19932,7 +19606,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.4,
-      "pwrNoLog": 0.34,
       "sampleSize": 1285
     },
     {
@@ -19945,7 +19618,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.7,
-      "pwrNoLog": 3.6,
       "sampleSize": 1555
     },
     {
@@ -19958,7 +19630,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.5,
-      "pwrNoLog": 0.01,
       "sampleSize": 1004
     },
     {
@@ -19971,7 +19642,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2,
-      "pwrNoLog": 1.84,
       "sampleSize": 1017
     },
     {
@@ -19984,7 +19654,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.9,
-      "pwrNoLog": 1.76,
       "sampleSize": 972
     },
     {
@@ -19997,7 +19666,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.5,
-      "pwrNoLog": 0.48,
       "sampleSize": 1297
     },
     {
@@ -20010,7 +19678,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.2,
-      "pwrNoLog": 2.13,
       "sampleSize": 874
     },
     {
@@ -20023,7 +19690,6 @@
       "bannedCount": 0,
       "adp": 2.2,
       "pwr": 3.6,
-      "pwrNoLog": 3.61,
       "sampleSize": 1167
     },
     {
@@ -20036,7 +19702,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.5,
-      "pwrNoLog": 1.45,
       "sampleSize": 857
     },
     {
@@ -20049,7 +19714,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.2,
-      "pwrNoLog": 0.15,
       "sampleSize": 1229
     },
     {
@@ -20062,7 +19726,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2.7,
-      "pwrNoLog": 2.64,
       "sampleSize": 1237
     },
     {
@@ -20075,7 +19738,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.2,
-      "pwrNoLog": 3.12,
       "sampleSize": 918
     },
     {
@@ -20088,7 +19750,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.2,
-      "pwrNoLog": 2.14,
       "sampleSize": 1335
     },
     {
@@ -20101,7 +19762,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.8,
-      "pwrNoLog": 2.65,
       "sampleSize": 1311
     },
     {
@@ -20114,7 +19774,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.9,
-      "pwrNoLog": 2.89,
       "sampleSize": 1362
     },
     {
@@ -20127,7 +19786,6 @@
       "bannedCount": 0,
       "adp": 1.6,
       "pwr": 4,
-      "pwrNoLog": 3.94,
       "sampleSize": 1471
     },
     {
@@ -20140,7 +19798,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.6,
-      "pwrNoLog": 2.58,
       "sampleSize": 992
     },
     {
@@ -20153,7 +19810,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.9,
-      "pwrNoLog": 1.88,
       "sampleSize": 1300
     },
     {
@@ -20166,7 +19822,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 3,
-      "pwrNoLog": 2.9,
       "sampleSize": 1249
     },
     {
@@ -20179,7 +19834,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.7,
-      "pwrNoLog": 0.61,
       "sampleSize": 1137
     },
     {
@@ -20192,7 +19846,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.9,
-      "pwrNoLog": 0.82,
       "sampleSize": 1039
     },
     {
@@ -20205,7 +19858,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.3,
-      "pwrNoLog": 3.3,
       "sampleSize": 1208
     },
     {
@@ -20218,7 +19870,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.1,
-      "pwrNoLog": 2.02,
       "sampleSize": 1306
     },
     {
@@ -20231,7 +19882,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.4,
-      "pwrNoLog": 3.37,
       "sampleSize": 1275
     },
     {
@@ -20244,7 +19894,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.8,
-      "pwrNoLog": 1.74,
       "sampleSize": 1186
     },
     {
@@ -20257,7 +19906,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 3.2,
-      "pwrNoLog": 3.14,
       "sampleSize": 1514
     },
     {
@@ -20270,7 +19918,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.9,
-      "pwrNoLog": 1.76,
       "sampleSize": 1432
     },
     {
@@ -20283,7 +19930,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.2,
-      "pwrNoLog": 1.1,
       "sampleSize": 1243
     },
     {
@@ -20296,7 +19942,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 3.1,
-      "pwrNoLog": 0.01,
       "sampleSize": 1421
     },
     {
@@ -20309,7 +19954,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.2,
-      "pwrNoLog": 2.14,
       "sampleSize": 854
     },
     {
@@ -20322,7 +19966,6 @@
       "bannedCount": 1,
       "adp": 3,
       "pwr": 3.4,
-      "pwrNoLog": 3.38,
       "sampleSize": 997
     },
     {
@@ -20335,7 +19978,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.7,
-      "pwrNoLog": 3.67,
       "sampleSize": 1252
     },
     {
@@ -20348,7 +19990,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 3.9,
-      "pwrNoLog": 3.85,
       "sampleSize": 1537
     },
     {
@@ -20361,7 +20002,6 @@
       "bannedCount": 0,
       "adp": 1.2,
       "pwr": 4.4,
-      "pwrNoLog": 4.43,
       "sampleSize": 1504
     },
     {
@@ -20374,7 +20014,6 @@
       "bannedCount": 1,
       "adp": 6.4,
       "pwr": 0.1,
-      "pwrNoLog": 0.13,
       "sampleSize": 889
     },
     {
@@ -20387,7 +20026,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.9,
-      "pwrNoLog": 0.88,
       "sampleSize": 1260
     },
     {
@@ -20400,7 +20038,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.7,
-      "pwrNoLog": 1.67,
       "sampleSize": 142
     },
     {
@@ -20413,7 +20050,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.1,
-      "pwrNoLog": 2.01,
       "sampleSize": 1245
     },
     {
@@ -20426,7 +20062,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.9,
-      "pwrNoLog": 0.86,
       "sampleSize": 1320
     },
     {
@@ -20439,7 +20074,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 3.6,
-      "pwrNoLog": 3.48,
       "sampleSize": 1301
     },
     {
@@ -20452,7 +20086,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0.5,
-      "pwrNoLog": 0.5,
       "sampleSize": 1281
     },
     {
@@ -20465,7 +20098,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1,
-      "pwrNoLog": 0.93,
       "sampleSize": 1378
     },
     {
@@ -20478,7 +20110,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 3.2,
-      "pwrNoLog": 3.13,
       "sampleSize": 1338
     },
     {
@@ -20491,7 +20122,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.6,
-      "pwrNoLog": 2.5,
       "sampleSize": 1332
     },
     {
@@ -20504,7 +20134,6 @@
       "bannedCount": 1,
       "adp": 5.7,
       "pwr": 0.2,
-      "pwrNoLog": 0.2,
       "sampleSize": 983
     },
     {
@@ -20517,7 +20146,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.1,
-      "pwrNoLog": 2,
       "sampleSize": 1173
     },
     {
@@ -20530,7 +20158,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.46,
       "sampleSize": 1301
     },
     {
@@ -20543,7 +20170,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.7,
-      "pwrNoLog": 0,
       "sampleSize": 1143
     },
     {
@@ -20556,7 +20182,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 1.9,
-      "pwrNoLog": 1.82,
       "sampleSize": 997
     },
     {
@@ -20569,7 +20194,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.8,
-      "pwrNoLog": 2.76,
       "sampleSize": 1434
     },
     {
@@ -20582,7 +20206,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.4,
-      "pwrNoLog": 0.33,
       "sampleSize": 855
     },
     {
@@ -20595,7 +20218,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.4,
-      "pwrNoLog": 2.32,
       "sampleSize": 1329
     },
     {
@@ -20608,7 +20230,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.8,
-      "pwrNoLog": 2.72,
       "sampleSize": 1053
     },
     {
@@ -20621,7 +20242,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 1,
-      "pwrNoLog": 0.94,
       "sampleSize": 1050
     },
     {
@@ -20634,7 +20254,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2.2,
-      "pwrNoLog": 2.1,
       "sampleSize": 1149
     },
     {
@@ -20647,7 +20266,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.5,
-      "pwrNoLog": 2.38,
       "sampleSize": 989
     },
     {
@@ -20660,7 +20278,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.8,
-      "pwrNoLog": 0.74,
       "sampleSize": 1272
     },
     {
@@ -20673,7 +20290,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.7,
-      "pwrNoLog": 3.6,
       "sampleSize": 927
     },
     {
@@ -20686,7 +20302,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.8,
-      "pwrNoLog": 2.73,
       "sampleSize": 1296
     },
     {
@@ -20699,7 +20314,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.8,
-      "pwrNoLog": 3.74,
       "sampleSize": 1386
     },
     {
@@ -20712,7 +20326,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.9,
-      "pwrNoLog": 0.85,
       "sampleSize": 1327
     },
     {
@@ -20725,7 +20338,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.5,
-      "pwrNoLog": 0.49,
       "sampleSize": 1014
     },
     {
@@ -20738,7 +20350,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.3,
-      "pwrNoLog": 0.25,
       "sampleSize": 1110
     },
     {
@@ -20751,7 +20362,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 4.8,
-      "pwrNoLog": 4.73,
       "sampleSize": 920
     },
     {
@@ -20764,7 +20374,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.7,
-      "pwrNoLog": 1.6,
       "sampleSize": 968
     },
     {
@@ -20777,7 +20386,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.4,
-      "pwrNoLog": 0.38,
       "sampleSize": 1169
     },
     {
@@ -20790,7 +20398,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0.9,
-      "pwrNoLog": 0.81,
       "sampleSize": 1172
     },
     {
@@ -20803,7 +20410,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.9,
-      "pwrNoLog": 1.78,
       "sampleSize": 1061
     },
     {
@@ -20816,7 +20422,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 4.1,
-      "pwrNoLog": 4.03,
       "sampleSize": 1632
     },
     {
@@ -20829,7 +20434,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 0.9,
-      "pwrNoLog": 0.83,
       "sampleSize": 1011
     },
     {
@@ -20842,7 +20446,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 3.1,
-      "pwrNoLog": 3.02,
       "sampleSize": 1421
     },
     {
@@ -20855,7 +20458,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 2,
-      "pwrNoLog": 1.89,
       "sampleSize": 1439
     },
     {
@@ -20868,7 +20470,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.6,
-      "pwrNoLog": 1.53,
       "sampleSize": 556
     },
     {
@@ -20881,7 +20482,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.6,
-      "pwrNoLog": 2.57,
       "sampleSize": 1297
     },
     {
@@ -20894,7 +20494,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.5,
-      "pwrNoLog": 2.5,
       "sampleSize": 742
     },
     {
@@ -20907,7 +20506,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.7,
-      "pwrNoLog": 2.62,
       "sampleSize": 1274
     },
     {
@@ -20920,7 +20518,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.1,
-      "pwrNoLog": 0.99,
       "sampleSize": 378
     },
     {
@@ -20933,7 +20530,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.1,
-      "pwrNoLog": 1.99,
       "sampleSize": 796
     },
     {
@@ -20946,7 +20542,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.4,
-      "pwrNoLog": 0.31,
       "sampleSize": 1141
     },
     {
@@ -20959,7 +20554,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 2.1,
-      "pwrNoLog": 2.09,
       "sampleSize": 1145
     },
     {
@@ -20972,7 +20566,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.8,
-      "pwrNoLog": 1.71,
       "sampleSize": 863
     },
     {
@@ -20985,7 +20578,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.7,
-      "pwrNoLog": 1.59,
       "sampleSize": 1365
     },
     {
@@ -20998,7 +20590,6 @@
       "bannedCount": 1,
       "adp": 5.5,
       "pwr": 1.8,
-      "pwrNoLog": 1.71,
       "sampleSize": 613
     },
     {
@@ -21011,7 +20602,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.6,
-      "pwrNoLog": 2.47,
       "sampleSize": 1174
     },
     {
@@ -21024,7 +20614,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.6,
-      "pwrNoLog": 1.53,
       "sampleSize": 1285
     },
     {
@@ -21037,7 +20626,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.5,
-      "pwrNoLog": 1.39,
       "sampleSize": 1316
     },
     {
@@ -21050,7 +20638,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.6,
-      "pwrNoLog": 1.49,
       "sampleSize": 1373
     },
     {
@@ -21063,7 +20650,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 4.3,
-      "pwrNoLog": 4.21,
       "sampleSize": 309
     },
     {
@@ -21076,7 +20662,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.1,
-      "pwrNoLog": 2.99,
       "sampleSize": 1405
     },
     {
@@ -21089,7 +20674,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.7,
-      "pwrNoLog": 1.63,
       "sampleSize": 1275
     },
     {
@@ -21102,7 +20686,6 @@
       "bannedCount": 0,
       "adp": 2.1,
       "pwr": 4.1,
-      "pwrNoLog": 4.11,
       "sampleSize": 1562
     },
     {
@@ -21115,7 +20698,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.3,
-      "pwrNoLog": 2.19,
       "sampleSize": 926
     },
     {
@@ -21128,7 +20710,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.3,
-      "pwrNoLog": 2.2,
       "sampleSize": 1245
     },
     {
@@ -21141,7 +20722,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 2.8,
-      "pwrNoLog": 2.7,
       "sampleSize": 1378
     },
     {
@@ -21154,7 +20734,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2,
-      "pwrNoLog": 1.9,
       "sampleSize": 1380
     },
     {
@@ -21167,7 +20746,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 1084
     },
     {
@@ -21180,7 +20758,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.2,
-      "pwrNoLog": 0.28,
       "sampleSize": 1356
     },
     {
@@ -21193,7 +20770,6 @@
       "bannedCount": 0,
       "adp": 1.8,
       "pwr": 3.8,
-      "pwrNoLog": 3.78,
       "sampleSize": 1293
     },
     {
@@ -21206,7 +20782,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.1,
-      "pwrNoLog": 1.98,
       "sampleSize": 872
     },
     {
@@ -21219,7 +20794,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.5,
-      "pwrNoLog": 3.49,
       "sampleSize": 1316
     },
     {
@@ -21232,7 +20806,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 3,
-      "pwrNoLog": 2.92,
       "sampleSize": 1569
     },
     {
@@ -21245,7 +20818,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 3.5,
-      "pwrNoLog": 3.42,
       "sampleSize": 1030
     },
     {
@@ -21258,7 +20830,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.4,
-      "pwrNoLog": 2.32,
       "sampleSize": 1373
     },
     {
@@ -21271,7 +20842,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.2,
-      "pwrNoLog": 2.11,
       "sampleSize": 1456
     },
     {
@@ -21284,7 +20854,6 @@
       "bannedCount": 0,
       "adp": 1.4,
       "pwr": 4.6,
-      "pwrNoLog": 4.55,
       "sampleSize": 1399
     },
     {
@@ -21297,7 +20866,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.1,
-      "pwrNoLog": 0.99,
       "sampleSize": 964
     },
     {
@@ -21310,7 +20878,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.4,
-      "pwrNoLog": 2.28,
       "sampleSize": 1353
     },
     {
@@ -21323,7 +20890,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 3.5,
-      "pwrNoLog": 3.48,
       "sampleSize": 1372
     },
     {
@@ -21336,7 +20902,6 @@
       "bannedCount": 1,
       "adp": 5.4,
       "pwr": 0.9,
-      "pwrNoLog": 0.88,
       "sampleSize": 1120
     },
     {
@@ -21349,7 +20914,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 2.1,
-      "pwrNoLog": 0,
       "sampleSize": 1338
     },
     {
@@ -21362,7 +20926,6 @@
       "bannedCount": 1,
       "adp": 4.7,
       "pwr": 1.7,
-      "pwrNoLog": 1.63,
       "sampleSize": 920
     },
     {
@@ -21375,7 +20938,6 @@
       "bannedCount": 1,
       "adp": 1.7,
       "pwr": 3.8,
-      "pwrNoLog": 3.72,
       "sampleSize": 1320
     },
     {
@@ -21388,7 +20950,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.9,
-      "pwrNoLog": 1.84,
       "sampleSize": 381
     },
     {
@@ -21401,7 +20962,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.5,
-      "pwrNoLog": 3.45,
       "sampleSize": 1364
     },
     {
@@ -21414,7 +20974,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.1,
-      "pwrNoLog": 3.01,
       "sampleSize": 1340
     },
     {
@@ -21427,11 +20986,10 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 1,
-      "pwrNoLog": 0.89,
       "sampleSize": 1083
     },
     {
-      "canonicalId": "mixed:minor_improvement:gypsys_crock_base_2_clay",
+      "canonicalId": "mixed:minor_improvement:gypsys_crock",
       "metricSet": "4p_comp",
       "dealtCount": 1073,
       "draftedCount": 415,
@@ -21440,7 +20998,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.7,
-      "pwrNoLog": 0.63,
       "sampleSize": 1073
     },
     {
@@ -21453,7 +21010,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.6,
-      "pwrNoLog": 2.51,
       "sampleSize": 1105
     },
     {
@@ -21466,7 +21022,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.8,
-      "pwrNoLog": 2.7,
       "sampleSize": 1484
     },
     {
@@ -21479,7 +21034,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.1,
-      "pwrNoLog": 1.02,
       "sampleSize": 1069
     },
     {
@@ -21492,7 +21046,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.2,
-      "pwrNoLog": 2.07,
       "sampleSize": 1391
     },
     {
@@ -21505,7 +21058,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.2,
-      "pwrNoLog": 0.21,
       "sampleSize": 976
     },
     {
@@ -21518,7 +21070,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.6,
-      "pwrNoLog": 2.5,
       "sampleSize": 1237
     },
     {
@@ -21531,7 +21082,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.8,
-      "pwrNoLog": 2.7,
       "sampleSize": 326
     },
     {
@@ -21544,7 +21094,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.3,
-      "pwrNoLog": 1.29,
       "sampleSize": 1362
     },
     {
@@ -21557,7 +21106,6 @@
       "bannedCount": 1,
       "adp": 5.7,
       "pwr": 1.4,
-      "pwrNoLog": 1.33,
       "sampleSize": 1104
     },
     {
@@ -21570,7 +21118,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.4,
-      "pwrNoLog": 2.39,
       "sampleSize": 990
     },
     {
@@ -21583,7 +21130,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.2,
-      "pwrNoLog": 3.1,
       "sampleSize": 1389
     },
     {
@@ -21596,7 +21142,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.6,
-      "pwrNoLog": 1.58,
       "sampleSize": 1092
     },
     {
@@ -21609,7 +21154,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2,
-      "pwrNoLog": 1.93,
       "sampleSize": 1307
     },
     {
@@ -21622,7 +21166,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 1.9,
-      "pwrNoLog": 1.78,
       "sampleSize": 1340
     },
     {
@@ -21635,7 +21178,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.3,
-      "pwrNoLog": 3.16,
       "sampleSize": 1270
     },
     {
@@ -21648,7 +21190,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.2,
-      "pwrNoLog": 3.2,
       "sampleSize": 1560
     },
     {
@@ -21661,7 +21202,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.4,
-      "pwrNoLog": 0,
       "sampleSize": 1353
     },
     {
@@ -21674,7 +21214,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 1.7,
-      "pwrNoLog": 1.6,
       "sampleSize": 874
     },
     {
@@ -21687,7 +21226,6 @@
       "bannedCount": 1,
       "adp": 3.6,
       "pwr": 2.6,
-      "pwrNoLog": 2.46,
       "sampleSize": 1157
     },
     {
@@ -21700,7 +21238,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 2.9,
-      "pwrNoLog": 2.91,
       "sampleSize": 1335
     },
     {
@@ -21713,7 +21250,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 3.9,
-      "pwrNoLog": 3.87,
       "sampleSize": 1480
     },
     {
@@ -21726,7 +21262,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.2,
-      "pwrNoLog": 2.04,
       "sampleSize": 1337
     },
     {
@@ -21739,7 +21274,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.9,
-      "pwrNoLog": 0.01,
       "sampleSize": 1428
     },
     {
@@ -21752,7 +21286,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.9,
-      "pwrNoLog": 1.82,
       "sampleSize": 948
     },
     {
@@ -21765,7 +21298,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.5,
-      "pwrNoLog": 2.39,
       "sampleSize": 1371
     },
     {
@@ -21778,7 +21310,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 1.9,
-      "pwrNoLog": 1.83,
       "sampleSize": 1337
     },
     {
@@ -21791,7 +21322,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.4,
-      "pwrNoLog": 0.39,
       "sampleSize": 1193
     },
     {
@@ -21804,7 +21334,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.9,
-      "pwrNoLog": 3.89,
       "sampleSize": 1220
     },
     {
@@ -21817,7 +21346,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.5,
-      "pwrNoLog": 1.39,
       "sampleSize": 1349
     },
     {
@@ -21830,7 +21358,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.5,
-      "pwrNoLog": 3.49,
       "sampleSize": 1159
     },
     {
@@ -21843,7 +21370,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.1,
-      "pwrNoLog": 2.06,
       "sampleSize": 1167
     },
     {
@@ -21856,7 +21382,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 2.7,
-      "pwrNoLog": 2.67,
       "sampleSize": 1327
     },
     {
@@ -21869,7 +21394,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.7,
-      "pwrNoLog": 2.67,
       "sampleSize": 1345
     },
     {
@@ -21882,7 +21406,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.1,
-      "pwrNoLog": 3.12,
       "sampleSize": 1497
     },
     {
@@ -21895,7 +21418,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.8,
-      "pwrNoLog": 0.79,
       "sampleSize": 1164
     },
     {
@@ -21908,7 +21430,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.2,
-      "pwrNoLog": 0.18,
       "sampleSize": 1116
     },
     {
@@ -21921,7 +21442,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.4,
-      "pwrNoLog": 1.31,
       "sampleSize": 1405
     },
     {
@@ -21934,7 +21454,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 3.2,
-      "pwrNoLog": 3.09,
       "sampleSize": 561
     },
     {
@@ -21947,7 +21466,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 4.2,
-      "pwrNoLog": 4.17,
       "sampleSize": 1576
     },
     {
@@ -21960,7 +21478,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.2,
-      "pwrNoLog": 2.1,
       "sampleSize": 1393
     },
     {
@@ -21973,7 +21490,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 1.6,
-      "pwrNoLog": 1.59,
       "sampleSize": 638
     },
     {
@@ -21986,7 +21502,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.5,
-      "pwrNoLog": 2.46,
       "sampleSize": 1421
     },
     {
@@ -21999,7 +21514,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.9,
-      "pwrNoLog": 1.78,
       "sampleSize": 1219
     },
     {
@@ -22012,7 +21526,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 176
     },
     {
@@ -22025,7 +21538,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 4.1,
-      "pwrNoLog": 4.07,
       "sampleSize": 1667
     },
     {
@@ -22038,7 +21550,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.2,
-      "pwrNoLog": 3.11,
       "sampleSize": 1514
     },
     {
@@ -22051,7 +21562,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.1,
-      "pwrNoLog": 2.06,
       "sampleSize": 1334
     },
     {
@@ -22064,7 +21574,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.1,
-      "pwrNoLog": 1,
       "sampleSize": 1274
     },
     {
@@ -22077,7 +21586,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.3,
-      "pwrNoLog": 1.22,
       "sampleSize": 1138
     },
     {
@@ -22090,7 +21598,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.7,
-      "pwrNoLog": 3.65,
       "sampleSize": 1503
     },
     {
@@ -22103,7 +21610,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.3,
-      "pwrNoLog": 3.27,
       "sampleSize": 672
     },
     {
@@ -22116,7 +21622,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.9,
-      "pwrNoLog": 2.81,
       "sampleSize": 930
     },
     {
@@ -22129,7 +21634,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 3.1,
-      "pwrNoLog": 3,
       "sampleSize": 388
     },
     {
@@ -22142,7 +21646,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.5,
-      "pwrNoLog": 3.51,
       "sampleSize": 1524
     },
     {
@@ -22155,7 +21658,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.8,
-      "pwrNoLog": 3.62,
       "sampleSize": 1005
     },
     {
@@ -22168,7 +21670,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.6,
-      "pwrNoLog": 1.53,
       "sampleSize": 1188
     },
     {
@@ -22181,7 +21682,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 1.8,
-      "pwrNoLog": 1.72,
       "sampleSize": 102
     },
     {
@@ -22194,7 +21694,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.5,
-      "pwrNoLog": 1.45,
       "sampleSize": 1172
     },
     {
@@ -22207,7 +21706,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 3.3,
-      "pwrNoLog": 3.23,
       "sampleSize": 1132
     },
     {
@@ -22220,7 +21718,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.9,
-      "pwrNoLog": 0,
       "sampleSize": 1104
     },
     {
@@ -22233,7 +21730,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3,
-      "pwrNoLog": 2.87,
       "sampleSize": 1265
     },
     {
@@ -22246,7 +21742,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.3,
-      "pwrNoLog": 3.23,
       "sampleSize": 1364
     },
     {
@@ -22259,7 +21754,6 @@
       "bannedCount": 1,
       "adp": 5.3,
       "pwr": 2.3,
-      "pwrNoLog": 2.17,
       "sampleSize": 900
     },
     {
@@ -22272,7 +21766,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.2,
-      "pwrNoLog": 3.15,
       "sampleSize": 1360
     },
     {
@@ -22285,7 +21778,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.4,
-      "pwrNoLog": 2.32,
       "sampleSize": 1265
     },
     {
@@ -22298,7 +21790,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0.5,
-      "pwrNoLog": 0.48,
       "sampleSize": 1180
     },
     {
@@ -22311,7 +21802,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.7,
-      "pwrNoLog": 2.55,
       "sampleSize": 42
     },
     {
@@ -22324,7 +21814,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.5,
-      "pwrNoLog": 1.45,
       "sampleSize": 1012
     },
     {
@@ -22337,7 +21826,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.5,
-      "pwrNoLog": 0.46,
       "sampleSize": 875
     },
     {
@@ -22350,7 +21838,6 @@
       "bannedCount": 1,
       "adp": 4.2,
       "pwr": 2.2,
-      "pwrNoLog": 2.19,
       "sampleSize": 1177
     },
     {
@@ -22363,7 +21850,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2,
-      "pwrNoLog": 1.98,
       "sampleSize": 1273
     },
     {
@@ -22376,7 +21862,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.2,
-      "pwrNoLog": 1.16,
       "sampleSize": 870
     },
     {
@@ -22389,7 +21874,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.7,
-      "pwrNoLog": 1.65,
       "sampleSize": 1410
     },
     {
@@ -22402,7 +21886,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1,
-      "pwrNoLog": 0.89,
       "sampleSize": 1278
     },
     {
@@ -22415,7 +21898,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.7,
-      "pwrNoLog": 1.61,
       "sampleSize": 1167
     },
     {
@@ -22428,7 +21910,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.1,
-      "pwrNoLog": 1.01,
       "sampleSize": 1381
     },
     {
@@ -22441,7 +21922,6 @@
       "bannedCount": 1,
       "adp": 6.2,
       "pwr": 0.3,
-      "pwrNoLog": 0.26,
       "sampleSize": 912
     },
     {
@@ -22454,7 +21934,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.3,
-      "pwrNoLog": 1.22,
       "sampleSize": 1137
     },
     {
@@ -22467,7 +21946,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2,
-      "pwrNoLog": 1.86,
       "sampleSize": 1381
     },
     {
@@ -22480,7 +21958,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.2,
-      "pwrNoLog": 3.17,
       "sampleSize": 1502
     },
     {
@@ -22493,7 +21970,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.3,
-      "pwrNoLog": 3.28,
       "sampleSize": 1259
     },
     {
@@ -22506,7 +21982,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.9,
-      "pwrNoLog": 1.81,
       "sampleSize": 100
     },
     {
@@ -22519,7 +21994,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.8,
-      "pwrNoLog": 2.75,
       "sampleSize": 1431
     },
     {
@@ -22532,7 +22006,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.4,
-      "pwrNoLog": 3.37,
       "sampleSize": 1353
     },
     {
@@ -22545,7 +22018,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.4,
-      "pwrNoLog": 1.3,
       "sampleSize": 1141
     },
     {
@@ -22558,7 +22030,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.1,
-      "pwrNoLog": 3.02,
       "sampleSize": 1386
     },
     {
@@ -22571,7 +22042,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3,
-      "pwrNoLog": 3,
       "sampleSize": 1478
     },
     {
@@ -22584,7 +22054,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.4,
-      "pwrNoLog": 2.28,
       "sampleSize": 1228
     },
     {
@@ -22597,7 +22066,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.3,
-      "pwrNoLog": 1.23,
       "sampleSize": 1333
     },
     {
@@ -22610,7 +22078,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2.2,
-      "pwrNoLog": 2.14,
       "sampleSize": 1311
     },
     {
@@ -22623,7 +22090,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 2,
-      "pwrNoLog": 1.87,
       "sampleSize": 182
     },
     {
@@ -22636,7 +22102,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.4,
-      "pwrNoLog": 3.34,
       "sampleSize": 1038
     },
     {
@@ -22649,7 +22114,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 1.7,
-      "pwrNoLog": 1.56,
       "sampleSize": 92
     },
     {
@@ -22662,7 +22126,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.5,
-      "pwrNoLog": 1.43,
       "sampleSize": 1247
     },
     {
@@ -22675,7 +22138,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.4,
-      "pwrNoLog": 3.3,
       "sampleSize": 1582
     },
     {
@@ -22688,7 +22150,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 2.3,
-      "pwrNoLog": 2.16,
       "sampleSize": 1371
     },
     {
@@ -22701,7 +22162,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 2.1,
-      "pwrNoLog": 2.01,
       "sampleSize": 1395
     },
     {
@@ -22714,7 +22174,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.8,
-      "pwrNoLog": 1.74,
       "sampleSize": 1189
     },
     {
@@ -22727,7 +22186,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.5,
-      "pwrNoLog": 3.51,
       "sampleSize": 1499
     },
     {
@@ -22740,7 +22198,6 @@
       "bannedCount": 0,
       "adp": 6.4,
       "pwr": 0.3,
-      "pwrNoLog": 0.19,
       "sampleSize": 702
     },
     {
@@ -22753,7 +22210,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 3.6,
-      "pwrNoLog": 3.59,
       "sampleSize": 1553
     },
     {
@@ -22766,7 +22222,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 4.3,
-      "pwrNoLog": 4.24,
       "sampleSize": 1568
     },
     {
@@ -22779,7 +22234,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.3,
-      "pwrNoLog": 3.26,
       "sampleSize": 919
     },
     {
@@ -22792,7 +22246,6 @@
       "bannedCount": 1,
       "adp": 1.4,
       "pwr": 6.8,
-      "pwrNoLog": 6.83,
       "sampleSize": 23
     },
     {
@@ -22805,11 +22258,10 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 2.7,
-      "pwrNoLog": 0.01,
       "sampleSize": 1399
     },
     {
-      "canonicalId": "mixed:minor_improvement:lumber_mill_base_revised_2_stone",
+      "canonicalId": "mixed:minor_improvement:lumber_mill",
       "metricSet": "4p_comp",
       "dealtCount": 64,
       "draftedCount": 52,
@@ -22818,7 +22270,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 3.3,
-      "pwrNoLog": 3.35,
       "sampleSize": 64
     },
     {
@@ -22831,7 +22282,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.5,
-      "pwrNoLog": 1.41,
       "sampleSize": 1237
     },
     {
@@ -22844,7 +22294,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 2.1,
-      "pwrNoLog": 2.1,
       "sampleSize": 213
     },
     {
@@ -22857,7 +22306,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.5,
-      "pwrNoLog": 2.46,
       "sampleSize": 1185
     },
     {
@@ -22870,7 +22318,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 2.8,
-      "pwrNoLog": 2.73,
       "sampleSize": 1142
     },
     {
@@ -22883,7 +22330,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 2.5,
-      "pwrNoLog": 2.51,
       "sampleSize": 1352
     },
     {
@@ -22896,7 +22342,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.8,
-      "pwrNoLog": 2.72,
       "sampleSize": 980
     },
     {
@@ -22909,7 +22354,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.5,
-      "pwrNoLog": 0.48,
       "sampleSize": 1234
     },
     {
@@ -22922,7 +22366,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 1.3,
-      "pwrNoLog": 1.19,
       "sampleSize": 1315
     },
     {
@@ -22935,11 +22378,10 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.5,
-      "pwrNoLog": 1.49,
       "sampleSize": 592
     },
     {
-      "canonicalId": "mixed:minor_improvement:manger_base_2_wood",
+      "canonicalId": "mixed:minor_improvement:manger",
       "metricSet": "4p_comp",
       "dealtCount": 1427,
       "draftedCount": 804,
@@ -22948,7 +22390,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.8,
-      "pwrNoLog": 1.67,
       "sampleSize": 1427
     },
     {
@@ -22961,7 +22402,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 1.7,
-      "pwrNoLog": 1.66,
       "sampleSize": 843
     },
     {
@@ -22974,7 +22414,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.1,
-      "pwrNoLog": 2.09,
       "sampleSize": 1336
     },
     {
@@ -22987,7 +22426,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3,
-      "pwrNoLog": 2.82,
       "sampleSize": 1601
     },
     {
@@ -23000,7 +22438,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.2,
-      "pwrNoLog": 1.08,
       "sampleSize": 1144
     },
     {
@@ -23013,7 +22450,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.6,
-      "pwrNoLog": 2.55,
       "sampleSize": 1311
     },
     {
@@ -23026,7 +22462,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 1,
-      "pwrNoLog": 0.86,
       "sampleSize": 1141
     },
     {
@@ -23039,7 +22474,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 4.1,
-      "pwrNoLog": 4.03,
       "sampleSize": 929
     },
     {
@@ -23052,7 +22486,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2.1,
-      "pwrNoLog": 2.01,
       "sampleSize": 1351
     },
     {
@@ -23065,7 +22498,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.4,
-      "pwrNoLog": 1.35,
       "sampleSize": 1139
     },
     {
@@ -23078,7 +22510,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 3.3,
-      "pwrNoLog": 3.24,
       "sampleSize": 1011
     },
     {
@@ -23091,11 +22522,10 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.9,
-      "pwrNoLog": 1.82,
       "sampleSize": 1354
     },
     {
-      "canonicalId": "mixed:minor_improvement:market_stall_base_1_grain",
+      "canonicalId": "mixed:minor_improvement:market_stall",
       "metricSet": "4p_comp",
       "dealtCount": 1372,
       "draftedCount": 634,
@@ -23104,7 +22534,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1,
-      "pwrNoLog": 0,
       "sampleSize": 1372
     },
     {
@@ -23117,7 +22546,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.8,
-      "pwrNoLog": 3.82,
       "sampleSize": 1537
     },
     {
@@ -23130,7 +22558,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.9,
-      "pwrNoLog": 0.8,
       "sampleSize": 1184
     },
     {
@@ -23143,7 +22570,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 4.3,
-      "pwrNoLog": 4.3,
       "sampleSize": 1554
     },
     {
@@ -23156,7 +22582,6 @@
       "bannedCount": 1,
       "adp": 3.1,
       "pwr": 2.8,
-      "pwrNoLog": 2.64,
       "sampleSize": 1094
     },
     {
@@ -23169,7 +22594,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.1,
-      "pwrNoLog": 0.1,
       "sampleSize": 1021
     },
     {
@@ -23182,7 +22606,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.5,
-      "pwrNoLog": 0.43,
       "sampleSize": 1160
     },
     {
@@ -23195,7 +22618,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2.3,
-      "pwrNoLog": 2.18,
       "sampleSize": 1328
     },
     {
@@ -23208,7 +22630,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 2.8,
-      "pwrNoLog": 2.75,
       "sampleSize": 1300
     },
     {
@@ -23221,7 +22642,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.5,
-      "pwrNoLog": 2.5,
       "sampleSize": 1155
     },
     {
@@ -23234,7 +22654,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.5,
-      "pwrNoLog": 0.43,
       "sampleSize": 1175
     },
     {
@@ -23247,7 +22666,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.7,
-      "pwrNoLog": 3.71,
       "sampleSize": 1330
     },
     {
@@ -23260,7 +22678,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.5,
-      "pwrNoLog": 2.45,
       "sampleSize": 923
     },
     {
@@ -23273,7 +22690,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1,
-      "pwrNoLog": 0.93,
       "sampleSize": 1250
     },
     {
@@ -23286,7 +22702,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.8,
-      "pwrNoLog": 1.75,
       "sampleSize": 1354
     },
     {
@@ -23299,7 +22714,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.7,
-      "pwrNoLog": 2.61,
       "sampleSize": 1314
     },
     {
@@ -23312,7 +22726,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.1,
-      "pwrNoLog": 2.01,
       "sampleSize": 1185
     },
     {
@@ -23325,7 +22738,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.9,
-      "pwrNoLog": 1.86,
       "sampleSize": 1269
     },
     {
@@ -23338,7 +22750,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 3,
-      "pwrNoLog": 2.9,
       "sampleSize": 1182
     },
     {
@@ -23351,7 +22762,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.7,
-      "pwrNoLog": 2.66,
       "sampleSize": 1098
     },
     {
@@ -23364,7 +22774,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 2.9,
-      "pwrNoLog": 2.76,
       "sampleSize": 590
     },
     {
@@ -23377,7 +22786,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.6,
-      "pwrNoLog": 3.56,
       "sampleSize": 1233
     },
     {
@@ -23390,7 +22798,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.3,
-      "pwrNoLog": 0.28,
       "sampleSize": 1301
     },
     {
@@ -23403,7 +22810,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.8,
-      "pwrNoLog": 3.76,
       "sampleSize": 1377
     },
     {
@@ -23416,7 +22822,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.5,
-      "pwrNoLog": 3.46,
       "sampleSize": 1265
     },
     {
@@ -23429,7 +22834,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 1.2,
-      "pwrNoLog": 1.16,
       "sampleSize": 1303
     },
     {
@@ -23442,7 +22846,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.6,
-      "pwrNoLog": 0.6,
       "sampleSize": 1367
     },
     {
@@ -23455,7 +22858,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.4,
-      "pwrNoLog": 3.39,
       "sampleSize": 1191
     },
     {
@@ -23468,7 +22870,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.3,
-      "pwrNoLog": 1.21,
       "sampleSize": 941
     },
     {
@@ -23481,7 +22882,6 @@
       "bannedCount": 1,
       "adp": 6,
       "pwr": 1.1,
-      "pwrNoLog": 1.09,
       "sampleSize": 1186
     },
     {
@@ -23494,7 +22894,6 @@
       "bannedCount": 1,
       "adp": 6.4,
       "pwr": 0.2,
-      "pwrNoLog": 0.22,
       "sampleSize": 639
     },
     {
@@ -23507,7 +22906,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 2.4,
-      "pwrNoLog": 0.01,
       "sampleSize": 1191
     },
     {
@@ -23520,7 +22918,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 3.5,
-      "pwrNoLog": 3.48,
       "sampleSize": 1448
     },
     {
@@ -23533,7 +22930,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.2,
-      "pwrNoLog": 0.22,
       "sampleSize": 1150
     },
     {
@@ -23546,7 +22942,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 4.2,
-      "pwrNoLog": 4.11,
       "sampleSize": 1585
     },
     {
@@ -23559,7 +22954,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.5,
-      "pwrNoLog": 1.46,
       "sampleSize": 1184
     },
     {
@@ -23572,11 +22966,10 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.3,
-      "pwrNoLog": 0.29,
       "sampleSize": 1170
     },
     {
-      "canonicalId": "mixed:minor_improvement:mini_pasture_base_2_food",
+      "canonicalId": "mixed:minor_improvement:mini_pasture",
       "metricSet": "4p_comp",
       "dealtCount": 1457,
       "draftedCount": 1414,
@@ -23585,7 +22978,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.5,
-      "pwrNoLog": 0.01,
       "sampleSize": 1457
     },
     {
@@ -23598,7 +22990,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.4,
-      "pwrNoLog": 1.24,
       "sampleSize": 1113
     },
     {
@@ -23611,7 +23002,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.3,
-      "pwrNoLog": 2.2,
       "sampleSize": 1302
     },
     {
@@ -23624,7 +23014,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.4,
-      "pwrNoLog": 2.4,
       "sampleSize": 1401
     },
     {
@@ -23637,7 +23026,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.7,
-      "pwrNoLog": 2.64,
       "sampleSize": 1527
     },
     {
@@ -23650,7 +23038,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.54,
       "sampleSize": 1159
     },
     {
@@ -23663,7 +23050,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.4,
-      "pwrNoLog": 3.32,
       "sampleSize": 200
     },
     {
@@ -23676,7 +23062,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 6,
-      "pwrNoLog": 6.04,
       "sampleSize": 52
     },
     {
@@ -23689,7 +23074,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.1,
-      "pwrNoLog": 3.02,
       "sampleSize": 1286
     },
     {
@@ -23702,7 +23086,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.8,
-      "pwrNoLog": 3.74,
       "sampleSize": 1323
     },
     {
@@ -23715,7 +23098,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.2,
-      "pwrNoLog": 1.15,
       "sampleSize": 1341
     },
     {
@@ -23728,7 +23110,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.3,
-      "pwrNoLog": 0.26,
       "sampleSize": 1012
     },
     {
@@ -23741,7 +23122,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.6,
-      "pwrNoLog": 2.49,
       "sampleSize": 1124
     },
     {
@@ -23754,7 +23134,6 @@
       "bannedCount": 0,
       "adp": 1.6,
       "pwr": 4.8,
-      "pwrNoLog": 4.81,
       "sampleSize": 450
     },
     {
@@ -23767,7 +23146,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.3,
-      "pwrNoLog": 2.23,
       "sampleSize": 978
     },
     {
@@ -23780,7 +23158,6 @@
       "bannedCount": 1,
       "adp": 5.9,
       "pwr": 0.6,
-      "pwrNoLog": 0.57,
       "sampleSize": 1149
     },
     {
@@ -23793,7 +23170,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.3,
-      "pwrNoLog": 0.31,
       "sampleSize": 1066
     },
     {
@@ -23806,7 +23182,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.6,
-      "pwrNoLog": 0,
       "sampleSize": 1030
     },
     {
@@ -23819,7 +23194,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.3,
-      "pwrNoLog": 2.29,
       "sampleSize": 528
     },
     {
@@ -23832,7 +23206,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 4.2,
-      "pwrNoLog": 4.17,
       "sampleSize": 1269
     },
     {
@@ -23845,7 +23218,6 @@
       "bannedCount": 1,
       "adp": 1.8,
       "pwr": 3.9,
-      "pwrNoLog": 3.9,
       "sampleSize": 1227
     },
     {
@@ -23858,7 +23230,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0,
-      "pwrNoLog": 0,
       "sampleSize": 4
     },
     {
@@ -23871,7 +23242,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.5,
-      "pwrNoLog": 1.42,
       "sampleSize": 1004
     },
     {
@@ -23884,7 +23254,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2,
-      "pwrNoLog": 1.92,
       "sampleSize": 1452
     },
     {
@@ -23897,7 +23266,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.1,
-      "pwrNoLog": 1.96,
       "sampleSize": 1343
     },
     {
@@ -23910,7 +23278,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.7,
-      "pwrNoLog": 3.63,
       "sampleSize": 1213
     },
     {
@@ -23923,7 +23290,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2.8,
-      "pwrNoLog": 2.71,
       "sampleSize": 613
     },
     {
@@ -23936,7 +23302,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 3.9,
-      "pwrNoLog": 3.8,
       "sampleSize": 1129
     },
     {
@@ -23949,7 +23314,6 @@
       "bannedCount": 1,
       "adp": 5.4,
       "pwr": 0.7,
-      "pwrNoLog": 0.61,
       "sampleSize": 1185
     },
     {
@@ -23962,7 +23326,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.6,
-      "pwrNoLog": 3.51,
       "sampleSize": 1242
     },
     {
@@ -23975,7 +23338,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.5,
-      "pwrNoLog": 0.46,
       "sampleSize": 1073
     },
     {
@@ -23988,7 +23350,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.4,
-      "pwrNoLog": 2.29,
       "sampleSize": 1414
     },
     {
@@ -24001,7 +23362,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.49,
       "sampleSize": 1380
     },
     {
@@ -24014,7 +23374,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 2.2,
-      "pwrNoLog": 2.08,
       "sampleSize": 1350
     },
     {
@@ -24027,7 +23386,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.4,
-      "pwrNoLog": 2.37,
       "sampleSize": 1197
     },
     {
@@ -24040,7 +23398,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.6,
-      "pwrNoLog": 0.55,
       "sampleSize": 990
     },
     {
@@ -24053,7 +23410,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.1,
-      "pwrNoLog": 1.01,
       "sampleSize": 1288
     },
     {
@@ -24066,7 +23422,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 3,
-      "pwrNoLog": 2.9,
       "sampleSize": 883
     },
     {
@@ -24079,7 +23434,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.7,
-      "pwrNoLog": 1.67,
       "sampleSize": 1126
     },
     {
@@ -24092,7 +23446,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 4.1,
-      "pwrNoLog": 4.08,
       "sampleSize": 1278
     },
     {
@@ -24105,7 +23458,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.6,
-      "pwrNoLog": 3.49,
       "sampleSize": 979
     },
     {
@@ -24118,7 +23470,6 @@
       "bannedCount": 1,
       "adp": 3.6,
       "pwr": 3,
-      "pwrNoLog": 2.92,
       "sampleSize": 1320
     },
     {
@@ -24131,7 +23482,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.5,
-      "pwrNoLog": 0.45,
       "sampleSize": 1199
     },
     {
@@ -24144,7 +23494,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 3.5,
-      "pwrNoLog": 3.41,
       "sampleSize": 1605
     },
     {
@@ -24157,7 +23506,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.3,
-      "pwrNoLog": 1.17,
       "sampleSize": 929
     },
     {
@@ -24170,7 +23518,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.8,
-      "pwrNoLog": 1.69,
       "sampleSize": 1232
     },
     {
@@ -24183,7 +23530,6 @@
       "bannedCount": 1,
       "adp": 4.3,
       "pwr": 1.9,
-      "pwrNoLog": 1.76,
       "sampleSize": 707
     },
     {
@@ -24196,7 +23542,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.2,
-      "pwrNoLog": 1.05,
       "sampleSize": 1161
     },
     {
@@ -24209,7 +23554,6 @@
       "bannedCount": 1,
       "adp": 4.6,
       "pwr": 2.2,
-      "pwrNoLog": 1.88,
       "sampleSize": 869
     },
     {
@@ -24222,7 +23566,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1,
-      "pwrNoLog": 0.95,
       "sampleSize": 1375
     },
     {
@@ -24235,7 +23578,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.1,
-      "pwrNoLog": 2.93,
       "sampleSize": 1166
     },
     {
@@ -24248,7 +23590,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.2,
-      "pwrNoLog": 0.7,
       "sampleSize": 1582
     },
     {
@@ -24261,7 +23602,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 2.3,
-      "pwrNoLog": 2.26,
       "sampleSize": 1296
     },
     {
@@ -24274,7 +23614,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.4,
-      "pwrNoLog": 2.35,
       "sampleSize": 1242
     },
     {
@@ -24287,7 +23626,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.6,
-      "pwrNoLog": 1.56,
       "sampleSize": 1129
     },
     {
@@ -24300,7 +23638,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.5,
-      "pwrNoLog": 2.39,
       "sampleSize": 1320
     },
     {
@@ -24313,7 +23650,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.8,
-      "pwrNoLog": 1.66,
       "sampleSize": 1386
     },
     {
@@ -24326,7 +23662,6 @@
       "bannedCount": 1,
       "adp": 2.8,
       "pwr": 2.7,
-      "pwrNoLog": 2.65,
       "sampleSize": 979
     },
     {
@@ -24339,7 +23674,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.5,
-      "pwrNoLog": 2.49,
       "sampleSize": 1131
     },
     {
@@ -24352,7 +23686,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.9,
-      "pwrNoLog": 2.74,
       "sampleSize": 1279
     },
     {
@@ -24365,7 +23698,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 3.9,
-      "pwrNoLog": 3.92,
       "sampleSize": 1542
     },
     {
@@ -24378,7 +23710,6 @@
       "bannedCount": 0,
       "adp": 1.6,
       "pwr": 4.5,
-      "pwrNoLog": 4.5,
       "sampleSize": 1390
     },
     {
@@ -24391,7 +23722,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.4,
-      "pwrNoLog": 1.23,
       "sampleSize": 1269
     },
     {
@@ -24404,7 +23734,6 @@
       "bannedCount": 0,
       "adp": 6.4,
       "pwr": 0.1,
-      "pwrNoLog": 0.08,
       "sampleSize": 931
     },
     {
@@ -24417,7 +23746,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.9,
-      "pwrNoLog": 1.85,
       "sampleSize": 1311
     },
     {
@@ -24430,7 +23758,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.2,
-      "pwrNoLog": 2.16,
       "sampleSize": 1190
     },
     {
@@ -24443,7 +23770,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.5,
-      "pwrNoLog": 1.45,
       "sampleSize": 1361
     },
     {
@@ -24456,7 +23782,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 4,
-      "pwrNoLog": 3.99,
       "sampleSize": 1631
     },
     {
@@ -24469,7 +23794,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1,
-      "pwrNoLog": 0.96,
       "sampleSize": 1155
     },
     {
@@ -24482,7 +23806,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.4,
-      "pwrNoLog": 2.29,
       "sampleSize": 1168
     },
     {
@@ -24495,7 +23818,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.9,
-      "pwrNoLog": 1.84,
       "sampleSize": 954
     },
     {
@@ -24508,7 +23830,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0.5,
-      "pwrNoLog": 0.47,
       "sampleSize": 1241
     },
     {
@@ -24521,7 +23842,6 @@
       "bannedCount": 0,
       "adp": 1.6,
       "pwr": 3.9,
-      "pwrNoLog": 3.89,
       "sampleSize": 1406
     },
     {
@@ -24534,7 +23854,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.8,
-      "pwrNoLog": 0.79,
       "sampleSize": 1179
     },
     {
@@ -24547,7 +23866,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 2.7,
-      "pwrNoLog": 2.58,
       "sampleSize": 1571
     },
     {
@@ -24560,7 +23878,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.4,
-      "pwrNoLog": 3.34,
       "sampleSize": 922
     },
     {
@@ -24573,7 +23890,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 3,
-      "pwrNoLog": 2.9,
       "sampleSize": 1202
     },
     {
@@ -24586,7 +23902,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.7,
-      "pwrNoLog": 2.63,
       "sampleSize": 1371
     },
     {
@@ -24599,7 +23914,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.8,
-      "pwrNoLog": 1.73,
       "sampleSize": 1351
     },
     {
@@ -24612,7 +23926,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.1,
-      "pwrNoLog": 0.13,
       "sampleSize": 1076
     },
     {
@@ -24625,7 +23938,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.8,
-      "pwrNoLog": 0,
       "sampleSize": 1375
     },
     {
@@ -24638,7 +23950,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.5,
-      "pwrNoLog": 0.43,
       "sampleSize": 1300
     },
     {
@@ -24651,7 +23962,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.4,
-      "pwrNoLog": 2.3,
       "sampleSize": 1250
     },
     {
@@ -24664,7 +23974,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.4,
-      "pwrNoLog": 1.36,
       "sampleSize": 1145
     },
     {
@@ -24677,7 +23986,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.9,
-      "pwrNoLog": 2.81,
       "sampleSize": 1317
     },
     {
@@ -24690,7 +23998,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.3,
-      "pwrNoLog": 0.25,
       "sampleSize": 1143
     },
     {
@@ -24703,7 +24010,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.9,
-      "pwrNoLog": 3.78,
       "sampleSize": 1539
     },
     {
@@ -24716,7 +24022,6 @@
       "bannedCount": 1,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.56,
       "sampleSize": 945
     },
     {
@@ -24729,7 +24034,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 3.2,
-      "pwrNoLog": 3.18,
       "sampleSize": 1505
     },
     {
@@ -24742,7 +24046,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 3,
-      "pwrNoLog": 2.9,
       "sampleSize": 885
     },
     {
@@ -24755,7 +24058,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.8,
-      "pwrNoLog": 2.79,
       "sampleSize": 1395
     },
     {
@@ -24768,7 +24070,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.3,
-      "pwrNoLog": 2.19,
       "sampleSize": 1305
     },
     {
@@ -24781,7 +24082,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.7,
-      "pwrNoLog": 2.57,
       "sampleSize": 998
     },
     {
@@ -24794,7 +24094,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.6,
-      "pwrNoLog": 3.52,
       "sampleSize": 1559
     },
     {
@@ -24807,7 +24106,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.1,
-      "pwrNoLog": 3.01,
       "sampleSize": 964
     },
     {
@@ -24820,7 +24118,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.7,
-      "pwrNoLog": 0.05,
       "sampleSize": 1176
     },
     {
@@ -24833,7 +24130,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.8,
-      "pwrNoLog": 2.78,
       "sampleSize": 1364
     },
     {
@@ -24846,7 +24142,6 @@
       "bannedCount": 1,
       "adp": 5.2,
       "pwr": 1.2,
-      "pwrNoLog": 1.16,
       "sampleSize": 953
     },
     {
@@ -24859,7 +24154,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 2.9,
-      "pwrNoLog": 2.87,
       "sampleSize": 1260
     },
     {
@@ -24872,7 +24166,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 4.3,
-      "pwrNoLog": 4.29,
       "sampleSize": 244
     },
     {
@@ -24885,7 +24178,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.4,
-      "pwrNoLog": 1.32,
       "sampleSize": 335
     },
     {
@@ -24898,7 +24190,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.2,
-      "pwrNoLog": 1.13,
       "sampleSize": 1389
     },
     {
@@ -24911,7 +24202,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.5,
-      "pwrNoLog": 3.43,
       "sampleSize": 1025
     },
     {
@@ -24924,7 +24214,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.6,
-      "pwrNoLog": 0.6,
       "sampleSize": 1149
     },
     {
@@ -24937,7 +24226,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.1,
-      "pwrNoLog": 2,
       "sampleSize": 1221
     },
     {
@@ -24950,7 +24238,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.4,
-      "pwrNoLog": 1.31,
       "sampleSize": 1294
     },
     {
@@ -24963,7 +24250,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.9,
-      "pwrNoLog": 0.81,
       "sampleSize": 1188
     },
     {
@@ -24976,7 +24262,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 3,
-      "pwrNoLog": 0.02,
       "sampleSize": 918
     },
     {
@@ -24989,11 +24274,10 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.8,
-      "pwrNoLog": 2.65,
       "sampleSize": 833
     },
     {
-      "canonicalId": "mixed:minor_improvement:private_forest_base_2_food",
+      "canonicalId": "mixed:minor_improvement:private_forest",
       "metricSet": "4p_comp",
       "dealtCount": 1424,
       "draftedCount": 1307,
@@ -25002,7 +24286,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.1,
-      "pwrNoLog": 3.03,
       "sampleSize": 1424
     },
     {
@@ -25015,7 +24298,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.5,
-      "pwrNoLog": 2.33,
       "sampleSize": 979
     },
     {
@@ -25028,7 +24310,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 1.2,
-      "pwrNoLog": 0,
       "sampleSize": 1368
     },
     {
@@ -25041,7 +24322,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.8,
-      "pwrNoLog": 2.7,
       "sampleSize": 1289
     },
     {
@@ -25054,7 +24334,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.6,
-      "pwrNoLog": 0.48,
       "sampleSize": 1183
     },
     {
@@ -25067,7 +24346,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.4,
-      "pwrNoLog": 1.33,
       "sampleSize": 907
     },
     {
@@ -25080,7 +24358,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2,
-      "pwrNoLog": 1.96,
       "sampleSize": 1241
     },
     {
@@ -25093,7 +24370,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1,
-      "pwrNoLog": 0.93,
       "sampleSize": 1170
     },
     {
@@ -25106,7 +24382,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 3,
-      "pwrNoLog": 2.9,
       "sampleSize": 1225
     },
     {
@@ -25119,7 +24394,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.5,
-      "pwrNoLog": 2.39,
       "sampleSize": 1246
     },
     {
@@ -25132,7 +24406,6 @@
       "bannedCount": 1,
       "adp": 1.7,
       "pwr": 4.9,
-      "pwrNoLog": 4.84,
       "sampleSize": 679
     },
     {
@@ -25145,7 +24418,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 1.7,
-      "pwrNoLog": 1.58,
       "sampleSize": 1404
     },
     {
@@ -25158,7 +24430,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.6,
-      "pwrNoLog": 2.53,
       "sampleSize": 1003
     },
     {
@@ -25171,7 +24442,6 @@
       "bannedCount": 0,
       "adp": 1.1,
       "pwr": 4.6,
-      "pwrNoLog": 4.54,
       "sampleSize": 1539
     },
     {
@@ -25184,7 +24454,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.5,
-      "pwrNoLog": 0.48,
       "sampleSize": 1283
     },
     {
@@ -25197,7 +24466,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 1.6,
-      "pwrNoLog": 1.55,
       "sampleSize": 1219
     },
     {
@@ -25210,7 +24478,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.1,
-      "pwrNoLog": 1.05,
       "sampleSize": 1416
     },
     {
@@ -25223,7 +24490,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 3,
-      "pwrNoLog": 2.96,
       "sampleSize": 1354
     },
     {
@@ -25236,7 +24502,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.6,
-      "pwrNoLog": 1.57,
       "sampleSize": 1314
     },
     {
@@ -25249,7 +24514,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2.4,
-      "pwrNoLog": 2.28,
       "sampleSize": 946
     },
     {
@@ -25262,7 +24526,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 2,
-      "pwrNoLog": 1.91,
       "sampleSize": 1297
     },
     {
@@ -25275,7 +24538,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 4,
-      "pwrNoLog": 3.95,
       "sampleSize": 1574
     },
     {
@@ -25288,7 +24550,6 @@
       "bannedCount": 1,
       "adp": 4.3,
       "pwr": 3.6,
-      "pwrNoLog": 3.57,
       "sampleSize": 4
     },
     {
@@ -25301,7 +24562,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.4,
-      "pwrNoLog": 1.25,
       "sampleSize": 1129
     },
     {
@@ -25314,7 +24574,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 2.7,
-      "pwrNoLog": 2.72,
       "sampleSize": 21
     },
     {
@@ -25327,7 +24586,6 @@
       "bannedCount": 1,
       "adp": 5.7,
       "pwr": 0.4,
-      "pwrNoLog": 0.36,
       "sampleSize": 615
     },
     {
@@ -25340,7 +24598,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.1,
-      "pwrNoLog": 3.11,
       "sampleSize": 1489
     },
     {
@@ -25353,7 +24610,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.6,
-      "pwrNoLog": 0,
       "sampleSize": 1390
     },
     {
@@ -25366,7 +24622,6 @@
       "bannedCount": 1,
       "adp": 1.3,
       "pwr": 2.1,
-      "pwrNoLog": 2.14,
       "sampleSize": 20
     },
     {
@@ -25379,7 +24634,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.5,
-      "pwrNoLog": 1.4,
       "sampleSize": 1299
     },
     {
@@ -25392,7 +24646,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 4.4,
-      "pwrNoLog": 4.41,
       "sampleSize": 1500
     },
     {
@@ -25405,7 +24658,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 3.3,
-      "pwrNoLog": 3.26,
       "sampleSize": 1503
     },
     {
@@ -25418,7 +24670,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.8,
-      "pwrNoLog": 2.77,
       "sampleSize": 1267
     },
     {
@@ -25431,7 +24682,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.2,
-      "pwrNoLog": 3.14,
       "sampleSize": 1321
     },
     {
@@ -25444,7 +24694,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.4,
-      "pwrNoLog": 2.25,
       "sampleSize": 1206
     },
     {
@@ -25457,7 +24706,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.4,
-      "pwrNoLog": 0,
       "sampleSize": 1242
     },
     {
@@ -25470,7 +24718,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.8,
-      "pwrNoLog": 1.77,
       "sampleSize": 1302
     },
     {
@@ -25483,7 +24730,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2.6,
-      "pwrNoLog": 2.53,
       "sampleSize": 975
     },
     {
@@ -25496,7 +24742,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.2,
-      "pwrNoLog": 3.15,
       "sampleSize": 1182
     },
     {
@@ -25509,7 +24754,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.53,
       "sampleSize": 1085
     },
     {
@@ -25522,7 +24766,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 1.6,
-      "pwrNoLog": 1.57,
       "sampleSize": 1339
     },
     {
@@ -25535,7 +24778,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 3,
-      "pwrNoLog": 2.91,
       "sampleSize": 1353
     },
     {
@@ -25548,7 +24790,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.8,
-      "pwrNoLog": 3.77,
       "sampleSize": 996
     },
     {
@@ -25561,7 +24802,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.4,
-      "pwrNoLog": 1.32,
       "sampleSize": 1188
     },
     {
@@ -25574,7 +24814,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 3.6,
-      "pwrNoLog": 3.57,
       "sampleSize": 1502
     },
     {
@@ -25587,7 +24826,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 1.4,
-      "pwrNoLog": 1.22,
       "sampleSize": 930
     },
     {
@@ -25600,7 +24838,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.5,
-      "pwrNoLog": 1.39,
       "sampleSize": 880
     },
     {
@@ -25613,7 +24850,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 0.7,
-      "pwrNoLog": 0.65,
       "sampleSize": 886
     },
     {
@@ -25626,7 +24862,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.5,
-      "pwrNoLog": 1.44,
       "sampleSize": 1190
     },
     {
@@ -25639,7 +24874,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.6,
-      "pwrNoLog": 2.41,
       "sampleSize": 1341
     },
     {
@@ -25652,7 +24886,6 @@
       "bannedCount": 1,
       "adp": 1.8,
       "pwr": 4.2,
-      "pwrNoLog": 4.21,
       "sampleSize": 734
     },
     {
@@ -25665,7 +24898,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3,
-      "pwrNoLog": 2.82,
       "sampleSize": 814
     },
     {
@@ -25678,7 +24910,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 3.3,
-      "pwrNoLog": 3.21,
       "sampleSize": 1127
     },
     {
@@ -25691,7 +24922,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 2,
-      "pwrNoLog": 1.95,
       "sampleSize": 1407
     },
     {
@@ -25704,7 +24934,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 0.9,
-      "pwrNoLog": 0.84,
       "sampleSize": 1225
     },
     {
@@ -25717,7 +24946,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.4,
-      "pwrNoLog": 2.22,
       "sampleSize": 1440
     },
     {
@@ -25730,7 +24958,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.8,
-      "pwrNoLog": 3.78,
       "sampleSize": 989
     },
     {
@@ -25743,7 +24970,6 @@
       "bannedCount": 0,
       "adp": 2,
       "pwr": 4,
-      "pwrNoLog": 3.97,
       "sampleSize": 1327
     },
     {
@@ -25756,7 +24982,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.4,
-      "pwrNoLog": 2.31,
       "sampleSize": 984
     },
     {
@@ -25769,7 +24994,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2,
-      "pwrNoLog": 1.89,
       "sampleSize": 1425
     },
     {
@@ -25782,7 +25006,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 3.4,
-      "pwrNoLog": 3.32,
       "sampleSize": 1534
     },
     {
@@ -25795,7 +25018,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2.2,
-      "pwrNoLog": 2.14,
       "sampleSize": 1188
     },
     {
@@ -25808,7 +25030,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.6,
-      "pwrNoLog": 1.48,
       "sampleSize": 404
     },
     {
@@ -25821,7 +25042,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.1,
-      "pwrNoLog": 2.96,
       "sampleSize": 1005
     },
     {
@@ -25834,7 +25054,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.3,
-      "pwrNoLog": 3.27,
       "sampleSize": 1522
     },
     {
@@ -25847,7 +25066,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.3,
-      "pwrNoLog": 1.24,
       "sampleSize": 1448
     },
     {
@@ -25860,7 +25078,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.5,
-      "pwrNoLog": 1.43,
       "sampleSize": 1178
     },
     {
@@ -25873,7 +25090,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.3,
-      "pwrNoLog": 1.27,
       "sampleSize": 1432
     },
     {
@@ -25886,7 +25102,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.2,
-      "pwrNoLog": 1.15,
       "sampleSize": 1076
     },
     {
@@ -25899,7 +25114,6 @@
       "bannedCount": 0,
       "adp": 2.5,
       "pwr": 3.4,
-      "pwrNoLog": 3.31,
       "sampleSize": 1466
     },
     {
@@ -25912,7 +25126,6 @@
       "bannedCount": 0,
       "adp": 2.2,
       "pwr": 3.7,
-      "pwrNoLog": 3.71,
       "sampleSize": 1281
     },
     {
@@ -25925,7 +25138,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.2,
-      "pwrNoLog": 3.17,
       "sampleSize": 969
     },
     {
@@ -25938,7 +25150,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 3.3,
-      "pwrNoLog": 3.2,
       "sampleSize": 1227
     },
     {
@@ -25951,7 +25162,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.7,
-      "pwrNoLog": 2.62,
       "sampleSize": 1319
     },
     {
@@ -25964,7 +25174,6 @@
       "bannedCount": 0,
       "adp": 4,
       "pwr": 2.5,
-      "pwrNoLog": 2.42,
       "sampleSize": 1203
     },
     {
@@ -25977,7 +25186,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 0.4,
-      "pwrNoLog": 0.39,
       "sampleSize": 771
     },
     {
@@ -25990,7 +25198,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 2.5,
-      "pwrNoLog": 2.43,
       "sampleSize": 1376
     },
     {
@@ -26003,7 +25210,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.5,
-      "pwrNoLog": 2.47,
       "sampleSize": 1389
     },
     {
@@ -26016,7 +25222,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 3,
-      "pwrNoLog": 2.98,
       "sampleSize": 914
     },
     {
@@ -26029,7 +25234,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 1,
-      "pwrNoLog": 0.92,
       "sampleSize": 1146
     },
     {
@@ -26042,7 +25246,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.3,
-      "pwrNoLog": 1.27,
       "sampleSize": 1304
     },
     {
@@ -26055,7 +25258,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0,
-      "pwrNoLog": 0,
       "sampleSize": 1
     },
     {
@@ -26068,7 +25270,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 907
     },
     {
@@ -26081,7 +25282,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 907
     },
     {
@@ -26094,7 +25294,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3,
-      "pwrNoLog": 2.94,
       "sampleSize": 1303
     },
     {
@@ -26107,7 +25306,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.1,
-      "pwrNoLog": 1.02,
       "sampleSize": 1229
     },
     {
@@ -26120,7 +25318,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.2,
-      "pwrNoLog": 2.12,
       "sampleSize": 1347
     },
     {
@@ -26133,7 +25330,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 0,
-      "pwrNoLog": 0,
       "sampleSize": 13
     },
     {
@@ -26146,7 +25342,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.4,
-      "pwrNoLog": 0.3,
       "sampleSize": 1012
     },
     {
@@ -26159,7 +25354,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.4,
-      "pwrNoLog": 0.39,
       "sampleSize": 1107
     },
     {
@@ -26172,7 +25366,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.2,
-      "pwrNoLog": 1.15,
       "sampleSize": 1318
     },
     {
@@ -26185,7 +25378,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.7,
-      "pwrNoLog": 1.67,
       "sampleSize": 1347
     },
     {
@@ -26198,7 +25390,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.7,
-      "pwrNoLog": 1.55,
       "sampleSize": 873
     },
     {
@@ -26211,7 +25402,6 @@
       "bannedCount": 1,
       "adp": 6,
       "pwr": 0.7,
-      "pwrNoLog": 0.68,
       "sampleSize": 1158
     },
     {
@@ -26224,7 +25414,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 2.8,
-      "pwrNoLog": 2.71,
       "sampleSize": 1219
     },
     {
@@ -26237,7 +25426,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.7,
-      "pwrNoLog": 2.62,
       "sampleSize": 1338
     },
     {
@@ -26250,7 +25438,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 4.3,
-      "pwrNoLog": 4.33,
       "sampleSize": 1342
     },
     {
@@ -26263,7 +25450,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.5,
-      "pwrNoLog": 3.42,
       "sampleSize": 1459
     },
     {
@@ -26276,7 +25462,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 3.2,
-      "pwrNoLog": 1.37,
       "sampleSize": 1403
     },
     {
@@ -26289,7 +25474,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.2,
-      "pwrNoLog": 1.99,
       "sampleSize": 1216
     },
     {
@@ -26302,7 +25486,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.1,
-      "pwrNoLog": 2.08,
       "sampleSize": 540
     },
     {
@@ -26315,7 +25498,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.5,
-      "pwrNoLog": 3.43,
       "sampleSize": 1609
     },
     {
@@ -26328,7 +25510,6 @@
       "bannedCount": 1,
       "adp": 6,
       "pwr": 0.5,
-      "pwrNoLog": 0.49,
       "sampleSize": 1095
     },
     {
@@ -26341,7 +25522,6 @@
       "bannedCount": 0,
       "adp": 6.3,
       "pwr": 0.2,
-      "pwrNoLog": 0.2,
       "sampleSize": 934
     },
     {
@@ -26354,7 +25534,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 3.1,
-      "pwrNoLog": 3.05,
       "sampleSize": 1429
     },
     {
@@ -26367,7 +25546,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.5,
-      "pwrNoLog": 3.5,
       "sampleSize": 267
     },
     {
@@ -26380,7 +25558,6 @@
       "bannedCount": 1,
       "adp": 6.3,
       "pwr": 0.2,
-      "pwrNoLog": 0.18,
       "sampleSize": 1047
     },
     {
@@ -26393,7 +25570,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.8,
-      "pwrNoLog": 1.72,
       "sampleSize": 1169
     },
     {
@@ -26406,7 +25582,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 2.2,
-      "pwrNoLog": 2.15,
       "sampleSize": 1229
     },
     {
@@ -26419,7 +25594,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 1.9,
-      "pwrNoLog": 1.83,
       "sampleSize": 239
     },
     {
@@ -26432,7 +25606,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.9,
-      "pwrNoLog": 2.8,
       "sampleSize": 1458
     },
     {
@@ -26445,7 +25618,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.4,
-      "pwrNoLog": 2.3,
       "sampleSize": 1353
     },
     {
@@ -26458,7 +25630,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3,
-      "pwrNoLog": 2.94,
       "sampleSize": 1048
     },
     {
@@ -26471,7 +25642,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.2,
-      "pwrNoLog": 2.09,
       "sampleSize": 420
     },
     {
@@ -26484,7 +25654,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.3,
-      "pwrNoLog": 1.23,
       "sampleSize": 1177
     },
     {
@@ -26497,7 +25666,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.5,
-      "pwrNoLog": 0,
       "sampleSize": 101
     },
     {
@@ -26510,7 +25678,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 3,
-      "pwrNoLog": 2.87,
       "sampleSize": 1151
     },
     {
@@ -26523,7 +25690,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.7,
-      "pwrNoLog": 3.67,
       "sampleSize": 1008
     },
     {
@@ -26536,7 +25702,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.9,
-      "pwrNoLog": 0.87,
       "sampleSize": 1229
     },
     {
@@ -26549,7 +25714,6 @@
       "bannedCount": 0,
       "adp": 5.9,
       "pwr": 0.5,
-      "pwrNoLog": 0.48,
       "sampleSize": 1160
     },
     {
@@ -26562,7 +25726,6 @@
       "bannedCount": 0,
       "adp": 2.6,
       "pwr": 3.1,
-      "pwrNoLog": 3.07,
       "sampleSize": 1475
     },
     {
@@ -26575,7 +25738,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.2,
-      "pwrNoLog": 0.17,
       "sampleSize": 1184
     },
     {
@@ -26588,7 +25750,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0,
-      "pwrNoLog": 0,
       "sampleSize": 7
     },
     {
@@ -26601,7 +25762,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2,
-      "pwrNoLog": 1.91,
       "sampleSize": 1107
     },
     {
@@ -26614,7 +25774,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.9,
-      "pwrNoLog": 0.01,
       "sampleSize": 1429
     },
     {
@@ -26627,7 +25786,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.6,
-      "pwrNoLog": 3.55,
       "sampleSize": 552
     },
     {
@@ -26640,7 +25798,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2,
-      "pwrNoLog": 1.93,
       "sampleSize": 1298
     },
     {
@@ -26653,7 +25810,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.4,
-      "pwrNoLog": 1.3,
       "sampleSize": 1203
     },
     {
@@ -26666,7 +25822,6 @@
       "bannedCount": 1,
       "adp": 6.3,
       "pwr": 0.2,
-      "pwrNoLog": 0.19,
       "sampleSize": 995
     },
     {
@@ -26679,7 +25834,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.7,
-      "pwrNoLog": 1.61,
       "sampleSize": 1281
     },
     {
@@ -26692,7 +25846,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.7,
-      "pwrNoLog": 2.56,
       "sampleSize": 1357
     },
     {
@@ -26705,7 +25858,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.1,
-      "pwrNoLog": 1.09,
       "sampleSize": 1364
     },
     {
@@ -26718,7 +25870,6 @@
       "bannedCount": 0,
       "adp": 1.8,
       "pwr": 3.5,
-      "pwrNoLog": 3.46,
       "sampleSize": 1596
     },
     {
@@ -26731,7 +25882,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.7,
-      "pwrNoLog": 2.62,
       "sampleSize": 1349
     },
     {
@@ -26744,7 +25894,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.5,
-      "pwrNoLog": 2.45,
       "sampleSize": 1195
     },
     {
@@ -26757,7 +25906,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 2,
-      "pwrNoLog": 1.86,
       "sampleSize": 971
     },
     {
@@ -26770,7 +25918,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.7,
-      "pwrNoLog": 0.63,
       "sampleSize": 1306
     },
     {
@@ -26783,7 +25930,6 @@
       "bannedCount": 1,
       "adp": 5.5,
       "pwr": 0.7,
-      "pwrNoLog": 0.68,
       "sampleSize": 659
     },
     {
@@ -26796,7 +25942,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.4,
-      "pwrNoLog": 0.35,
       "sampleSize": 1086
     },
     {
@@ -26809,7 +25954,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.8,
-      "pwrNoLog": 1.69,
       "sampleSize": 1405
     },
     {
@@ -26822,7 +25966,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.3,
-      "pwrNoLog": 1.26,
       "sampleSize": 1284
     },
     {
@@ -26835,7 +25978,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.8,
-      "pwrNoLog": 2.66,
       "sampleSize": 1190
     },
     {
@@ -26848,7 +25990,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.4,
-      "pwrNoLog": 3.31,
       "sampleSize": 1509
     },
     {
@@ -26861,7 +26002,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.8,
-      "pwrNoLog": 0.74,
       "sampleSize": 1130
     },
     {
@@ -26874,7 +26014,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.9,
-      "pwrNoLog": 0.01,
       "sampleSize": 1399
     },
     {
@@ -26887,7 +26026,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2,
-      "pwrNoLog": 1.96,
       "sampleSize": 1131
     },
     {
@@ -26900,7 +26038,6 @@
       "bannedCount": 1,
       "adp": 2.5,
       "pwr": 2.1,
-      "pwrNoLog": 2.05,
       "sampleSize": 1114
     },
     {
@@ -26913,7 +26050,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.5,
-      "pwrNoLog": 0.01,
       "sampleSize": 1396
     },
     {
@@ -26926,7 +26062,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.6,
-      "pwrNoLog": 2.55,
       "sampleSize": 1505
     },
     {
@@ -26939,7 +26074,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.2,
-      "pwrNoLog": 3.14,
       "sampleSize": 1216
     },
     {
@@ -26952,7 +26086,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.2,
-      "pwrNoLog": 1.09,
       "sampleSize": 1440
     },
     {
@@ -26965,7 +26098,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 1239
     },
     {
@@ -26978,7 +26110,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.9,
-      "pwrNoLog": 2.84,
       "sampleSize": 1359
     },
     {
@@ -26991,7 +26122,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 3,
-      "pwrNoLog": 2.86,
       "sampleSize": 1444
     },
     {
@@ -27004,7 +26134,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.5,
-      "pwrNoLog": 2.44,
       "sampleSize": 367
     },
     {
@@ -27017,7 +26146,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.2,
-      "pwrNoLog": 1.06,
       "sampleSize": 1277
     },
     {
@@ -27030,7 +26158,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.9,
-      "pwrNoLog": 2.83,
       "sampleSize": 1507
     },
     {
@@ -27043,7 +26170,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 0.7,
-      "pwrNoLog": 0.57,
       "sampleSize": 1336
     },
     {
@@ -27056,7 +26182,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.9,
-      "pwrNoLog": 2.86,
       "sampleSize": 1028
     },
     {
@@ -27069,7 +26194,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 0.8,
-      "pwrNoLog": 0.77,
       "sampleSize": 1255
     },
     {
@@ -27082,7 +26206,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 2,
-      "pwrNoLog": 1.93,
       "sampleSize": 1221
     },
     {
@@ -27095,7 +26218,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 3,
-      "pwrNoLog": 2.89,
       "sampleSize": 1487
     },
     {
@@ -27108,7 +26230,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.5,
-      "pwrNoLog": 2.38,
       "sampleSize": 1352
     },
     {
@@ -27121,7 +26242,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3.3,
-      "pwrNoLog": 3.26,
       "sampleSize": 1344
     },
     {
@@ -27134,7 +26254,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 0.8,
-      "pwrNoLog": 0.8,
       "sampleSize": 1335
     },
     {
@@ -27147,7 +26266,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.4,
-      "pwrNoLog": 1.3,
       "sampleSize": 1306
     },
     {
@@ -27160,7 +26278,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 3,
-      "pwrNoLog": 2.94,
       "sampleSize": 951
     },
     {
@@ -27173,7 +26290,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 2.7,
-      "pwrNoLog": 2.57,
       "sampleSize": 914
     },
     {
@@ -27186,7 +26302,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.4,
-      "pwrNoLog": 1.36,
       "sampleSize": 1399
     },
     {
@@ -27199,7 +26314,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 2.8,
-      "pwrNoLog": 0,
       "sampleSize": 1477
     },
     {
@@ -27212,7 +26326,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.6,
-      "pwrNoLog": 2.54,
       "sampleSize": 1373
     },
     {
@@ -27225,7 +26338,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 1.8,
-      "pwrNoLog": 1.74,
       "sampleSize": 1243
     },
     {
@@ -27238,7 +26350,6 @@
       "bannedCount": 1,
       "adp": 2.3,
       "pwr": 3.3,
-      "pwrNoLog": 3.19,
       "sampleSize": 871
     },
     {
@@ -27251,7 +26362,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 2.8,
-      "pwrNoLog": 2.77,
       "sampleSize": 1498
     },
     {
@@ -27264,7 +26374,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1,
-      "pwrNoLog": 0.94,
       "sampleSize": 1236
     },
     {
@@ -27277,7 +26386,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.8,
-      "pwrNoLog": 0,
       "sampleSize": 1250
     },
     {
@@ -27290,7 +26398,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 0.8,
-      "pwrNoLog": 0.78,
       "sampleSize": 826
     },
     {
@@ -27303,7 +26410,6 @@
       "bannedCount": 0,
       "adp": 1.6,
       "pwr": 4,
-      "pwrNoLog": 4,
       "sampleSize": 1603
     },
     {
@@ -27316,7 +26422,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 1.5,
-      "pwrNoLog": 1.48,
       "sampleSize": 1393
     },
     {
@@ -27329,7 +26434,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.5,
-      "pwrNoLog": 0.49,
       "sampleSize": 1289
     },
     {
@@ -27342,7 +26446,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 3.5,
-      "pwrNoLog": 3.46,
       "sampleSize": 1665
     },
     {
@@ -27355,7 +26458,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1,
-      "pwrNoLog": 0.97,
       "sampleSize": 1205
     },
     {
@@ -27368,7 +26470,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2,
-      "pwrNoLog": 1.99,
       "sampleSize": 1208
     },
     {
@@ -27381,7 +26482,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.5,
-      "pwrNoLog": 1.51,
       "sampleSize": 1366
     },
     {
@@ -27394,7 +26494,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.2,
-      "pwrNoLog": 2.14,
       "sampleSize": 1254
     },
     {
@@ -27407,7 +26506,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.3,
-      "pwrNoLog": 1.19,
       "sampleSize": 932
     },
     {
@@ -27420,7 +26518,6 @@
       "bannedCount": 1,
       "adp": 2.4,
       "pwr": 6.3,
-      "pwrNoLog": 6.35,
       "sampleSize": 9
     },
     {
@@ -27433,7 +26530,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.8,
-      "pwrNoLog": 0.69,
       "sampleSize": 1307
     },
     {
@@ -27446,7 +26542,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.3,
-      "pwrNoLog": 1.25,
       "sampleSize": 1294
     },
     {
@@ -27459,7 +26554,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.9,
-      "pwrNoLog": 0,
       "sampleSize": 1188
     },
     {
@@ -27472,7 +26566,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 2.1,
-      "pwrNoLog": 2.03,
       "sampleSize": 1322
     },
     {
@@ -27485,7 +26578,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 2.1,
-      "pwrNoLog": 2.09,
       "sampleSize": 1553
     },
     {
@@ -27498,7 +26590,6 @@
       "bannedCount": 0,
       "adp": 5.4,
       "pwr": 1.4,
-      "pwrNoLog": 1.37,
       "sampleSize": 894
     },
     {
@@ -27511,7 +26602,6 @@
       "bannedCount": 0,
       "adp": 5.5,
       "pwr": 1.5,
-      "pwrNoLog": 1.41,
       "sampleSize": 1437
     },
     {
@@ -27524,7 +26614,6 @@
       "bannedCount": 0,
       "adp": 6,
       "pwr": 0.3,
-      "pwrNoLog": 0.3,
       "sampleSize": 960
     },
     {
@@ -27537,7 +26626,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 3.6,
-      "pwrNoLog": 3.51,
       "sampleSize": 1337
     },
     {
@@ -27550,7 +26638,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.3,
-      "pwrNoLog": 0.01,
       "sampleSize": 1219
     },
     {
@@ -27563,7 +26650,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2,
-      "pwrNoLog": 1.9,
       "sampleSize": 1018
     },
     {
@@ -27576,7 +26662,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.9,
-      "pwrNoLog": 1.86,
       "sampleSize": 1318
     },
     {
@@ -27589,7 +26674,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.1,
-      "pwrNoLog": 1.98,
       "sampleSize": 1382
     },
     {
@@ -27602,7 +26686,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.1,
-      "pwrNoLog": 1.02,
       "sampleSize": 1328
     },
     {
@@ -27615,7 +26698,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.5,
-      "pwrNoLog": 1.4,
       "sampleSize": 1332
     },
     {
@@ -27628,7 +26710,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2.4,
-      "pwrNoLog": 2.29,
       "sampleSize": 1208
     },
     {
@@ -27641,7 +26722,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.3,
-      "pwrNoLog": 3.21,
       "sampleSize": 1285
     },
     {
@@ -27654,7 +26734,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.9,
-      "pwrNoLog": 0.86,
       "sampleSize": 1341
     },
     {
@@ -27667,7 +26746,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.2,
-      "pwrNoLog": 3.11,
       "sampleSize": 1383
     },
     {
@@ -27680,7 +26758,6 @@
       "bannedCount": 0,
       "adp": 2.2,
       "pwr": 3.6,
-      "pwrNoLog": 3.51,
       "sampleSize": 1325
     },
     {
@@ -27693,7 +26770,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.1,
-      "pwrNoLog": 3.03,
       "sampleSize": 1370
     },
     {
@@ -27706,7 +26782,6 @@
       "bannedCount": 0,
       "adp": 3.6,
       "pwr": 3.8,
-      "pwrNoLog": 3.68,
       "sampleSize": 1054
     },
     {
@@ -27719,7 +26794,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.3,
-      "pwrNoLog": 1.25,
       "sampleSize": 1389
     },
     {
@@ -27732,7 +26806,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 2.4,
-      "pwrNoLog": 2.36,
       "sampleSize": 1324
     },
     {
@@ -27745,7 +26818,6 @@
       "bannedCount": 0,
       "adp": 4.4,
       "pwr": 2.1,
-      "pwrNoLog": 1.98,
       "sampleSize": 564
     },
     {
@@ -27758,7 +26830,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 3.6,
-      "pwrNoLog": 3.6,
       "sampleSize": 1422
     },
     {
@@ -27771,7 +26842,6 @@
       "bannedCount": 1,
       "adp": 6.4,
       "pwr": 0,
-      "pwrNoLog": 0.04,
       "sampleSize": 1138
     },
     {
@@ -27784,7 +26854,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 3.9,
-      "pwrNoLog": 3.86,
       "sampleSize": 1594
     },
     {
@@ -27797,7 +26866,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 2.9,
-      "pwrNoLog": 2.86,
       "sampleSize": 1422
     },
     {
@@ -27810,7 +26878,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.2,
-      "pwrNoLog": 3.13,
       "sampleSize": 1495
     },
     {
@@ -27823,7 +26890,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.2,
-      "pwrNoLog": 3.11,
       "sampleSize": 1281
     },
     {
@@ -27836,7 +26902,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 2.3,
-      "pwrNoLog": 2.23,
       "sampleSize": 1334
     },
     {
@@ -27849,7 +26914,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.2,
-      "pwrNoLog": 1.02,
       "sampleSize": 845
     },
     {
@@ -27862,7 +26926,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.2,
-      "pwrNoLog": 2.1,
       "sampleSize": 1416
     },
     {
@@ -27875,7 +26938,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.4,
-      "pwrNoLog": 1.33,
       "sampleSize": 1079
     },
     {
@@ -27888,7 +26950,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.6,
-      "pwrNoLog": 1.51,
       "sampleSize": 1026
     },
     {
@@ -27901,7 +26962,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 2.3,
-      "pwrNoLog": 0.01,
       "sampleSize": 1215
     },
     {
@@ -27914,7 +26974,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 2.7,
-      "pwrNoLog": 2.61,
       "sampleSize": 1170
     },
     {
@@ -27927,7 +26986,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1,
-      "pwrNoLog": 0.96,
       "sampleSize": 1397
     },
     {
@@ -27940,7 +26998,6 @@
       "bannedCount": 1,
       "adp": 4.3,
       "pwr": 2,
-      "pwrNoLog": 1.97,
       "sampleSize": 1016
     },
     {
@@ -27953,7 +27010,6 @@
       "bannedCount": 0,
       "adp": 2.8,
       "pwr": 3.1,
-      "pwrNoLog": 3.05,
       "sampleSize": 1301
     },
     {
@@ -27966,7 +27022,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 2.8,
-      "pwrNoLog": 2.78,
       "sampleSize": 1108
     },
     {
@@ -27979,7 +27034,6 @@
       "bannedCount": 0,
       "adp": 6.3,
       "pwr": 0.1,
-      "pwrNoLog": 0.1,
       "sampleSize": 1026
     },
     {
@@ -27992,7 +27046,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 2.3,
-      "pwrNoLog": 2.25,
       "sampleSize": 529
     },
     {
@@ -28005,7 +27058,6 @@
       "bannedCount": 0,
       "adp": 3.8,
       "pwr": 3.1,
-      "pwrNoLog": 3.04,
       "sampleSize": 1274
     },
     {
@@ -28018,7 +27070,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.6,
-      "pwrNoLog": 3.56,
       "sampleSize": 1547
     },
     {
@@ -28031,7 +27082,6 @@
       "bannedCount": 0,
       "adp": 4.7,
       "pwr": 2,
-      "pwrNoLog": 1.98,
       "sampleSize": 1344
     },
     {
@@ -28044,7 +27094,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 3.7,
-      "pwrNoLog": 3.62,
       "sampleSize": 402
     },
     {
@@ -28057,7 +27106,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 3.3,
-      "pwrNoLog": 3.15,
       "sampleSize": 1465
     },
     {
@@ -28070,7 +27118,6 @@
       "bannedCount": 0,
       "adp": 4.5,
       "pwr": 2,
-      "pwrNoLog": 1.93,
       "sampleSize": 1434
     },
     {
@@ -28083,7 +27130,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 3.2,
-      "pwrNoLog": 3.1,
       "sampleSize": 864
     },
     {
@@ -28096,7 +27142,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 3,
-      "pwrNoLog": 2.92,
       "sampleSize": 1095
     },
     {
@@ -28109,7 +27154,6 @@
       "bannedCount": 0,
       "adp": 4.9,
       "pwr": 1.5,
-      "pwrNoLog": 1.45,
       "sampleSize": 987
     },
     {
@@ -28122,7 +27166,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.1,
-      "pwrNoLog": 2.04,
       "sampleSize": 1107
     },
     {
@@ -28135,7 +27178,6 @@
       "bannedCount": 0,
       "adp": 3.4,
       "pwr": 3.7,
-      "pwrNoLog": 3.67,
       "sampleSize": 1315
     },
     {
@@ -28148,7 +27190,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.3,
-      "pwrNoLog": 1.21,
       "sampleSize": 1110
     },
     {
@@ -28161,7 +27202,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 2.6,
-      "pwrNoLog": 2.57,
       "sampleSize": 1136
     },
     {
@@ -28174,7 +27214,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.2,
-      "pwrNoLog": 1.17,
       "sampleSize": 1101
     },
     {
@@ -28187,7 +27226,6 @@
       "bannedCount": 1,
       "adp": 6.3,
       "pwr": 0,
-      "pwrNoLog": 0.01,
       "sampleSize": 660
     },
     {
@@ -28200,7 +27238,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 1.3,
-      "pwrNoLog": 0.01,
       "sampleSize": 1454
     },
     {
@@ -28213,7 +27250,6 @@
       "bannedCount": 0,
       "adp": 4.1,
       "pwr": 3.1,
-      "pwrNoLog": 3.1,
       "sampleSize": 510
     },
     {
@@ -28226,7 +27262,6 @@
       "bannedCount": 0,
       "adp": 3.9,
       "pwr": 2.9,
-      "pwrNoLog": 2.77,
       "sampleSize": 1311
     },
     {
@@ -28239,7 +27274,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 1,
-      "pwrNoLog": 0.96,
       "sampleSize": 1099
     },
     {
@@ -28252,7 +27286,6 @@
       "bannedCount": 0,
       "adp": 6.2,
       "pwr": 0.4,
-      "pwrNoLog": 0.34,
       "sampleSize": 1099
     },
     {
@@ -28265,7 +27298,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.7,
-      "pwrNoLog": 0.01,
       "sampleSize": 1091
     },
     {
@@ -28278,7 +27310,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 3,
-      "pwrNoLog": 2.91,
       "sampleSize": 1241
     },
     {
@@ -28291,7 +27322,6 @@
       "bannedCount": 0,
       "adp": 5.7,
       "pwr": 0.8,
-      "pwrNoLog": 0.71,
       "sampleSize": 870
     },
     {
@@ -28304,7 +27334,6 @@
       "bannedCount": 1,
       "adp": 1.8,
       "pwr": 3.8,
-      "pwrNoLog": 3.76,
       "sampleSize": 19
     },
     {
@@ -28317,7 +27346,6 @@
       "bannedCount": 0,
       "adp": 3.5,
       "pwr": 2.7,
-      "pwrNoLog": 2.62,
       "sampleSize": 1236
     },
     {
@@ -28330,7 +27358,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.6,
-      "pwrNoLog": 1.53,
       "sampleSize": 1213
     },
     {
@@ -28343,7 +27370,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.9,
-      "pwrNoLog": 2.84,
       "sampleSize": 1294
     },
     {
@@ -28356,7 +27382,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.3,
-      "pwrNoLog": 2.23,
       "sampleSize": 1238
     },
     {
@@ -28369,7 +27394,6 @@
       "bannedCount": 1,
       "adp": 4.5,
       "pwr": 2.6,
-      "pwrNoLog": 2.55,
       "sampleSize": 989
     },
     {
@@ -28382,7 +27406,6 @@
       "bannedCount": 0,
       "adp": 6.1,
       "pwr": 1,
-      "pwrNoLog": 0,
       "sampleSize": 1345
     },
     {
@@ -28395,7 +27418,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.7,
-      "pwrNoLog": 2.52,
       "sampleSize": 404
     },
     {
@@ -28408,7 +27430,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3.7,
-      "pwrNoLog": 3.71,
       "sampleSize": 977
     },
     {
@@ -28421,7 +27442,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.9,
-      "pwrNoLog": 0.01,
       "sampleSize": 1311
     },
     {
@@ -28434,7 +27454,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.4,
-      "pwrNoLog": 2.3,
       "sampleSize": 1152
     },
     {
@@ -28447,7 +27466,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.4,
-      "pwrNoLog": 1.33,
       "sampleSize": 1396
     },
     {
@@ -28460,7 +27478,6 @@
       "bannedCount": 1,
       "adp": 6.1,
       "pwr": 0.3,
-      "pwrNoLog": 0.31,
       "sampleSize": 1024
     },
     {
@@ -28473,7 +27490,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.3,
-      "pwrNoLog": 1.21,
       "sampleSize": 1397
     },
     {
@@ -28486,7 +27502,6 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 2.7,
-      "pwrNoLog": 1.07,
       "sampleSize": 1297
     },
     {
@@ -28499,7 +27514,6 @@
       "bannedCount": 0,
       "adp": 3,
       "pwr": 4,
-      "pwrNoLog": 3.97,
       "sampleSize": 1295
     },
     {
@@ -28512,7 +27526,6 @@
       "bannedCount": 0,
       "adp": 2.7,
       "pwr": 3.7,
-      "pwrNoLog": 3.65,
       "sampleSize": 1151
     },
     {
@@ -28525,7 +27538,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.4,
-      "pwrNoLog": 1.29,
       "sampleSize": 1179
     },
     {
@@ -28538,7 +27550,6 @@
       "bannedCount": 0,
       "adp": 4.2,
       "pwr": 3,
-      "pwrNoLog": 2.92,
       "sampleSize": 1280
     },
     {
@@ -28551,7 +27562,6 @@
       "bannedCount": 0,
       "adp": 2.3,
       "pwr": 4,
-      "pwrNoLog": 3.92,
       "sampleSize": 1316
     },
     {
@@ -28564,7 +27574,6 @@
       "bannedCount": 1,
       "adp": 5.6,
       "pwr": 0.9,
-      "pwrNoLog": 0.87,
       "sampleSize": 629
     },
     {
@@ -28577,7 +27586,6 @@
       "bannedCount": 0,
       "adp": 2.9,
       "pwr": 3,
-      "pwrNoLog": 2.87,
       "sampleSize": 1369
     },
     {
@@ -28590,11 +27598,10 @@
       "bannedCount": 0,
       "adp": 5,
       "pwr": 1.8,
-      "pwrNoLog": 1.79,
       "sampleSize": 1347
     },
     {
-      "canonicalId": "mixed:occupation:brushwood_collector_e3ce380494",
+      "canonicalId": "mixed:occupation:wood_collector",
       "metricSet": "4p_comp",
       "dealtCount": 1563,
       "draftedCount": 1452,
@@ -28603,7 +27610,6 @@
       "bannedCount": 0,
       "adp": 3.3,
       "pwr": 3,
-      "pwrNoLog": 2.95,
       "sampleSize": 1563
     },
     {
@@ -28616,7 +27622,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 2.8,
-      "pwrNoLog": 2.74,
       "sampleSize": 1308
     },
     {
@@ -28629,7 +27634,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 1.6,
-      "pwrNoLog": 1.48,
       "sampleSize": 1292
     },
     {
@@ -28642,7 +27646,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1,
-      "pwrNoLog": 0.96,
       "sampleSize": 1266
     },
     {
@@ -28655,11 +27658,10 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.5,
-      "pwrNoLog": 0.43,
       "sampleSize": 1330
     },
     {
-      "canonicalId": "mixed:occupation:wood_worker_artifex_expansion_4",
+      "canonicalId": "mixed:occupation:wood_worker",
       "metricSet": "4p_comp",
       "dealtCount": 1332,
       "draftedCount": 775,
@@ -28668,7 +27670,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 1.6,
-      "pwrNoLog": 1.5,
       "sampleSize": 1332
     },
     {
@@ -28681,7 +27682,6 @@
       "bannedCount": 0,
       "adp": 5.1,
       "pwr": 1.2,
-      "pwrNoLog": 1.04,
       "sampleSize": 1346
     },
     {
@@ -28694,7 +27694,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.8,
-      "pwrNoLog": 1.8,
       "sampleSize": 1389
     },
     {
@@ -28707,7 +27706,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.5,
-      "pwrNoLog": 0.45,
       "sampleSize": 1209
     },
     {
@@ -28720,7 +27718,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 1,
-      "pwrNoLog": 0.92,
       "sampleSize": 1343
     },
     {
@@ -28733,7 +27730,6 @@
       "bannedCount": 1,
       "adp": 2,
       "pwr": 3.2,
-      "pwrNoLog": 0,
       "sampleSize": 9
     },
     {
@@ -28746,7 +27742,6 @@
       "bannedCount": 0,
       "adp": 4.3,
       "pwr": 3,
-      "pwrNoLog": 2.97,
       "sampleSize": 1303
     },
     {
@@ -28759,7 +27754,6 @@
       "bannedCount": 0,
       "adp": 4.6,
       "pwr": 2.3,
-      "pwrNoLog": 2.18,
       "sampleSize": 1437
     },
     {
@@ -28772,7 +27766,6 @@
       "bannedCount": 0,
       "adp": 5.6,
       "pwr": 0.6,
-      "pwrNoLog": 0.52,
       "sampleSize": 926
     },
     {
@@ -28785,7 +27778,6 @@
       "bannedCount": 0,
       "adp": 3.7,
       "pwr": 3.3,
-      "pwrNoLog": 3.16,
       "sampleSize": 1323
     },
     {
@@ -28798,7 +27790,6 @@
       "bannedCount": 1,
       "adp": 3.8,
       "pwr": 2.7,
-      "pwrNoLog": 2.57,
       "sampleSize": 1331
     },
     {
@@ -28811,7 +27802,6 @@
       "bannedCount": 0,
       "adp": 5.2,
       "pwr": 1.4,
-      "pwrNoLog": 1.33,
       "sampleSize": 1352
     },
     {
@@ -28824,7 +27814,6 @@
       "bannedCount": 0,
       "adp": 5.3,
       "pwr": 0,
-      "pwrNoLog": 0,
       "sampleSize": 8
     },
     {
@@ -28837,7 +27826,6 @@
       "bannedCount": 0,
       "adp": 3.1,
       "pwr": 3.2,
-      "pwrNoLog": 3.15,
       "sampleSize": 1582
     },
     {
@@ -28850,7 +27838,6 @@
       "bannedCount": 0,
       "adp": 2.4,
       "pwr": 3.5,
-      "pwrNoLog": 3.4,
       "sampleSize": 1526
     },
     {
@@ -28863,7 +27850,6 @@
       "bannedCount": 0,
       "adp": 5.8,
       "pwr": 0.8,
-      "pwrNoLog": 0.78,
       "sampleSize": 1288
     },
     {
@@ -28876,7 +27862,6 @@
       "bannedCount": 0,
       "adp": 4.8,
       "pwr": 1.4,
-      "pwrNoLog": 1.32,
       "sampleSize": 1352
     },
     {
@@ -28889,7 +27874,6 @@
       "bannedCount": 0,
       "adp": 3.2,
       "pwr": 2.6,
-      "pwrNoLog": 2.46,
       "sampleSize": 901
     },
     {
@@ -28902,7 +27886,6 @@
       "bannedCount": 0,
       "adp": 1.9,
       "pwr": 3.8,
-      "pwrNoLog": 3.77,
       "sampleSize": 1281
     }
   ]

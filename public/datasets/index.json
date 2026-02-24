@@ -11,17 +11,14 @@
         "sourceUrl": "https://agricola.no/play-agricola-4player-card-statistics/",
         "edition": "mixed",
         "comparabilityGroup": "norge_4p_play_agricola_counts",
-        "generatedAt": "2026-02-24T19:12:51.774Z",
-        "licenseNote": "Derived from publicly visible table values. Re-check source and local terms.",
+        "generatedAt": "2026-02-24T21:29:44.014Z",
+        "licenseNote": "Approved for publication.",
         "hasFullCardText": false,
         "hasStats": true,
         "importStatus": {
-          "sourceMode": "local_file",
+          "sourceMode": "local",
           "sourceRows": 1014,
-          "importedCards": 1014,
-          "matchedCards": 562,
-          "unmatchedCards": 452,
-          "fallbackUsed": false
+          "importedCards": 1014
         }
       }
     },
@@ -36,16 +33,15 @@
         "sourceUrl": "https://www.agricolacards.com/get-cards",
         "edition": "mixed",
         "comparabilityGroup": "metadata_reference",
-        "generatedAt": "2026-02-24T19:12:48.487Z",
-        "licenseNote": "Check source terms before redistribution.",
+        "generatedAt": "2026-02-24T21:29:41.671Z",
+        "licenseNote": "Approved for publication.",
         "hasFullCardText": true,
         "hasStats": false,
         "importStatus": {
-          "sourceMode": "network",
+          "sourceMode": "local",
           "sourceRows": 1702,
           "importedCards": 1674,
-          "fallbackUsed": false,
-          "note": "Included fields: expansion, card title, cost, player count, text, type. Invalid rows skipped: 28."
+          "note": "Included fields: expansion, card title, cost, player count, vps, text, type. Invalid rows skipped: 28."
         }
       }
     }

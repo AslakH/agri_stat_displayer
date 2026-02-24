@@ -6,14 +6,10 @@ interface FiltersBarProps {
   cardTypes: CardType[];
   cardType: CardType | "all";
   onCardTypeChange: (value: CardType | "all") => void;
-  showDeckFilter: boolean;
-  deck: string | "all";
-  onDeckChange: (value: string | "all") => void;
   showEditionFilter: boolean;
   edition: Edition | "all";
   onEditionChange: (value: Edition | "all") => void;
   editions: Edition[];
-  decks: string[];
 }
 
 const CARD_TYPE_LABELS: Record<CardType, string> = {
@@ -34,14 +30,10 @@ export const FiltersBar = ({
   cardTypes,
   cardType,
   onCardTypeChange,
-  showDeckFilter,
-  deck,
-  onDeckChange,
   showEditionFilter,
   edition,
   onEditionChange,
-  editions,
-  decks
+  editions
 }: FiltersBarProps) => (
   <section className="filters-wrap">
     <label className="field search-field">
@@ -49,7 +41,7 @@ export const FiltersBar = ({
       <input
         type="search"
         value={query}
-        placeholder="Search by name, alias, or text"
+        placeholder="Search by name or text"
         aria-label="Search cards"
         onChange={(event) => onQueryChange(event.target.value)}
       />
@@ -66,19 +58,6 @@ export const FiltersBar = ({
           ))}
         </select>
       </label>
-      {showDeckFilter ? (
-        <label className="field">
-          <span className="field-label">Deck</span>
-          <select value={deck} onChange={(event) => onDeckChange(event.target.value)}>
-            <option value="all">All Decks</option>
-            {decks.map((deckOption) => (
-              <option key={deckOption} value={deckOption}>
-                {deckOption}
-              </option>
-            ))}
-          </select>
-        </label>
-      ) : null}
       {showEditionFilter ? (
         <label className="field">
           <span className="field-label">Edition</span>

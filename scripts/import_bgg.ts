@@ -124,7 +124,7 @@ const run = async (): Promise<void> => {
         edition: "mixed",
         comparabilityGroup: "bgg_manual_import",
         generatedAt,
-        licenseNote: "User-provided BGG export. Respect BGG and file author terms.",
+        licenseNote: "Manual BoardGameGeek export.",
         hasFullCardText: cards.every((card) => card.text.trim().length > 0),
         hasStats: stats.length > 0
       },

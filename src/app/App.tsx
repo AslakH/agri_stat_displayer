@@ -5,12 +5,10 @@ import { DatasetSwitcher } from "../components/DatasetSwitcher";
 import { FiltersBar } from "../components/FiltersBar";
 import { ImportStatusPanel } from "../components/ImportStatusPanel";
 import { loadDatasetIndex, loadDatasetPackage } from "../data/loadDatasets";
-import { collectCardTypes, collectDecks, collectEditions, filterCards } from "../data/search";
+import { collectCardTypes, collectEditions, filterCards } from "../data/search";
 import type { CardType, DatasetIndexEntry, DatasetPackage, Edition, StatRecord } from "../data/types";
 
 const STORAGE_SELECTED_DATASET = "agri_selected_dataset";
-const STORAGE_LAST_COMPARABILITY_GROUP = "agri_last_comparability_group";
-const STORAGE_LAST_DATASET_ID = "agri_last_dataset_id";
 
 const toStatsMap = (stats: StatRecord[]): Map<string, StatRecord> => {
   const map = new Map<string, StatRecord>();
@@ -20,6 +18,15 @@ const toStatsMap = (stats: StatRecord[]): Map<string, StatRecord> => {
   return map;
 };
 
+const snapshotDateLabel = (generatedAt: string): string => {
+  const parsed = new Date(generatedAt);
+  if (Number.isNaN(parsed.getTime())) {
+    return generatedAt;
+  }
+
+  return parsed.toISOString().slice(0, 10);
+};
+
 export const App = () => {
   const [datasetIndex, setDatasetIndex] = useState<DatasetIndexEntry[]>([]);
   const [datasetMap, setDatasetMap] = useState<Record<string, DatasetPackage>>({});
@@ -27,9 +34,7 @@ export const App = () => {
   const [selectedCardId, setSelectedCardId] = useState("");
   const [query, setQuery] = useState("");
   const [cardType, setCardType] = useState<CardType | "all">("all");
-  const [deck, setDeck] = useState<string | "all">("all");
   const [edition, setEdition] = useState<Edition | "all">("all");
-  const [switchWarning, setSwitchWarning] = useState<string | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [isIndexLoading, setIsIndexLoading] = useState(true);
   const [isDatasetLoading, setIsDatasetLoading] = useState(false);
@@ -120,27 +125,6 @@ export const App = () => {
 
   const selectedDataset = selectedDatasetId ? datasetMap[selectedDatasetId] ?? null : null;
 
-  useEffect(() => {
-    if (!selectedDataset) {
-      return;
-    }
-
-    const currentGroup = selectedDataset.manifest.comparabilityGroup;
-    const previousGroup = window.localStorage.getItem(STORAGE_LAST_COMPARABILITY_GROUP);
-    const previousDatasetId = window.localStorage.getItem(STORAGE_LAST_DATASET_ID);
-
-    if (previousGroup && previousDatasetId && previousDatasetId !== selectedDataset.manifest.id && previousGroup !== currentGroup) {
-      setSwitchWarning(
-        `Comparability warning: you switched from "${previousGroup}" to "${currentGroup}". Do not compare raw metric values directly.`
-      );
-    } else {
-      setSwitchWarning(null);
-    }
-
-    window.localStorage.setItem(STORAGE_LAST_COMPARABILITY_GROUP, currentGroup);
-    window.localStorage.setItem(STORAGE_LAST_DATASET_ID, selectedDataset.manifest.id);
-  }, [selectedDataset]);
-
   const filteredCards = useMemo(() => {
     if (!selectedDataset) {
       return [];
@@ -149,10 +133,10 @@ export const App = () => {
     return filterCards(selectedDataset.cards, {
       query,
       type: cardType,
-      deck,
+      deck: "all",
       edition
     });
-  }, [cardType, deck, edition, query, selectedDataset]);
+  }, [cardType, edition, query, selectedDataset]);
 
   useEffect(() => {
     if (filteredCards.length === 0) {
@@ -183,22 +167,15 @@ export const App = () => {
 
   const selectedStat = selectedCardId ? statsByCardId.get(selectedCardId) ?? null : null;
   const cardTypeOptions = selectedDataset ? collectCardTypes(selectedDataset.cards) : [];
-  const deckOptions = selectedDataset ? collectDecks(selectedDataset.cards) : [];
   const editionOptions = selectedDataset ? collectEditions(selectedDataset.cards) : [];
-  const showDeckFilter = deckOptions.length > 0;
   const showEditionFilter = editionOptions.length > 0;
+  const isNorgeDataset = selectedDataset?.manifest.id === "agricola_norge_full_4p_play_agricola";
 
   useEffect(() => {
     if (cardType !== "all" && !cardTypeOptions.includes(cardType)) {
       setCardType("all");
     }
   }, [cardType, cardTypeOptions]);
-
-  useEffect(() => {
-    if (deck !== "all" && (!showDeckFilter || !deckOptions.includes(deck))) {
-      setDeck("all");
-    }
-  }, [deck, deckOptions, showDeckFilter]);
 
   useEffect(() => {
     if (edition !== "all" && (!showEditionFilter || !editionOptions.includes(edition))) {
@@ -211,8 +188,12 @@ export const App = () => {
       <header className="top-bar">
         <div className="title-wrap">
           <h1>Agricola Card Stats</h1>
-          <p className="subtitle">Phone-first lookup for card text + dataset-specific performance metrics.</p>
+          <p className="subtitle">
+            General Agricola card lookup with card text, statistics, and multiple datasets that may report different values.
+          </p>
         </div>
+
+        <p className="warning-banner">Values vary by dataset source. Compare cards within the same dataset only.</p>
 
         <DatasetSwitcher
           datasets={datasetIndex}
@@ -222,33 +203,28 @@ export const App = () => {
 
         {selectedDataset ? (
           <div className="dataset-meta">
-            <span className="badge badge-group">Group: {selectedDataset.manifest.comparabilityGroup}</span>
+            <span className="source-chip dataset-group-chip">
+              Dataset: {selectedDataset.manifest.sourceName} (Snapshot {snapshotDateLabel(selectedDataset.manifest.generatedAt)})
+            </span>
             <a href={selectedDataset.manifest.sourceUrl} target="_blank" rel="noreferrer">
               Source
             </a>
           </div>
         ) : null}
-
-        {switchWarning ? <p className="warning-banner">{switchWarning}</p> : null}
       </header>
 
       <main className="content">
         <section className="lookup-panel">
-          <ImportStatusPanel manifest={selectedDataset?.manifest ?? null} />
           <FiltersBar
             query={query}
             onQueryChange={setQuery}
             cardTypes={cardTypeOptions}
             cardType={cardType}
             onCardTypeChange={setCardType}
-            showDeckFilter={showDeckFilter}
-            deck={deck}
-            onDeckChange={setDeck}
             showEditionFilter={showEditionFilter}
             edition={edition}
             onEditionChange={setEdition}
             editions={editionOptions}
-            decks={deckOptions}
           />
 
           {isIndexLoading || isDatasetLoading ? <p className="status-line">Loading datasets...</p> : null}
@@ -266,6 +242,24 @@ export const App = () => {
 
         <CardDetailPanel card={selectedCard} stat={selectedStat} datasetManifest={selectedDataset?.manifest ?? null} />
       </main>
+
+      {isNorgeDataset ? (
+        <section className="stats-help" aria-label="Statistics guide">
+          <p className="stats-help-title">Stat Guide (Agricola Norge)</p>
+          <p className="stats-help-text">
+            Dealt = seen in draft, Drafted = picked in draft, Played = card was played, Won = winner had the card, Banned
+            = removed before draft, ADP = average draft position (lower is earlier), Samples (n) = number of source
+            observations.
+          </p>
+          <p className="stats-help-text">
+            PWR (Power) = (100/7) * (Drafted/Dealt) * (Played/Drafted) * (Won/Played). This simplifies to about 14.29 *
+            (Won/Dealt), so PWR reflects both card popularity (draft/play rates) and how often the card ends up played by a
+            winner.
+          </p>
+        </section>
+      ) : null}
+
+      <ImportStatusPanel manifest={selectedDataset?.manifest ?? null} />
     </div>
   );
 };

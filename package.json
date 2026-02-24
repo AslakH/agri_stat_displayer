@@ -11,7 +11,6 @@
     "test:run": "vitest run",
     "data:fetch:agricolacards": "tsx scripts/fetch_agricolacards.ts",
     "data:ingest:norge": "tsx scripts/ingest_agricola_norge.ts",
-    "data:ingest:playagricola": "tsx scripts/ingest_play_agricola.ts",
     "data:import:csv": "tsx scripts/import_csv_dataset.ts",
     "data:import:bgg": "tsx scripts/import_bgg.ts",
     "data:validate": "tsx scripts/validate_datasets.ts",

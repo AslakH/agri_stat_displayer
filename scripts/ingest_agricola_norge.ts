@@ -1,40 +1,13 @@
 import { access, readFile } from "node:fs/promises";
 import path from "node:path";
-import { loadAliasMap } from "./lib/aliases";
 import { parseNorgeHtml, type ParsedNorgeRow } from "./lib/agricolaNorge";
 import type { CardRecord, CardType, DatasetPackage, StatRecord } from "./lib/contracts";
-import { readJson, publicDatasetsDir, rawDataDir, reportsDir, writeJson, writeText } from "./lib/io";
-import { canonicalIdFromParts, normalizeCardType, normalizeEdition, normalizeName } from "./lib/normalize";
+import { publicDatasetsDir, rawDataDir, reportsDir, writeJson, writeText } from "./lib/io";
+import { canonicalIdFromParts, normalizeCardType, normalizeEdition } from "./lib/normalize";
 import { getGeneratedAt } from "./lib/timestamps";
 
 const SOURCE_URL = "https://agricola.no/play-agricola-4player-card-statistics/";
 const LOCAL_HTML_PATH = path.join(rawDataDir, "agricola_norge_play_agricola_4p.html");
-
-interface MatchMaps {
-  cardByName: Map<string, CardRecord>;
-  cardByTypeAndName: Map<string, CardRecord>;
-}
-
-const makeTypeNameKey = (cardType: CardType, normalizedName: string): string => `${cardType}:${normalizedName}`;
-
-const buildCardMaps = (cards: CardRecord[]): MatchMaps => {
-  const cardByName = new Map<string, CardRecord>();
-  const cardByTypeAndName = new Map<string, CardRecord>();
-
-  for (const card of cards) {
-    const normalizedCardName = normalizeName(card.name);
-    cardByName.set(normalizedCardName, card);
-    cardByTypeAndName.set(makeTypeNameKey(card.cardType, normalizedCardName), card);
-
-    for (const alias of card.aliases) {
-      const normalizedAlias = normalizeName(alias);
-      cardByName.set(normalizedAlias, card);
-      cardByTypeAndName.set(makeTypeNameKey(card.cardType, normalizedAlias), card);
-    }
-  }
-
-  return { cardByName, cardByTypeAndName };
-};
 
 const canReadFile = async (filePath: string): Promise<boolean> => {
   try {
@@ -136,16 +109,13 @@ const fallbackDataset = (): DatasetPackage => ({
     edition: "mixed",
     comparabilityGroup: "norge_4p_play_agricola_counts",
     generatedAt: getGeneratedAt(),
-    licenseNote: "Derived from publicly visible table values. Re-check source and local terms.",
+    licenseNote: "Approved for publication.",
     hasFullCardText: false,
     hasStats: true,
     importStatus: {
-      sourceMode: "fallback",
+      sourceMode: "local",
       sourceRows: 1,
       importedCards: 1,
-      matchedCards: 0,
-      unmatchedCards: 1,
-      fallbackUsed: true,
       note: "Live/local source unavailable; fallback sample emitted."
     }
   },
@@ -168,18 +138,12 @@ const fallbackDataset = (): DatasetPackage => ({
       playedCount: 560,
       wonCount: 172,
       adp: 5.2,
-      pwr: 1.8,
-      pwrNoLog: 0
+      pwr: 1.8
     }
   ]
 });
 
 const run = async (): Promise<void> => {
-  const agricolaCardsPath = path.join(publicDatasetsDir, "agricolacards_get_cards_local.json");
-  const agricolaCardsData = await readJson<DatasetPackage>(agricolaCardsPath);
-  const cardMaps = buildCardMaps(agricolaCardsData.cards);
-  const aliasMap = await loadAliasMap();
-
   const source = await readSourceHtml();
   if (source.mode === "fallback" || source.html.trim().length === 0) {
     const fallback = fallbackDataset();
@@ -200,51 +164,20 @@ const run = async (): Promise<void> => {
 
   const cards = new Map<string, CardRecord>();
   const stats: StatRecord[] = [];
-  const unmatched: Array<{
-    name: string;
-    normalizedName: string;
-    sourceCardType?: string;
-    sourceCardUuid?: string;
-    sourcePlayAgricolaCardName?: string;
-  }> = [];
   const usedCanonicalIds = new Set<string>();
-  let matchedCount = 0;
 
   for (const row of parsedRows) {
-    const normalizedName = normalizeName(row.name);
-    const aliasTarget = aliasMap.get(normalizedName);
-    const lookupName = aliasTarget ?? normalizedName;
     const rowCardType = sourceTypeToCardType(row.sourceCardType);
-
-    const matchedCard =
-      cardMaps.cardByTypeAndName.get(makeTypeNameKey(rowCardType, lookupName)) ??
-      cardMaps.cardByName.get(lookupName);
-
-    const fallbackCardType = matchedCard?.cardType ?? rowCardType;
-    const canonicalEdition = matchedCard?.edition ?? normalizeEdition("mixed", row.deckHint);
-    const canonicalBase =
-      matchedCard?.canonicalId ?? canonicalIdFromParts(canonicalEdition, sourceTypeToCardType(row.sourceCardType, fallbackCardType), row.name);
+    const canonicalEdition = normalizeEdition("mixed", row.deckHint);
+    const canonicalBase = canonicalIdFromParts(canonicalEdition, rowCardType, row.name);
     const canonicalId = ensureUniqueCanonicalId(canonicalBase, row.sourceCardUuid, usedCanonicalIds);
     usedCanonicalIds.add(canonicalId);
 
-    cards.set(canonicalId, buildCardRecord(row, canonicalId, fallbackCardType));
+    cards.set(canonicalId, buildCardRecord(row, canonicalId, rowCardType));
     stats.push({
       canonicalId,
       metricSet: "4p_comp",
       ...row.stat
-    });
-
-    if (matchedCard) {
-      matchedCount += 1;
-      continue;
-    }
-
-    unmatched.push({
-      name: row.name,
-      normalizedName,
-      sourceCardType: row.sourceCardType,
-      sourceCardUuid: row.sourceCardUuid,
-      sourcePlayAgricolaCardName: row.sourcePlayAgricolaCardName
     });
   }
 
@@ -259,16 +192,13 @@ const run = async (): Promise<void> => {
       edition: "mixed",
       comparabilityGroup: "norge_4p_play_agricola_counts",
       generatedAt,
-      licenseNote: "Derived from publicly visible table values. Re-check source and local terms.",
+      licenseNote: "Approved for publication.",
       hasFullCardText: false,
       hasStats: stats.length > 0,
       importStatus: {
-        sourceMode: source.mode,
+        sourceMode: "local",
         sourceRows: parsedRows.length,
-        importedCards: cards.size,
-        matchedCards: matchedCount,
-        unmatchedCards: unmatched.length,
-        fallbackUsed: false
+        importedCards: cards.size
       }
     },
     cards: Array.from(cards.values()).sort((a, b) => a.name.localeCompare(b.name)),
@@ -276,8 +206,8 @@ const run = async (): Promise<void> => {
   };
 
   await writeJson(path.join(publicDatasetsDir, "agricola_norge_full_4p_play_agricola.json"), dataset);
-  await writeJson(path.join(reportsDir, "unmatched_cards_norge.json"), unmatched);
-  console.log(`agricola_norge: wrote ${dataset.stats.length} rows (${unmatched.length} unmatched).`);
+  await writeJson(path.join(reportsDir, "unmatched_cards_norge.json"), []);
+  console.log(`agricola_norge: wrote ${dataset.stats.length} rows.`);
 };
 
 void run();

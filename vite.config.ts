@@ -59,6 +59,13 @@ export default defineConfig({
             options: {
               cacheName: "dataset-cache-v1"
             }
+          },
+          {
+            urlPattern: /\/baselines\/.*\.json$/,
+            handler: "CacheFirst",
+            options: {
+              cacheName: "baseline-cache-v1"
+            }
           }
         ]
       }

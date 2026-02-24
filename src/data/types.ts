@@ -70,3 +70,35 @@ export interface DatasetIndexEntry {
 export interface DatasetIndexFile {
   datasets: DatasetIndexEntry[];
 }
+
+export interface HandStrengthHistogram {
+  min: number;
+  max: number;
+  counts: number[];
+}
+
+export interface HandStrengthBaseline {
+  baselineId: string;
+  datasetId: string;
+  generatedAt: string;
+  simulationCount: number;
+  histogramBins: number;
+  seed: number;
+  handShape: {
+    occupation: number;
+    minorImprovement: number;
+  };
+  poolSizes: {
+    all: number;
+    occupation: number;
+    minorImprovement: number;
+  };
+  metrics: {
+    allAverage: HandStrengthHistogram;
+    allMedian: HandStrengthHistogram;
+    occupationAverage: HandStrengthHistogram;
+    occupationMedian: HandStrengthHistogram;
+    minorAverage: HandStrengthHistogram;
+    minorMedian: HandStrengthHistogram;
+  };
+}

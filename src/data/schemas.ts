@@ -72,3 +72,35 @@ export const DatasetIndexSchema = z.object({
     })
   )
 });
+
+const HandStrengthHistogramSchema = z.object({
+  min: z.number(),
+  max: z.number(),
+  counts: z.array(z.number().int().nonnegative()).min(1)
+});
+
+export const HandStrengthBaselineSchema = z.object({
+  baselineId: z.string().min(1),
+  datasetId: z.string().min(1),
+  generatedAt: z.string().datetime({ offset: true }),
+  simulationCount: z.number().int().positive(),
+  histogramBins: z.number().int().positive(),
+  seed: z.number().int().nonnegative(),
+  handShape: z.object({
+    occupation: z.number().int().positive(),
+    minorImprovement: z.number().int().positive()
+  }),
+  poolSizes: z.object({
+    all: z.number().int().positive(),
+    occupation: z.number().int().positive(),
+    minorImprovement: z.number().int().positive()
+  }),
+  metrics: z.object({
+    allAverage: HandStrengthHistogramSchema,
+    allMedian: HandStrengthHistogramSchema,
+    occupationAverage: HandStrengthHistogramSchema,
+    occupationMedian: HandStrengthHistogramSchema,
+    minorAverage: HandStrengthHistogramSchema,
+    minorMedian: HandStrengthHistogramSchema
+  })
+});

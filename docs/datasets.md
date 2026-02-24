@@ -56,6 +56,7 @@ Individual steps:
 ```bash
 npm run data:fetch:agricolacards
 npm run data:ingest:norge
+npm run data:baseline:norge-hand
 npm run data:import:csv
 npm run data:import:bgg
 npm run data:validate
@@ -66,8 +67,9 @@ npm run data:validate
 1. Generated datasets: `public/datasets/*.json`
 2. Dataset index: `public/datasets/index.json`
 3. Raw source snapshots: `data/raw/*.html`
-4. BGG import summary: `reports/bgg_import_report.json`
-5. Each dataset manifest can expose `importStatus` fields used by the app UI (`sourceMode`, `sourceRows`, `importedCards`, `note`).
+4. Hand-strength baseline: `public/baselines/agricola_norge_hand_strength_baseline.json`
+5. BGG import summary: `reports/bgg_import_report.json`
+6. Each dataset manifest can expose `importStatus` fields used by the app UI (`sourceMode`, `sourceRows`, `importedCards`, `note`).
 
 ## Mapping notes
 

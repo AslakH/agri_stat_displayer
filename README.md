@@ -40,11 +40,13 @@ This runs:
 
 1. `scripts/fetch_agricolacards.ts`
 2. `scripts/ingest_agricola_norge.ts`
-3. `scripts/validate_datasets.ts`
+3. `scripts/generate_norge_hand_strength_baseline.ts`
+4. `scripts/validate_datasets.ts`
 
 Optional manual imports:
 
 ```bash
+npm run data:baseline:norge-hand
 npm run data:import:csv
 npm run data:import:bgg
 ```
@@ -57,6 +59,7 @@ See `docs/datasets.md` for source details, templates, and output files.
 2. `scripts/` dataset fetch/ingest/import/validation scripts
 3. `public/datasets/` generated dataset JSON files used by the app
 4. `datasets/_imports` and `datasets/_bgg` manual import templates/input
-5. `docs/datasets.md` data source and refresh documentation
+5. `public/baselines/` precomputed Monte Carlo hand-strength baselines
+6. `docs/datasets.md` data source and refresh documentation
 
 If your GitHub repository name is not `agri_stat_displayer`, update `VITE_BASE_PATH` in `.github/workflows/deploy.yml`.

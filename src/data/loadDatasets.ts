@@ -1,5 +1,5 @@
-import { DatasetIndexSchema, DatasetPackageSchema } from "./schemas";
-import type { DatasetIndexEntry, DatasetPackage } from "./types";
+import { DatasetIndexSchema, DatasetPackageSchema, HandStrengthBaselineSchema } from "./schemas";
+import type { DatasetIndexEntry, DatasetPackage, HandStrengthBaseline } from "./types";
 
 const toPublicUrl = (path: string): string => {
   const base = import.meta.env.BASE_URL ?? "/";
@@ -30,4 +30,14 @@ export const loadDatasetPackage = async (entry: DatasetIndexEntry): Promise<Data
 
   const payload = await response.json();
   return DatasetPackageSchema.parse(payload);
+};
+
+export const loadNorgeHandStrengthBaseline = async (): Promise<HandStrengthBaseline> => {
+  const response = await fetch(toPublicUrl("/baselines/agricola_norge_hand_strength_baseline.json"));
+  if (!response.ok) {
+    throw new Error(`Failed to load hand strength baseline: ${response.status} ${response.statusText}`);
+  }
+
+  const payload = await response.json();
+  return HandStrengthBaselineSchema.parse(payload);
 };

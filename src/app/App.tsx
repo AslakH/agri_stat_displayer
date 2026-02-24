@@ -3,10 +3,11 @@ import { CardDetailPanel } from "../components/CardDetailPanel";
 import { CardList } from "../components/CardList";
 import { DatasetSwitcher } from "../components/DatasetSwitcher";
 import { FiltersBar } from "../components/FiltersBar";
+import { HandStrengthPanel } from "../components/HandStrengthPanel";
 import { ImportStatusPanel } from "../components/ImportStatusPanel";
-import { loadDatasetIndex, loadDatasetPackage } from "../data/loadDatasets";
+import { loadDatasetIndex, loadDatasetPackage, loadNorgeHandStrengthBaseline } from "../data/loadDatasets";
 import { collectCardTypes, collectEditions, filterCards } from "../data/search";
-import type { CardType, DatasetIndexEntry, DatasetPackage, Edition, StatRecord } from "../data/types";
+import type { CardType, DatasetIndexEntry, DatasetPackage, Edition, HandStrengthBaseline, StatRecord } from "../data/types";
 
 const STORAGE_SELECTED_DATASET = "agri_selected_dataset";
 
@@ -38,6 +39,9 @@ export const App = () => {
   const [error, setError] = useState<string | null>(null);
   const [isIndexLoading, setIsIndexLoading] = useState(true);
   const [isDatasetLoading, setIsDatasetLoading] = useState(false);
+  const [norgeHandBaseline, setNorgeHandBaseline] = useState<HandStrengthBaseline | null>(null);
+  const [isHandBaselineLoading, setIsHandBaselineLoading] = useState(false);
+  const [handBaselineError, setHandBaselineError] = useState<string | null>(null);
 
   useEffect(() => {
     let isCancelled = false;
@@ -172,6 +176,41 @@ export const App = () => {
   const isNorgeDataset = selectedDataset?.manifest.id === "agricola_norge_full_4p_play_agricola";
 
   useEffect(() => {
+    if (!isNorgeDataset || norgeHandBaseline) {
+      return;
+    }
+
+    let isCancelled = false;
+
+    const load = async () => {
+      try {
+        setIsHandBaselineLoading(true);
+        setHandBaselineError(null);
+        const baseline = await loadNorgeHandStrengthBaseline();
+        if (!isCancelled) {
+          setNorgeHandBaseline(baseline);
+        }
+      } catch (caughtError) {
+        if (!isCancelled) {
+          setHandBaselineError(
+            caughtError instanceof Error ? caughtError.message : "Failed to load hand strength baseline."
+          );
+        }
+      } finally {
+        if (!isCancelled) {
+          setIsHandBaselineLoading(false);
+        }
+      }
+    };
+
+    void load();
+
+    return () => {
+      isCancelled = true;
+    };
+  }, [isNorgeDataset, norgeHandBaseline]);
+
+  useEffect(() => {
     if (cardType !== "all" && !cardTypeOptions.includes(cardType)) {
       setCardType("all");
     }
@@ -247,9 +286,7 @@ export const App = () => {
         <section className="stats-help" aria-label="Statistics guide">
           <p className="stats-help-title">Stat Guide (Agricola Norge)</p>
           <p className="stats-help-text">
-            Dealt = seen in draft, Drafted = picked in draft, Played = card was played, Won = winner had the card, Banned
-            = removed before draft, ADP = average draft position (lower is earlier), Samples (n) = number of source
-            observations.
+            ADP = average draft position (lower is earlier).
           </p>
           <p className="stats-help-text">
             PWR (Power) = (100/7) * (Drafted/Dealt) * (Played/Drafted) * (Won/Played). This simplifies to about 14.29 *
@@ -257,6 +294,17 @@ export const App = () => {
             winner.
           </p>
         </section>
+      ) : null}
+
+      {isNorgeDataset && selectedDataset ? (
+        <HandStrengthPanel
+          datasetId={selectedDataset.manifest.id}
+          cards={selectedDataset.cards}
+          statsByCardId={statsByCardId}
+          baseline={norgeHandBaseline}
+          baselineLoading={isHandBaselineLoading}
+          baselineError={handBaselineError}
+        />
       ) : null}
 
       <ImportStatusPanel manifest={selectedDataset?.manifest ?? null} />

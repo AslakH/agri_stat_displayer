@@ -225,6 +225,176 @@ select:focus {
   animation: riseIn 360ms ease-out both;
 }
 
+.hand-strength {
+  margin-top: 14px;
+  padding: 12px;
+  border-radius: 12px;
+  border: 1px solid #d7c2a4;
+  background: #fff6e8;
+  display: grid;
+  gap: 10px;
+  animation: riseIn 370ms ease-out both;
+}
+
+.hand-strength h3 {
+  font-size: 0.95rem;
+}
+
+.hand-strength-head {
+  display: grid;
+  gap: 6px;
+}
+
+.hand-methodology-toggle {
+  justify-self: start;
+  min-height: 34px;
+  padding: 0 10px;
+  border: 1px solid #c5a176;
+  border-radius: 10px;
+  background: #fff;
+  color: #4c3b28;
+  font-size: 0.84rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hand-methodology {
+  border: 1px solid #dfc9ae;
+  border-radius: 10px;
+  background: #fffdf8;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.hand-methodology-list {
+  margin: 0;
+  padding-left: 18px;
+  display: grid;
+  gap: 6px;
+  font-size: 0.86rem;
+  line-height: 1.4;
+  color: #4b4437;
+}
+
+.hand-builder-grid {
+  display: grid;
+  gap: 10px;
+}
+
+.hand-builder-block {
+  border: 1px solid #dfc9ae;
+  border-radius: 10px;
+  background: #fffdf8;
+  padding: 10px;
+  display: grid;
+  gap: 8px;
+}
+
+.hand-add-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px;
+  align-items: center;
+}
+
+.hand-add-btn,
+.hand-clear-btn,
+.hand-remove-btn {
+  border: 1px solid #c9a57f;
+  border-radius: 10px;
+  background: #fff;
+  color: #4c3b28;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.hand-add-btn,
+.hand-clear-btn {
+  min-height: 40px;
+  padding: 0 12px;
+}
+
+.hand-add-btn:disabled,
+.hand-clear-btn:disabled {
+  opacity: 0.45;
+  cursor: default;
+}
+
+.hand-remove-btn {
+  min-height: 30px;
+  padding: 0 8px;
+  font-size: 0.78rem;
+}
+
+.hand-picked-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 6px;
+  max-height: 210px;
+  overflow: auto;
+}
+
+.hand-picked-list li {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto auto;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid #e4d2bb;
+  border-radius: 8px;
+  background: #fff;
+  padding: 7px 8px;
+  font-size: 0.86rem;
+}
+
+.hand-picked-pwr {
+  font-weight: 700;
+  color: #5f2f0b;
+  white-space: nowrap;
+}
+
+.hand-actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.hand-metrics-table-wrap {
+  overflow-x: auto;
+}
+
+.hand-metrics-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.84rem;
+  background: #fff;
+  border: 1px solid #dfc9ae;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.hand-metrics-table th,
+.hand-metrics-table td {
+  border-bottom: 1px solid #eadbc7;
+  padding: 7px 8px;
+  text-align: left;
+  white-space: nowrap;
+}
+
+.hand-metrics-table thead th {
+  font-size: 0.73rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #64563f;
+  background: #fdf3e5;
+}
+
+.hand-metrics-table tbody tr:last-child th,
+.hand-metrics-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
 .stats-help-title {
   margin: 0;
   font-size: 0.82rem;
@@ -468,6 +638,18 @@ select:focus {
   .card-list {
     max-height: 48vh;
   }
+
+  .hand-picked-list li {
+    grid-template-columns: minmax(0, 1fr) auto;
+  }
+
+  .hand-picked-pwr {
+    grid-column: 1 / span 2;
+  }
+
+  .hand-remove-btn {
+    justify-self: end;
+  }
 }
 
 @media (min-width: 900px) {
@@ -493,6 +675,10 @@ select:focus {
   .content {
     grid-template-columns: minmax(0, 1.1fr) minmax(320px, 0.9fr);
     align-items: start;
+  }
+
+  .hand-builder-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .detail-panel {
